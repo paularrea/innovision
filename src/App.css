@@ -20,14 +20,23 @@ p{
   margin: 0 !important;
 }
 
+button{
+  border: none;
+  background-color: transparent;
+  width: fit-content;
+}
 .page{
-  top: 85px;
+  padding-top: 9vh;
   position: relative;
   width: 100vw;
-  height: 100vh;
+  height: auto;
 }
 
 /* Navigation  */
+
+.logo{
+  width: 230px;
+}
 
 .navigation{
   top: 0;
@@ -37,6 +46,7 @@ p{
   padding: 25px 15% 15px 15%;
   font-size: 18px;
   background-color: white;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
 }
 
 .navigation h4{
@@ -47,17 +57,111 @@ p{
 .menu-links a{
 margin-left: 1vw;
 padding: 0 .5vw;
+width: max-content;
+
 }
 .menu-links a:hover{
-  background-image: linear-gradient(120deg, #FFF55F 0%, #fbf6a8 100%);
+  background-image: linear-gradient(120deg, #91c32db0 0%, #a8d848a6 100%);
   background-repeat: no-repeat;
   background-size: 150% 0.65em;
   background-position: 0 100%;
   }
 
 .active-link{
-  background-image: linear-gradient(120deg, #B2F2FF 0%, #d2f3fa 100%);
+  background-image: linear-gradient(120deg, #00a499a9 0%, #00b4a8a1 100%);
   background-repeat: no-repeat;
   background-size: 150% 0.65em;
   background-position: 0 100%;
+}
+
+.big-text {
+  width: 60vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin: 8% auto;
+  font-size: 18px;
+
+}
+
+.big-text h5{
+  padding-bottom: 2%;
+}
+
+.big-text h2{
+  font-size: 64px;
+  font-weight: 700;
+  padding-bottom: 3%;
+}
+
+.big-text p{
+  width: 40vw;
+  align-self: center;
+}
+
+
+@media (max-width: 1110px) { 
+
+/* navigation */
+
+.navigation-mobile{
+  top: 0;
+  z-index: 2;
+  position: fixed;
+  width: 100vw;
+  padding: 3% 5%;
+  font-size: 18px;
+  background-color: white;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.burger_hamburger__21cuQ{
+  margin: 0 !important;
+}
+
+.menu-mobile{
+  position: absolute;
+  z-index: 100;
+  width: 100vw;
+  height: 100vh;
+}
+
+.menu-links-mobile{
+  position: relative;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+
+
+}
+
+  .big-text {
+    width: 80vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 8% auto;
+    margin-top: 15%;
+    font-size: 16px;
+  }
+  
+  .big-text h5{
+    padding-bottom: 2%;
+  }
+  
+  .big-text h2{
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 3%;
+  }
+  
+  .big-text p{
+    width: 80vw;
+    align-self: center;
+  }
+  
 }

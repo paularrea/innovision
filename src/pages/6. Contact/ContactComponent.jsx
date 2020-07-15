@@ -1,8 +1,8 @@
 import React from 'react'
 
-function ContactComponent() {
+function ContactComponent(props) {
     return (
-        <div className='bg-dark page'>
+        <div ref={props.ContactRef} className='bg-dark page'>
             Contact
         </div>
     )

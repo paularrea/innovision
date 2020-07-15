@@ -1,0 +1,88 @@
+.team-component{
+    width: 100vw;
+    height: auto;
+}
+
+.team-photo{
+    width: 70vw;
+    height: 70vh;
+    background-color: grey;
+    margin: 5% auto;
+}
+
+/* Video Component */
+
+.video-component{
+    width: 100vw;
+    height: 85vh;
+    background-color: gray;
+}
+
+/* Team List */
+
+.teamList-wrapper{
+    margin: 0 auto !important;
+    width: 70vw;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.member-card{
+    width: 48%;
+    margin-top: 4%;
+    height: 600px;
+}
+
+.member-img{
+    background-color: #c3582db7;
+    height: 400px;
+}
+
+.member-info>p{
+    padding: 1% 0;
+    color: gray;
+    font-size: 14px;
+}
+
+.member-description{
+    margin-top: 3% !important;
+    font-size: 16px !important;
+}
+
+
+@media (max-width: 1110px) { 
+
+.team-photo{
+    width: 95vw;
+    height: 30vh;
+    background-color: grey;
+    margin: 5% auto;
+}
+
+/* Video Component */
+
+.video-component{
+    width: 100vw;
+    height: 30vh;
+    background-color: gray;
+}
+
+/* Team List */
+
+.teamList-wrapper{
+    width: 95vw;
+}
+
+.member-card{
+    width: 48%;
+    margin-top: 4%;
+    height: 600px;
+}
+
+.member-img{
+    height: 300px;
+}
+
+  }

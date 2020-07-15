@@ -1,14 +1,14 @@
 import React from 'react';
-import ProductList from './components/ProductList';
+import ProductList from './components/ProjectsList';
 import './projects.css'
 
 
-function ProjectsComponent() {
+function ProjectsComponent(props) {
     return (
-        <div className='page products-wrapper'>
+        <div ref={props.ProjectsRef} className='page products-wrapper'>
             <div className='title-filter-wrapper'>
                 <div className='projects-title'>
-                    <h1>PRODUCTS</h1>
+                    <h1>PROJECTS</h1>
                 </div>
                 <div className='projects-btn'>
                     <button>
