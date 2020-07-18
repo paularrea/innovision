@@ -2,12 +2,14 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import BurguerMenu from "./burguerMenu";
 import logo from "../../img/innovision.png";
+import HideOnScroll from '../HideOnScroll';
 
 function Navigation(props) {
+
   return (
     <div>
       {window.innerWidth >= 1110 ? (
-        <div className="navigation text-dark d-flex justify-content-between align-items-center">
+        <div className="navigation">
           <div>
             <a href onClick={props.executeScrollToHome}>
               <img className="logo" src={logo} alt="innovision logo" />
@@ -52,14 +54,23 @@ function Navigation(props) {
           </div>
         </div>
       ) : (
-        <div className="navigation-mobile d-flex justify-content-between align-items-center">
-          <div>
-            <a href onClick={props.executeScrollToHome}>
-              <img className="logo" src={logo} alt="innovision logo" />
-            </a>
+        <HideOnScroll>
+          <div id='nav-id' className="navigation-mobile">
+            <div>
+              <a href onClick={props.executeScrollToHome}>
+                <img className="logo" src={logo} alt="innovision logo" />
+              </a>
+            </div>
+            <BurguerMenu 
+              executeScrollToAbout={props.executeScrollToAbout}
+              executeScrollToHome={props.executeScrollToHome}
+              executeScrollToProducts={props.executeScrollToProducts}
+              executeScrollToProjects={props.executeScrollToProjects}
+              executeScrollToTeam={props.executeScrollToTeam}
+              executeScrollToContact={props.executeScrollToContact}
+            />
           </div>
-          <BurguerMenu />
-        </div>
+          </HideOnScroll>
       )}
     </div>
   );

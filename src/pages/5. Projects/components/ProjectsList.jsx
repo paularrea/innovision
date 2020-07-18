@@ -1,71 +1,69 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
 
-
 const ProjectsList = (props) => {
   const projects = [
     {
       id: 1,
-      name: "Master Mask",
-      price: "20USD",
-      brand: "Maskus",
+      name: "Project1",
+      description:
+        "Apiente praesentium ab eveniet, doloremque, deleniti unde in vero voluptatibus. Repellendus blanditiis",
     },
     {
       id: 2,
-      name: "Mask deluxe",
-      price: "35USD",
-      brand: "My masks",
+      name: "Project2",
+      description:
+        "Apiente praesentium ab eveniet, doloremque, deleniti unde in vero voluptatibus. Repellendus blanditiis",
     },
     {
       id: 3,
-      name: "Covid Saver",
-      price: "40USD",
-      brand: "Maskid",
+      name: "Project3",
+      description:
+        "Apiente praesentium ab eveniet, doloremque, deleniti unde in vero voluptatibus. Repellendus blanditiis",
     },
     {
       id: 4,
-      name: "Ferme la bouche",
-      price: "15USD",
-      brand: "Tancala",
+      name: "Project4",
+      description:
+        "Apiente praesentium ab eveniet, doloremque, deleniti unde in vero voluptatibus. Repellendus blanditiis",
     },
     {
       id: 5,
-      name: "Master Mask",
-      price: "20USD",
-      brand: "Maskus",
+      name: "Project5",
+      description:
+        "Apiente praesentium ab eveniet, doloremque, deleniti unde in vero voluptatibus. Repellendus blanditiis",
     },
     {
       id: 6,
-      name: "Mask deluxe",
-      price: "35USD",
-      brand: "My masks",
+      name: "Project6",
+      description:
+        "Apiente praesentium ab eveniet, doloremque, deleniti unde in vero voluptatibus. Repellendus blanditiis",
     },
     {
       id: 7,
-      name: "Covid Saver",
-      price: "40USD",
-      brand: "Maskid",
+      name: "Project7",
+      description:
+        "Apiente praesentium ab eveniet, doloremque, deleniti unde in vero voluptatibus. Repellendus blanditiis",
     },
     {
       id: 8,
-      name: "Ferme la bouche",
-      price: "15USD",
-      brand: "Tancala",
+      name: "Project8",
+      description:
+        "Apiente praesentium ab eveniet, doloremque, deleniti unde in vero voluptatibus. Repellendus blanditiis",
     },
   ];
 
   const projectsList = projects.map((project) => (
     <Fade>
-    <div className="product-card col-12 col-md-6">
-    <div className="project-img">
+      <div className="product-card col-12 col-md-6">
+        <div className="project-img">
           <img src={project.img} alt="" />
         </div>
-      <div className="price-brand-wrapper d-flex justify-content-between align-items-start">
-        <h3>{project.name}</h3>
-        <p className='pt-4'>{project.price}</p>
+        <div className="project-text">
+          <h3>{project.name}</h3>
+          <p>{project.description}</p>
+        </div>
       </div>
-      <p className='brand-product'>{project.brand}</p>
-    </div>
     </Fade>
   ));
 

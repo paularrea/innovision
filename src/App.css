@@ -24,6 +24,7 @@ button{
   border: none;
   background-color: transparent;
   width: fit-content;
+  outline: none !important;
 }
 .page{
   padding-top: 9vh;
@@ -37,8 +38,10 @@ button{
 .logo{
   width: 230px;
 }
-
 .navigation{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   top: 0;
   z-index: 2;
   position: fixed;
@@ -47,6 +50,7 @@ button{
   font-size: 18px;
   background-color: white;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  height: 100px;
 }
 
 .navigation h4{
@@ -99,18 +103,22 @@ width: max-content;
   align-self: center;
 }
 
+/* hide navbar on scroll */
+
+
 
 @media (max-width: 1110px) { 
 
 /* navigation */
 
 .navigation-mobile{
-  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   z-index: 2;
   position: fixed;
   width: 100vw;
   padding: 3% 5%;
-  font-size: 18px;
   background-color: white;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
 }

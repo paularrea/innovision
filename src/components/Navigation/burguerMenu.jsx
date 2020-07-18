@@ -3,7 +3,7 @@ import Burger from "react-css-burger";
 import Modal from "@material-ui/core/Modal";
 import Menu from "./menu";
 
-const BurguerMenu = () => {
+const BurguerMenu = (props) => {
   const [open, setOpen] = useState(false);
 
   const openModal = () => {
@@ -23,15 +23,23 @@ const BurguerMenu = () => {
         hoverOpacity={0.8}
         scale={0.8}
       />
-      <Modal 
+      <Modal
         BackdropProps={{ style: { backgroundColor: "transparent" } }}
         open={open}
         onClose={closeModal}
-        style={{backgroundColor:'none'}}
+        style={{ backgroundColor: "none" }}
         aria-labelledby="simple-modal-title"
         aria-describedby="simple-modal-description"
       >
-        <Menu closeModal={closeModal} />
+        <Menu
+          closeModal={closeModal}
+          executeScrollToAbout={props.executeScrollToAbout}
+          executeScrollToHome={props.executeScrollToHome}
+          executeScrollToProducts={props.executeScrollToProducts}
+          executeScrollToProjects={props.executeScrollToProjects}
+          executeScrollToTeam={props.executeScrollToTeam}
+          executeScrollToContact={props.executeScrollToContact}
+        />
       </Modal>
     </div>
   );

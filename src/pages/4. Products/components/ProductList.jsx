@@ -6,51 +6,51 @@ const ProductList = (props) => {
   const products = [
     {
       id: 1,
-      name: "Master Mask",
+      name: "Producto1",
       price: "20USD",
-      brand: "Maskus",
+      brand: "Brand1",
     },
     {
       id: 2,
-      name: "Mask deluxe",
+      name: "Producto2",
       price: "35USD",
-      brand: "My masks",
+      brand: "Brand2",
     },
     {
       id: 3,
-      name: "Covid Saver",
+      name: "Producto3",
       price: "40USD",
-      brand: "Maskid",
+      brand: "Brand3",
     },
     {
       id: 4,
-      name: "Ferme la bouche",
+      name: "Producto4",
       price: "15USD",
-      brand: "Tancala",
+      brand: "Brand4",
     },
     {
       id: 5,
-      name: "Master Mask",
+      name: "Producto5",
       price: "20USD",
-      brand: "Maskus",
+      brand: "Brand5",
     },
     {
       id: 6,
-      name: "Mask deluxe",
+      name: "Producto6",
       price: "35USD",
-      brand: "My masks",
+      brand: "Brand6",
     },
     {
       id: 7,
-      name: "Covid Saver",
+      name: "Producto7",
       price: "40USD",
-      brand: "Maskid",
+      brand: "Brand7",
     },
     {
       id: 8,
-      name: "Ferme la bouche",
+      name: "Producto8",
       price: "15USD",
-      brand: "Tancala",
+      brand: "Brand8",
     },
   ];
 
@@ -58,11 +58,13 @@ const ProductList = (props) => {
     <Fade>
     <div className="product-card col-12 col-md-6">
       <img className="card-img" src={product.img} alt="" />
-      <div className="price-brand-wrapper d-flex justify-content-between align-items-start">
+      <div className="product-text">
+      <div className="price-brand-wrapper">
         <h3>{product.name}</h3>
-        <p className='pt-4'>{product.price}</p>
+        <p className='product-price'>{product.price}</p>
       </div>
-      <p className='brand-product'>{product.brand}</p>
+      <p className='product-brand'>{product.brand}</p>
+      </div>
     </div>
     </Fade>
   ));

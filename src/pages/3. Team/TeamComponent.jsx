@@ -21,7 +21,7 @@ function TeamComponent(props) {
       </div>
       <TeamList className='text-center'/>
       <div className='team-photo'>
-          team-photo
+          foto fábrica
           <img  src="" alt=""/>
       </div>
     </div>
