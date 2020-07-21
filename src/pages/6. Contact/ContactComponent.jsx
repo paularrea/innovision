@@ -9,11 +9,6 @@ function ContactComponent(props) {
   return (
     <div ref={props.ContactRef} className="page">
       <div className="contact-wrapper">
-      <FadeInOnScroll>
-        <div className="contact-title">
-          <h1>CONTACT</h1>
-        </div>
-        </FadeInOnScroll>
         <FadeInOnScroll>
           <div className="contact-intro-text">
             <p>

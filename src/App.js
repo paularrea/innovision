@@ -37,6 +37,9 @@ function App() {
     isVisible ? setEntered(true) : setEntered(false);
   }, [isVisible]);
 
+  // const onEnterComponent = document.getElementsByClassName('component').style.background='red';
+  // const onExitComponent = document.getElementsByClassName('component').style.background='white';
+
   const onChange = () => {
     setVisibility(!isVisible);
     isVisible ? setEntered(true) : setEntered(false);
@@ -45,7 +48,6 @@ function App() {
   return (
     <>
   
-    <Route path="/" exact component={App}>
     <Navigation
         entered={entered}
         executeScrollToHome={executeScrollToHome}
@@ -56,27 +58,25 @@ function App() {
         executeScrollToContact={executeScrollToContact}
       />
       <Sensor onChange={onChange}>
-        <HomeComponent HomeRef={HomeRef} />
+        <HomeComponent className='component' HomeRef={HomeRef} />
       </Sensor >
       <Sensor onChange={onChange}>
-        <AboutComponent AboutRef={AboutRef} />
+        <AboutComponent className='component' AboutRef={AboutRef} />
       </Sensor>
       <Sensor onChange={onChange}>
-        <TeamComponent TeamRef={TeamRef} />
+        <TeamComponent className='component' TeamRef={TeamRef} />
       </Sensor>
       <Sensor onChange={onChange}>
-        <ProductsComponent ProductsRef={ProductsRef} />
+        <ProductsComponent className='component' ProductsRef={ProductsRef} />
       </Sensor>
       <Sensor onChange={onChange}>
-        <ProjectsComponent ProjectsRef={ProjectsRef} />
+        <ProjectsComponent className='component' ProjectsRef={ProjectsRef} />
       </Sensor>
       <Sensor onChange={onChange}>
-        <ContactComponent
+        <ContactComponent className='component'
           ContactRef={ContactRef}
         />
       </Sensor>
-    </Route>
-    <Route path="/products/:productId" exact component={ProductCard} />
       <FooterComponent/>
     </>
   );
