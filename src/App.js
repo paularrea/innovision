@@ -3,14 +3,12 @@ import "./App.css";
 import HomeComponent from "./pages/1. Home/HomeComponent";
 import ProjectsComponent from "./pages/5. Projects/ProjectsComponent";
 import ProductsComponent from "./pages/4. Products/ProductsComponent";
-import ProductCard from './pages/4. Products/components/ProductCard';
 import TeamComponent from "./pages/3. Team/TeamComponent";
 import ContactComponent from "./pages/6. Contact/ContactComponent";
 import Navigation from "./components/Navigation/Navigation";
 import AboutComponent from "./pages/2. About/AboutComponent";
 import Sensor from "react-visibility-sensor";
 import FooterComponent from "./components/Footer/FooterComponent";
-import { Route } from "react-router-dom";
 
 const scrollToRef = (ref) =>
   window.scrollTo({ top: ref.current.offsetTop, behavior: "smooth" });
