@@ -11,8 +11,8 @@
     align-items: center;
 }
 
-.card-img{
-    background-color: #91c32db7;
+.product-img{
+    background-color: #84C0C6;
     height: 400px;
 }
 
@@ -99,8 +99,7 @@
         height: auto;
     }
 
-    .card-img{
-        background-color: #91c32db7;
+    .product-img{
         height: 250px;
     }
 

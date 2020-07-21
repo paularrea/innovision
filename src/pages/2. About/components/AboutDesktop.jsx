@@ -1,8 +1,10 @@
 import React from "react";
+import FadeInOnScroll from "../../../components/FadeInOnScroll";
 
 function AboutDesktop() {
   return (
     <>
+    <FadeInOnScroll>
       <div className="row about-photos-text-container">
         <div className="col-12 col-md-6 about-photos w-50">
           <img src="" alt="" />
@@ -22,7 +24,6 @@ function AboutDesktop() {
           </div>
         </div>
       </div>
-
       <div className="row about-photos-text-container">
         <div className="col-12 col-md-6">
           <div className="about-text-wrapper-right">
@@ -42,7 +43,6 @@ function AboutDesktop() {
           <img src="" alt="" />
         </div>
       </div>
-
       <div className="row about-photos-text-container">
         <div className="col-12 col-md-6 about-photos w-50">
           <img src="" alt="" />
@@ -62,7 +62,6 @@ function AboutDesktop() {
           </div>
         </div>
       </div>
-
       <div className="row about-photos-text-container">
         <div className="col-12 col-md-6">
           <div className="about-text-wrapper-right">
@@ -82,12 +81,15 @@ function AboutDesktop() {
           <img src="" alt="" />
         </div>
       </div>
+      </FadeInOnScroll>
+      <FadeInOnScroll>
       <div className="big-text text-center">
         <h2>
           LOREM IPSUM DOLOR SIT AMET CONSCTETUR ADIPISICING ELIT NULLA
           CONSECTETUR, ALIAS CULPA VITAE MOLLITIA MINUS
         </h2>
       </div>
+      </FadeInOnScroll>
     </>
   );
 }

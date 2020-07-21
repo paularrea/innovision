@@ -32,7 +32,7 @@ function KeyContactsComponent() {
           </div>
         </div>
       </div>
-    </>
+      </>
   );
 }
 

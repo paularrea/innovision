@@ -1,5 +1,5 @@
 import React from "react";
-import Fade from "react-reveal/Fade";
+import FadeInOnScroll from '../../../components/FadeInOnScroll'
 
 const TeamList = (props) => {
   const members = [
@@ -54,8 +54,8 @@ const TeamList = (props) => {
   ];
 
   const teamList = members.map((member) => (
-    <Fade>
-      <div className="member-card col-12 col-md-6">
+    <div className="member-card col-12 col-md-6">
+      <FadeInOnScroll>
         <div className="member-img">
           <img src={member.img} alt="" />
         </div>
@@ -64,8 +64,8 @@ const TeamList = (props) => {
         <h3>{member.name}</h3>
         <p className='member-description'>{member.description}</p>
         </div>
+      </FadeInOnScroll>
       </div>
-    </Fade>
   ));
 
   return <div className="row teamList-wrapper">{teamList}</div>;

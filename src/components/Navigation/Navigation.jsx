@@ -25,28 +25,28 @@ function Navigation(props) {
             </NavLink>
             <NavLink
               onClick={props.executeScrollToTeam}
-              to="/team"
+              to="/"
               // className={props.entered && "active-link"}
             >
               Equipo
             </NavLink>
             <NavLink
               onClick={props.executeScrollToProducts}
-              to="/products"
+              to="/"
               // className={props.entered && "active-link"}
             >
               Productos
             </NavLink>
             <NavLink
               onClick={props.executeScrollToProjects}
-              to="/projects"
+              to="/"
               // className={props.entered && "active-link"}
             >
               Proyectos
             </NavLink>
             <NavLink
               onClick={props.executeScrollToContact}
-              to="/contact"
+              to="/"
               // className={props.entered && "active-link"}
             >
               Contacto

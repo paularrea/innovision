@@ -1,5 +1,6 @@
 import React from "react";
 import "./home.css";
+import FadeInOnScroll from '../../components/FadeInOnScroll'
 
 function HomeComponent(props) {
   return (
@@ -13,15 +14,16 @@ function HomeComponent(props) {
             facilis, quibusdam temporibus, inventore sunt assumenda maiores
             deleniti expedita excepturi alias quia fugiat ratione?
           </p>
-          <button className="btn-home">Let's start</button>
         </div>
       </div>
+      <FadeInOnScroll>
       <div className="big-text text-center">
         <h2>
           LOREM IPSUM DOLOR SIT AMET CONSCTETUR ADIPISICING ELIT NULLA
           CONSECTETUR, ALIAS CULPA VITAE MOLLITIA MINUS
         </h2>
       </div>
+      </FadeInOnScroll>
     </div>
   );
 }

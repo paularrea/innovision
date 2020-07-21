@@ -33,16 +33,16 @@ function menu(props) {
         <Link onClick={onClickAbout} to="/">
           Quién somos
         </Link>
-        <Link onClick={onClickTeam} to="/team">
+        <Link onClick={onClickTeam} to="/">
           Equipo
         </Link>
-        <Link onClick={onClickProducts} to="/products">
+        <Link onClick={onClickProducts} to="/">
           Productos
         </Link>
-        <Link onClick={onClickProjects} to="/projects">
+        <Link onClick={onClickProjects} to="/">
           Proyectos
         </Link>
-        <Link onClick={onClickContact} to="/contact">
+        <Link onClick={onClickContact} to="/">
           Contacto
         </Link>
       </div>

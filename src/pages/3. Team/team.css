@@ -3,19 +3,21 @@
     height: auto;
 }
 
-.team-photo{
+.team-photo-container{
     width: 70vw;
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/innovision-248ab.appspot.com/o/team%2Ffoto-fa%CC%81brica.jpg?alt=media&token=0e8a7664-f90a-4d3e-abb5-2cd9224c9bed');
     height: 70vh;
-    background-color: grey;
     margin: 5% auto;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /* Video Component */
 
 .video-component{
-    width: 100vw;
-    height: 80vh;
-    background-color: gray;
+    width: 100%;
+    height: auto;
+    background-size: contain;
 }
 
 /* Team List */
@@ -36,7 +38,7 @@
 }
 
 .member-img{
-    background-color: #c3582db7;
+    background-color: #D56F3E;
     height: 400px;
 }
 
@@ -54,9 +56,9 @@
 
 @media (max-width: 1110px) { 
 
-.team-photo{
-    width: 95vw;
-    height: 30vh;
+.team-photo-container{
+    width: 100vw;
+    height: 35vh;
     background-color: grey;
     margin: 5% auto;
 }
@@ -65,8 +67,8 @@
 
 .video-component{
     width: 100vw;
-    height: 30vh;
-    background-color: gray;
+    height: auto;
+
 }
 
 /* Team List */

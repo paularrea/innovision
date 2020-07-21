@@ -17,7 +17,7 @@ function HideOnScroll(props) {
 export default function HideAppBar(props) {
   const { children } = props;
   return (
-    <HideOnScroll {...props}>
+    <HideOnScroll {...props} >
       <Typography>{children}</Typography>
     </HideOnScroll>
   );

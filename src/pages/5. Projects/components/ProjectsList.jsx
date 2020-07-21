@@ -1,5 +1,5 @@
 import React from "react";
-import Fade from "react-reveal/Fade";
+import FadeInOnScroll from '../../../components/FadeInOnScroll';
 
 const ProjectsList = (props) => {
   const projects = [
@@ -54,8 +54,8 @@ const ProjectsList = (props) => {
   ];
 
   const projectsList = projects.map((project) => (
-    <Fade>
-      <div className="product-card col-12 col-md-6">
+    <div className="product-card col-12 col-md-6">
+      <FadeInOnScroll>
         <div className="project-img">
           <img src={project.img} alt="" />
         </div>
@@ -63,8 +63,8 @@ const ProjectsList = (props) => {
           <h3>{project.name}</h3>
           <p>{project.description}</p>
         </div>
+    </FadeInOnScroll>
       </div>
-    </Fade>
   ));
 
   return <div className="row product-list">{projectsList}</div>;

@@ -28,7 +28,7 @@ function LocationComponent() {
           <p className="location-phone">T. +861065035108</p>
         </div>
       </div>
-    </>
+      </>
   );
 }
 
