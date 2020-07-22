@@ -6,7 +6,7 @@ class TeamVideoComponent extends Component {
         super(props);
 
         this.state = {
-            // videoURL: 'https://firebasestorage.googleapis.com/v0/b/innovision-248ab.appspot.com/o/team%2FJOSIE.mp4?alt=media&token=037636e5-2107-4553-bcfc-8bb6420a0835'
+            videoURL: 'https://firebasestorage.googleapis.com/v0/b/innovision-248ab.appspot.com/o/team%2FJOSIE.mp4?alt=media&token=037636e5-2107-4553-bcfc-8bb6420a0835'
         }
     }
 
