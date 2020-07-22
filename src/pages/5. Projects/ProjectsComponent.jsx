@@ -5,7 +5,7 @@ import './projects.css'
 
 function ProjectsComponent(props) {
     return (
-        <div ref={props.ProjectsRef} className='page products-wrapper'>
+        <div ref={props.ProjectsRef} className='page projects-wrapper'>
            <ProductList/>
         </div>
     )

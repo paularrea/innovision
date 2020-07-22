@@ -2,10 +2,9 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import BurguerMenu from "./burguerMenu";
 import logo from "../../img/innovision.png";
-import HideOnScroll from '../HideOnScroll';
+import HideOnScroll from "../HideOnScroll";
 
 function Navigation(props) {
-
   return (
     <div>
       {window.innerWidth >= 1110 ? (
@@ -17,37 +16,37 @@ function Navigation(props) {
           </div>
           <div className="menu-links d-flex align-items-center">
             <NavLink
+              className={props.aboutInViewport ? "active-link" : ""}
               onClick={props.executeScrollToAbout}
               to="/"
-              // className={props.entered && "active-link"}
             >
               Quién somos
             </NavLink>
             <NavLink
+              className={props.teamInViewport ? "active-link" : ""}
               onClick={props.executeScrollToTeam}
               to="/"
-              // className={props.entered && "active-link"}
             >
               Equipo
             </NavLink>
             <NavLink
+              className={props.productsInViewport ? "active-link" : ""}
               onClick={props.executeScrollToProducts}
               to="/"
-              // className={props.entered && "active-link"}
             >
               Productos
             </NavLink>
             <NavLink
+              className={props.projectsInViewport ? "active-link" : ""}
               onClick={props.executeScrollToProjects}
               to="/"
-              // className={props.entered && "active-link"}
             >
               Proyectos
             </NavLink>
             <NavLink
+              className={props.contactInViewport ? "active-link" : ""}
               onClick={props.executeScrollToContact}
               to="/"
-              // className={props.entered && "active-link"}
             >
               Contacto
             </NavLink>
@@ -55,13 +54,13 @@ function Navigation(props) {
         </div>
       ) : (
         <HideOnScroll>
-          <div id='nav-id' className="navigation-mobile">
+          <div id="nav-id" className="navigation-mobile">
             <div>
               <a href onClick={props.executeScrollToHome}>
                 <img className="logo" src={logo} alt="innovision logo" />
               </a>
             </div>
-            <BurguerMenu 
+            <BurguerMenu
               executeScrollToAbout={props.executeScrollToAbout}
               executeScrollToHome={props.executeScrollToHome}
               executeScrollToProducts={props.executeScrollToProducts}
@@ -70,7 +69,7 @@ function Navigation(props) {
               executeScrollToContact={props.executeScrollToContact}
             />
           </div>
-          </HideOnScroll>
+        </HideOnScroll>
       )}
     </div>
   );

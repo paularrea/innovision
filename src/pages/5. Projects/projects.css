@@ -1,7 +1,8 @@
-.products-wrapper{
+.projects-wrapper{
     margin: 0 auto;
     width: 70vw;
     height: auto;
+    margin-top: 2%;
 }
 
 .product-list{

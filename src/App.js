@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect } from "react";
+import React, { useRef, useState } from "react";
 import "./App.css";
 import HomeComponent from "./pages/1. Home/HomeComponent";
 import ProjectsComponent from "./pages/5. Projects/ProjectsComponent";
@@ -9,13 +9,17 @@ import Navigation from "./components/Navigation/Navigation";
 import AboutComponent from "./pages/2. About/AboutComponent";
 import Sensor from "react-visibility-sensor";
 import FooterComponent from "./components/Footer/FooterComponent";
+import Observer from "react-intersection-observer";
 
 const scrollToRef = (ref) =>
   window.scrollTo({ top: ref.current.offsetTop, behavior: "smooth" });
 
 function App() {
-  const [isVisible, setVisibility] = useState(false);
-  const [entered, setEntered] = useState(false);
+  const [aboutInViewport, setAboutInViewport] = useState(false);
+  const [teamInViewport, setTeamInViewport] = useState(false);
+  const [productsInViewport, setProductsInViewport] = useState(false);
+  const [projectsInViewport, setProjectsInViewport] = useState(false);
+  const [contactInViewport, setContactInViewport] = useState(false);
 
   const HomeRef = useRef(null);
   const AboutRef = useRef(null);
@@ -31,23 +35,35 @@ function App() {
   const executeScrollToProjects = () => scrollToRef(ProjectsRef);
   const executeScrollToContact = () => scrollToRef(ContactRef);
 
-  useEffect(() => {
-    isVisible ? setEntered(true) : setEntered(false);
-  }, [isVisible]);
-
-  // const onEnterComponent = document.getElementsByClassName('component').style.background='red';
-  // const onExitComponent = document.getElementsByClassName('component').style.background='white';
-
-  const onChange = () => {
-    setVisibility(!isVisible);
-    isVisible ? setEntered(true) : setEntered(false);
+  const onChangeAbout = (inView) => {
+    inView ? setAboutInViewport(true) : setAboutInViewport(false);
+    console.log("about Inview:", inView);
+  };
+  const onChangeTeam = (inView) => {
+    inView ? setTeamInViewport(true) : setTeamInViewport(false);
+    console.log("Team Inview:", inView);
+  };
+  const onChangeProducts = (inView) => {
+    inView ? setProductsInViewport(true) : setProductsInViewport(false);
+    console.log("Products Inview:", inView);
+  };
+  const onChangeProjects = (inView) => {
+    inView ? setProjectsInViewport(true) : setProjectsInViewport(false);
+    console.log("Projects Inview:", inView);
+  };
+  const onChangeContact = (inView) => {
+    inView ? setContactInViewport(true) : setContactInViewport(false);
+    console.log("Contact Inview:", inView);
   };
 
   return (
     <>
-  
-    <Navigation
-        entered={entered}
+      <Navigation
+        aboutInViewport={aboutInViewport}
+        teamInViewport={teamInViewport}
+        productsInViewport={productsInViewport}
+        projectsInViewport={projectsInViewport}
+        contactInViewport={contactInViewport}
         executeScrollToHome={executeScrollToHome}
         executeScrollToAbout={executeScrollToAbout}
         executeScrollToTeam={executeScrollToTeam}
@@ -55,27 +71,36 @@ function App() {
         executeScrollToProjects={executeScrollToProjects}
         executeScrollToContact={executeScrollToContact}
       />
-      <Sensor onChange={onChange}>
-        <HomeComponent className='component' HomeRef={HomeRef} />
-      </Sensor >
-      <Sensor onChange={onChange}>
-        <AboutComponent className='component' AboutRef={AboutRef} />
+      <Sensor>
+        <HomeComponent HomeRef={HomeRef} />
       </Sensor>
-      <Sensor onChange={onChange}>
-        <TeamComponent className='component' TeamRef={TeamRef} />
-      </Sensor>
-      <Sensor onChange={onChange}>
-        <ProductsComponent className='component' ProductsRef={ProductsRef} />
-      </Sensor>
-      <Sensor onChange={onChange}>
-        <ProjectsComponent className='component' ProjectsRef={ProjectsRef} />
-      </Sensor>
-      <Sensor onChange={onChange}>
-        <ContactComponent className='component'
-          ContactRef={ContactRef}
-        />
-      </Sensor>
-      <FooterComponent/>
+
+      <Observer onChange={onChangeAbout}>
+        <Sensor>
+          <AboutComponent AboutRef={AboutRef} />
+        </Sensor>
+      </Observer>
+      <Observer onChange={onChangeTeam}>
+        <Sensor>
+          <TeamComponent TeamRef={TeamRef} />
+        </Sensor>
+      </Observer>
+      <Observer onChange={onChangeProducts}>
+        <Sensor>
+          <ProductsComponent ProductsRef={ProductsRef} />
+        </Sensor>
+      </Observer>
+      <Observer onChange={onChangeProjects}>
+        <Sensor>
+          <ProjectsComponent ProjectsRef={ProjectsRef} />
+        </Sensor>
+      </Observer>
+      <Observer onChange={onChangeContact}>
+        <Sensor>
+          <ContactComponent ContactRef={ContactRef} />
+        </Sensor>
+      </Observer>
+      <FooterComponent />
     </>
   );
 }

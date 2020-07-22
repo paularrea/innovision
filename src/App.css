@@ -26,6 +26,14 @@ button{
   width: fit-content;
   outline: none !important;
 }
+
+.active-link{
+  background-image: linear-gradient(120deg, #0da29878 0%, #0da29850 100%) !important;
+  background-repeat: no-repeat !important;
+  background-size: 150% 0.65em !important;
+  background-position: 0 100% !important;
+}
+
 .page{
   padding-top: 9vh;
   position: relative;
@@ -71,12 +79,6 @@ width: max-content;
   background-position: 0 100%;
   }
 
-.active-link{
-  background-image: linear-gradient(120deg, #00a499a9 0%, #00b4a8a1 100%);
-  background-repeat: no-repeat;
-  background-size: 150% 0.65em;
-  background-position: 0 100%;
-}
 
 .big-text {
   width: 60vw;
