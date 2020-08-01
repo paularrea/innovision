@@ -7,9 +7,9 @@ function AboutComponent(props) {
   return (
     <section ref={props.AboutRef} className="about-component page">
           {window.innerWidth >= 1110 ? (
-      <AboutDesktop/>
+      <AboutDesktop t={props.t}/>
           ):(
-      <AboutMobile/>
+      <AboutMobile t={props.t}/>
           )}
     </section>
   );

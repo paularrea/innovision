@@ -1,0 +1,38 @@
+,
+    
+    "home":{
+        "title" : "Hello People",
+        "description": "Description in english.....",
+        "text" : "ENGLISH IPSUM DOLOR SIT AMET CONSCTETUR ADIPISICING ELIT NULLA CONSECTETUR, ALIAS CULPA VITAE MOLLITIA MINUS"
+    },
+    
+    "about":{
+        "1" : "History. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum non facilis dolore porro laudantium debitis",
+        "description1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum non facilis dolore porro laudantium debitis reprehenderit consequatur maxime quas sed illum, iusto ut rem assumenda repellendus nisi enim modi asperiores!",
+        "2" : "History. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum non facilis dolore porro laudantium debitis",
+        "description2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum non facilis dolore porro laudantium debitis reprehenderit consequatur maxime quas sed illum, iusto ut rem assumenda repellendus nisi enim modi asperiores!",
+        "3" : "Factory. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum non facilis dolore porro laudantium debitis",
+        "description3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum non facilis dolore porro laudantium debitis reprehenderit consequatur maxime quas sed illum, iusto ut rem assumenda repellendus nisi enim modi asperiores!",
+        "4" : "Factory. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum non facilis dolore porro laudantium debitis",
+        "description4": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum non facilis dolore porro laudantium debitis reprehenderit consequatur maxime quas sed illum, iusto ut rem assumenda repellendus nisi enim modi asperiores!",
+    }
+
+
+
+    ,
+
+    "home":{
+        "title" : "Hola Gente",
+        "description": "Descripción en español.....",
+        "text" : "SPANISH IPSUM DOLOR SIT AMET CONSCTETUR ADIPISICING ELIT NULLA CONSECTETUR, ALIAS CULPA VITAE MOLLITIA MINUS"
+    },
+    "about":{
+        "1" : "Historia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum non facilis dolore porro laudantium debitis",
+        "description1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum non facilis dolore porro laudantium debitis reprehenderit consequatur maxime quas sed illum, iusto ut rem assumenda repellendus nisi enim modi asperiores!",
+        "2" : "Historia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum non facilis dolore porro laudantium debitis",
+        "description2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum non facilis dolore porro laudantium debitis reprehenderit consequatur maxime quas sed illum, iusto ut rem assumenda repellendus nisi enim modi asperiores!",
+        "3" : "Fábrica. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum non facilis dolore porro laudantium debitis",
+        "description3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum non facilis dolore porro laudantium debitis reprehenderit consequatur maxime quas sed illum, iusto ut rem assumenda repellendus nisi enim modi asperiores!",
+        "4" : "Fábrica. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum non facilis dolore porro laudantium debitis",
+        "description4": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum non facilis dolore porro laudantium debitis reprehenderit consequatur maxime quas sed illum, iusto ut rem assumenda repellendus nisi enim modi asperiores!",
+    }

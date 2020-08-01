@@ -1,0 +1,51 @@
+{
+   "nav":{
+        "about" : "About",
+        "team" : "Team",
+        "products" : "Products",
+        "projects" : "Projects",
+        "contact" : "Contact"
+   },
+
+   "home":{
+    "title" : "Hello People",
+    "description": "Description in english.....",
+    "text" : "ENGLISH IPSUM DOLOR SIT AMET CONSCTETUR ADIPISICING ELIT NULLA CONSECTETUR, ALIAS CULPA VITAE MOLLITIA MINUS"
+    },
+
+    "about":{
+        "1" : "History. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum non facilis dolore porro laudantium debitis",
+        "description1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum non facilis dolore porro laudantium debitis reprehenderit consequatur maxime quas sed illum, iusto ut rem assumenda repellendus nisi enim modi asperiores!",
+        "2" : "History. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum non facilis dolore porro laudantium debitis",
+        "description2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum non facilis dolore porro laudantium debitis reprehenderit consequatur maxime quas sed illum, iusto ut rem assumenda repellendus nisi enim modi asperiores!",
+        "3" : "Factory. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum non facilis dolore porro laudantium debitis",
+        "description3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum non facilis dolore porro laudantium debitis reprehenderit consequatur maxime quas sed illum, iusto ut rem assumenda repellendus nisi enim modi asperiores!",
+        "4" : "Factory. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum non facilis dolore porro laudantium debitis",
+        "description4": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum non facilis dolore porro laudantium debitis reprehenderit consequatur maxime quas sed illum, iusto ut rem assumenda repellendus nisi enim modi asperiores!",
+        "text":"English IPSUM DOLOR SIT AMET CONSCTETUR ADIPISICING ELIT NULLA CONSECTETUR, ALIAS CULPA VITAE MOLLITIA MINUS"
+    },
+
+    "team":{
+        "title1":"WHO WE ARE",
+        "title2": "LOREM IPSUM DOLOR SIT AMET CONSCTETUR ADIPISICING ELIT",
+        "text":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla consectetur, alias culpa vitae mollitia minus possimus fugit libero reprehenderit pariatur, explicabo veniam a eligendi quo odit expedita distinctio corporis ab?"
+
+    },
+    
+    "teamList":{
+        "name1": "DAVID BOWIE",
+        "position1": "Chief Executive Officer",
+        "description1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla consectetur, alias culpa vitae mollitia minus possimus fugit liber reprehenderit pariatur, explicabo veniam a eligendi quo odit expedita distinctio corporis ab?",
+        "name2": "BOB MARLEY",
+        "position2": "Chief Creative Officer",
+        "description2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla consectetur, alias culpa vitae mollitia minus possimus fugit liber reprehenderit pariatur, explicabo veniam a eligendi quo odit expedita distinctio corporis ab?",
+        "name3": "FRANK SINATRA",
+        "position3": "Chief Client Services Officer",
+        "description3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla consectetur, alias culpa vitae mollitia minus possimus fugit liber reprehenderit pariatur, explicabo veniam a eligendi quo odit expedita distinctio corporis ab?",
+        "name4": "ARETHA FRANKLIN",
+        "position4": "Chief Strategy Officer",
+        "description4": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla consectetur, alias culpa vitae mollitia minus possimus fugit liber reprehenderit pariatur, explicabo veniam a eligendi quo odit expedita distinctio corporis ab?"
+    }
+ 
+}
+

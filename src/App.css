@@ -43,9 +43,16 @@ button{
 
 /* Navigation  */
 
+.lang{
+  /* position: absolute;
+  right: 5vw; */
+  margin-left: 2vw;
+}
+
 .logo{
   width: 300px;
 }
+
 .navigation{
   display: flex;
   justify-content: space-between;
@@ -119,6 +126,41 @@ width: max-content;
   visibility: visible;
 }
 
+
+/* fade in left */
+.animated {
+  -webkit-animation-duration: .8s;
+  animation-duration: .8s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInLeft {
+  0% {
+     opacity: 0.8;
+     -webkit-transform: translateX(100vw);
+  }
+  100% {
+     opacity: 1;
+     -webkit-transform: translateX(0px);
+  }
+}
+
+@keyframes fadeInLeft {
+  0% {
+     opacity: 0.8;
+     transform: translateX(100vw);
+  }
+  100% {
+     opacity: 1;
+     transform: translateX(0px);
+  }
+}
+
+.fadeInLeft {
+-webkit-animation-name: fadeInLeft;
+animation-name: fadeInLeft;
+} 
 /* fade out up
 .animated {
   -webkit-animation-duration: 1s;
@@ -220,6 +262,11 @@ height: 100% !important;
 
 /* navigation */
 
+.logo{
+  width: 250px;
+}
+
+
 .navigation-mobile{
   display: flex;
   justify-content: space-between;
@@ -228,6 +275,7 @@ height: 100% !important;
   position: fixed;
   width: 100vw;
   padding: 3% 5%;
+  height: 15vh;
   background-color: white;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
 }
@@ -237,6 +285,7 @@ height: 100% !important;
 }
 
 .menu-mobile{
+  top: 15vh;
   position: absolute;
   z-index: 100;
   width: 100vw;
@@ -246,11 +295,12 @@ height: 100% !important;
 .menu-links-mobile{
   position: relative;
   height: 100%;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.95);
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+  padding-top: 10vh;
   font-size: 35px;
 }
 

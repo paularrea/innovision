@@ -4,7 +4,10 @@ import BurguerMenu from "./burguerMenu";
 import logo from "../../img/innovision.png";
 import HideOnScroll from "../HideOnScroll";
 
+
 function Navigation(props) {
+
+
   return (
     <div>
       {window.innerWidth >= 1110 ? (
@@ -20,36 +23,40 @@ function Navigation(props) {
               onClick={props.executeScrollToAbout}
               to="/"
             >
-              Quién somos
+              {props.t("nav.about")} 
             </NavLink>
             <NavLink
               className={props.teamInViewport ? "active-link" : ""}
               onClick={props.executeScrollToTeam}
               to="/"
             >
-              Equipo
+              {props.t("nav.team")}
             </NavLink>
             <NavLink
               className={props.productsInViewport ? "active-link" : ""}
               onClick={props.executeScrollToProducts}
               to="/"
             >
-              Productos
+              {props.t("nav.products")}
             </NavLink>
             <NavLink
               className={props.projectsInViewport ? "active-link" : ""}
               onClick={props.executeScrollToProjects}
               to="/"
             >
-              Proyectos
+              {props.t("nav.projects")}
             </NavLink>
             <NavLink
               className={props.contactInViewport ? "active-link" : ""}
               onClick={props.executeScrollToContact}
               to="/"
             >
-              Contacto
+              {props.t("nav.contact")}
             </NavLink>
+            <div className='lang'>
+              <button onClick={()=>props.handleClick('en')}>EN</button>/
+              <button onClick={()=>props.handleClick('es')}>ES</button>
+            </div>
           </div>
         </div>
       ) : (

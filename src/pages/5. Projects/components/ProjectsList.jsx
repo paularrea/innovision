@@ -54,7 +54,7 @@ const ProjectsList = (props) => {
   ];
 
   const projectsList = projects.map((project) => (
-    <div className="product-card col-12 col-md-6">
+    <div className="projects-card col-12 col-md-6">
       <FadeInOnScroll>
         <div className="project-img">
           <img src={project.img} alt="" />

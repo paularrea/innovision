@@ -26,8 +26,8 @@ const BurguerMenu = (props) => {
       <Modal
         BackdropProps={{ style: { backgroundColor: "transparent" } }}
         open={open}
+        className='animated fadeInLeft'
         onClose={closeModal}
-        style={{ backgroundColor: "none" }}
         aria-labelledby="simple-modal-title"
         aria-describedby="simple-modal-description"
       >

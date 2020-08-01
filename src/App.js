@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, Suspense } from "react";
 import "./App.css";
 import HomeComponent from "./pages/1. Home/HomeComponent";
 import ProjectsComponent from "./pages/5. Projects/ProjectsComponent";
@@ -10,6 +10,7 @@ import AboutComponent from "./pages/2. About/AboutComponent";
 import Sensor from "react-visibility-sensor";
 import FooterComponent from "./components/Footer/FooterComponent";
 import Observer from "react-intersection-observer";
+import {useTranslation} from 'react-i18next'
 
 const scrollToRef = (ref) =>
   window.scrollTo({ top: ref.current.offsetTop, behavior: "smooth" });
@@ -56,9 +57,17 @@ function App() {
     console.log("Contact Inview:", inView);
   };
 
+
+  const {t, i18n} = useTranslation();
+  function handleClick(lang){
+    i18n.changeLanguage(lang)
+  }
+
   return (
     <>
       <Navigation
+        handleClick={handleClick}
+        t={t}
         aboutInViewport={aboutInViewport}
         teamInViewport={teamInViewport}
         productsInViewport={productsInViewport}
@@ -71,33 +80,35 @@ function App() {
         executeScrollToProjects={executeScrollToProjects}
         executeScrollToContact={executeScrollToContact}
       />
-      <Sensor>
-        <HomeComponent HomeRef={HomeRef} />
-      </Sensor>
+      <Suspense fallback="loading">
+        <Sensor>
+          <HomeComponent t={t} HomeRef={HomeRef} />
+        </Sensor>
+      </Suspense>
 
       <Observer onChange={onChangeAbout}>
         <Sensor>
-          <AboutComponent AboutRef={AboutRef} />
+          <AboutComponent t={t} AboutRef={AboutRef} />
         </Sensor>
       </Observer>
       <Observer onChange={onChangeTeam}>
         <Sensor>
-          <TeamComponent TeamRef={TeamRef} />
+          <TeamComponent t={t} TeamRef={TeamRef} />
         </Sensor>
       </Observer>
       <Observer onChange={onChangeProducts}>
         <Sensor>
-          <ProductsComponent ProductsRef={ProductsRef} />
+          <ProductsComponent t={t} ProductsRef={ProductsRef} />
         </Sensor>
       </Observer>
       <Observer onChange={onChangeProjects}>
         <Sensor>
-          <ProjectsComponent ProjectsRef={ProjectsRef} />
+          <ProjectsComponent t={t} ProjectsRef={ProjectsRef} />
         </Sensor>
       </Observer>
       <Observer onChange={onChangeContact}>
         <Sensor>
-          <ContactComponent ContactRef={ContactRef} />
+          <ContactComponent t={t} ContactRef={ContactRef} />
         </Sensor>
       </Observer>
       <FooterComponent />
