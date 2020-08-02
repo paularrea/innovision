@@ -49,6 +49,14 @@ button{
   margin-left: 2vw;
 }
 
+.active-link-lang{
+  color: rgb(0, 0, 0);
+}
+
+.disactive-link-lang{
+  color: rgb(207, 207, 207);
+}
+
 .logo{
   width: 300px;
 }

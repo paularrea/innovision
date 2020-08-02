@@ -1,10 +1,10 @@
 import React from "react";
 
-function LocationComponent() {
+function LocationComponent(props) {
   return (
     <>
       <div className="contacts-titles">
-        <h5>LOCATIONS</h5>
+        <h5>{props.t("contact.locations")}</h5>
       </div>
       <div className="contacts">
         <div>

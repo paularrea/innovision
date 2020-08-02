@@ -45,6 +45,32 @@
         "name4": "ARETHA FRANKLIN",
         "position4": "Chief Strategy Officer",
         "description4": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla consectetur, alias culpa vitae mollitia minus possimus fugit liber reprehenderit pariatur, explicabo veniam a eligendi quo odit expedita distinctio corporis ab?"
+    },
+
+    "contact":{
+        "keyContacts" : "KEY CONTACTS",
+        "text" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo facilis modi ullam minus pariatur placeat deleniti! Natus enim amet hic labore veniam quos et expedita magni, ipsa vel sint tenetur.",
+        "nb":{
+            "title" : "New Business",
+            "text" : "What changes can we help with?"
+        }  ,
+        "me":{
+            "title" : "Media Enquiries",
+            "text" : "How can we add to your story?"
+        }  ,
+        "t":{
+            "title" : "Talent",
+            "text" : "Want to join our team?"
+        },
+        "locations":"LOCATIONS",
+        "message":{
+            "title": "SEND US A MESSAGE",
+            "name": "Name",
+            "email":"Email",
+            "message": "Message",
+            "submit" : "Submit"
+
+        }  
     }
  
 }

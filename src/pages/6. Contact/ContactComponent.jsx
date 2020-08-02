@@ -12,22 +12,19 @@ function ContactComponent(props) {
         <FadeInOnScroll>
           <div className="contact-intro-text">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-              facilis modi ullam minus pariatur placeat deleniti! Natus enim
-              amet hic labore veniam quos et expedita magni, ipsa vel sint
-              tenetur.
+            {props.t("contact.text")}
             </p>
           </div>
         </FadeInOnScroll>
         <FadeInOnScroll>
-          <KeyContactsComponent />
+          <KeyContactsComponent t={props.t} />
         </FadeInOnScroll>
         <FadeInOnScroll>
-          <LocationComponent />
+          <LocationComponent t={props.t} />
         </FadeInOnScroll>
       </div>
       <FadeInOnScroll>
-        <EmailComponent />
+        <EmailComponent t={props.t} />
       </FadeInOnScroll>
     </div>
   );

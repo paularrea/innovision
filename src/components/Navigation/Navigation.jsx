@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState} from "react";
 import { NavLink } from "react-router-dom";
 import BurguerMenu from "./burguerMenu";
 import logo from "../../img/innovision.png";
@@ -6,7 +6,20 @@ import HideOnScroll from "../HideOnScroll";
 
 
 function Navigation(props) {
+const [activeEn, setActiveEn] = useState(false);
+const [activeEs, setActiveEs] = useState(true);
 
+const onClickEnglish = () => {
+  props.handleClick('en');
+  setActiveEn(true);
+  setActiveEs(false);
+}
+
+const onClickSpanish = () => {
+  props.handleClick('es');
+  setActiveEn(false);
+  setActiveEs(true);
+}
 
   return (
     <div>
@@ -54,8 +67,8 @@ function Navigation(props) {
               {props.t("nav.contact")}
             </NavLink>
             <div className='lang'>
-              <button onClick={()=>props.handleClick('en')}>EN</button>/
-              <button onClick={()=>props.handleClick('es')}>ES</button>
+              <button onClick={onClickEnglish} className={activeEn ? "active-link-lang" : "disactive-link-lang"}>EN</button>/
+              <button onClick={onClickSpanish} className={activeEs ? "active-link-lang" : "disactive-link-lang"}>ES</button>
             </div>
           </div>
         </div>

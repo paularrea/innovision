@@ -59,6 +59,7 @@ function App() {
 
 
   const {t, i18n} = useTranslation();
+  
   function handleClick(lang){
     i18n.changeLanguage(lang)
   }

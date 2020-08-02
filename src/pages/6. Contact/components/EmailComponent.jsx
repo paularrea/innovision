@@ -75,7 +75,7 @@ class EmailComponent extends React.Component {
     return (
       <div className="email-container">
         <div className="email-wrapper">
-          <h1 className="email-form-title text-center">SEND US A MESSAGE</h1>
+          <h1 className="email-form-title text-center">{this.props.t("contact.message.title")}</h1>
           <form className="test-mailing" onSubmit={this.handleSubmit}>
             <br />
             <div style={{ fontSize: "1.2rem" }}>
@@ -87,7 +87,7 @@ class EmailComponent extends React.Component {
                   onChange={this.nameChange}
                   required
                   className='name-email-inputs'
-                  label="Name"
+                  label={this.props.t("contact.message.name")}
                 />
 
                 <TextField
@@ -97,7 +97,7 @@ class EmailComponent extends React.Component {
                   required
                   className='name-email-inputs'
                   id="email"
-                  label="Email"
+                  label={this.props.t("contact.message.email")}
                 />
               </div>
               <TextField
@@ -107,13 +107,13 @@ class EmailComponent extends React.Component {
                 placeholder="Put your message here"
                 required
                 className='message-input'
-                label="Message"
+                label={this.props.t("contact.message.message")}
                 multiline
                 rowsMax={4}
               />
             </div>
             <div className="text-center" >
-            <input type="submit" value="Submit" className="btn-form" />
+            <input type="submit" value={this.props.t("contact.message.submit")} className="btn-form" />
             </div>
           </form>
         </div>
