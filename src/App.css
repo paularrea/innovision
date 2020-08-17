@@ -51,10 +51,16 @@ button{
 
 .active-link-lang{
   color: rgb(0, 0, 0);
+  background-image: linear-gradient(120deg, #000000b0 100%, #000000a6 100%);
+  background-repeat: no-repeat;
+  background-size: 65% 0.2em;
+  background-position-x: center !important;
+  padding-bottom: 10;
+  background-position: 0 110%;
 }
 
 .disactive-link-lang{
-  color: rgb(207, 207, 207);
+  color: rgb(134, 134, 134);
 }
 
 .logo{
@@ -137,8 +143,8 @@ width: max-content;
 
 /* fade in left */
 .animated {
-  -webkit-animation-duration: .8s;
-  animation-duration: .8s;
+  -webkit-animation-duration: .4s;
+  animation-duration: .4s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
@@ -270,10 +276,15 @@ height: 100% !important;
 
 /* navigation */
 
+@media (max-width: 700px) { 
 .logo{
-  width: 250px;
+  width: 80%;
+}
 }
 
+.mobile-lang{
+  margin-top: 15vh;
+}
 
 .navigation-mobile{
   display: flex;

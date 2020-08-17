@@ -31,20 +31,39 @@ function menu(props) {
     <div className="menu-mobile">
       <div className="menu-links-mobile">
         <Link onClick={onClickAbout} to="/">
-          Quién somos
+        {props.t("nav.about")} 
         </Link>
         <Link onClick={onClickTeam} to="/">
-          Equipo
+        {props.t("nav.team")}
         </Link>
         <Link onClick={onClickProducts} to="/">
-          Productos
+        {props.t("nav.products")}
         </Link>
         <Link onClick={onClickProjects} to="/">
-          Proyectos
+        {props.t("nav.projects")}
         </Link>
         <Link onClick={onClickContact} to="/">
-          Contacto
+        {props.t("nav.contact")}
         </Link>
+        <div className="mobile-lang">
+          <button
+            onClick={props.onClickEnglish}
+            className={
+              props.activeEn ? "active-link-lang" : "disactive-link-lang"
+            }
+          >
+            EN
+          </button>
+          /
+          <button
+            onClick={props.onClickSpanish}
+            className={
+              props.activeEs ? "active-link-lang" : "disactive-link-lang"
+            }
+          >
+            ES
+          </button>
+        </div>
       </div>
     </div>
   );

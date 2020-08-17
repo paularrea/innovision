@@ -81,6 +81,8 @@ const onClickSpanish = () => {
               </a>
             </div>
             <BurguerMenu
+              t={props.t}
+              handleClick={props.handleClick}
               executeScrollToAbout={props.executeScrollToAbout}
               executeScrollToHome={props.executeScrollToHome}
               executeScrollToProducts={props.executeScrollToProducts}

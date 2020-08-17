@@ -53,6 +53,10 @@
 
 @media (max-width: 1110px) { 
 
+.about-text{
+    margin: 10% 0;
+}
+
 .about-text-wrapper{
     padding-top: -20px;
 }
@@ -78,7 +82,7 @@
 
 .about-photos-text-container{
     width: 100vw;
-    margin: 0 !important;
+    margin: 15% 0 !important;
     padding-bottom: 10%;
 }
 
