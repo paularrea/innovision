@@ -1,5 +1,6 @@
 import FadeInOnScroll from '../../../components/FadeInOnScroll';
 import React, {Component} from 'react';
+import './video.css'
 
 class TeamVideoComponent extends Component {
     constructor (props) {

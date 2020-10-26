@@ -6,10 +6,10 @@ function AboutDesktop(props) {
     <>
       <FadeInOnScroll>
         <div className="row about-photos-text-container">
-          <div className="col-12 col-md-6 about-photos w-50">
+          <div className="col-12 about-photos w-50">
             <img src="" alt="" />
           </div>
-          <div className="about-text col-12 col-md-6">
+          <div className="about-text col-12">
             <div className="about-text-wrapper">
               <h2>{props.t("about.1")}</h2>
               <p>{props.t("about.description1")}</p>
@@ -19,10 +19,10 @@ function AboutDesktop(props) {
       </FadeInOnScroll>
       <FadeInOnScroll>
         <div className="row about-photos-text-container">
-          <div className="col-12 col-md-6 about-photos w-50">
+          <div className="col-12 about-photos w-50">
             <img src="" alt="" />
           </div>
-          <div className=" about-text col-12 col-md-6">
+          <div className=" about-text col-12">
             <div className="about-text-wrapper">
             <h2>{props.t("about.2")}</h2>
               <p>{props.t("about.description2")}</p>
@@ -32,10 +32,10 @@ function AboutDesktop(props) {
       </FadeInOnScroll>
       <FadeInOnScroll>
         <div className="row about-photos-text-container">
-          <div className="col-12 col-md-6 about-photos w-50">
+          <div className="col-12 about-photos w-50">
             <img src="" alt="" />
           </div>
-          <div className="about-text col-12 col-md-6">
+          <div className="about-text col-12">
             <div className="about-text-wrapper">
             <h2>{props.t("about.3")}</h2>
               <p>{props.t("about.description3")}</p>
@@ -45,10 +45,10 @@ function AboutDesktop(props) {
       </FadeInOnScroll>
       <FadeInOnScroll>
         <div className="row about-photos-text-container">
-          <div className="col-12 col-md-6 about-photos">
+          <div className="col-12 about-photos">
             <img src="" alt="" />
           </div>
-          <div className="about-text col-12 col-md-6">
+          <div className="about-text col-12">
             <div className="about-text-wrapper">
             <h2>{props.t("about.4")}</h2>
               <p>{props.t("about.description4")}</p>
