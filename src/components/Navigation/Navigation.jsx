@@ -20,7 +20,7 @@ function Navigation(props) {
     };
   
     window.addEventListener("scroll", changeNavColor);
-  }, [])
+  }, []) 
 
   return (
     <div>
