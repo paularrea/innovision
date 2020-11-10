@@ -3,7 +3,7 @@ import Burger from "react-css-burger";
 import Modal from "@material-ui/core/Modal";
 import Menu from "./menu";
 
-const BurguerMenu = (props) => {
+const BurgerMenu = (props) => {
   const [open, setOpen] = useState(false);
   const [activeEn, setActiveEn] = useState(false);
   const [activeEs, setActiveEs] = useState(true);
@@ -65,4 +65,4 @@ const BurguerMenu = (props) => {
   );
 };
 
-export default BurguerMenu;
+export default BurgerMenu;
