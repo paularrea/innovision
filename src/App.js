@@ -37,7 +37,7 @@ function App() {
   const executeScrollToContact = () => scrollToRef(ContactRef);
 
   const onChangeAbout = (inView) => {
-    inView ? setAboutInViewport(true) : setAboutInViewport(false);
+    inView ? setAboutInViewport(true) : (setAboutInViewport(false));
     console.log("about Inview:", inView);
   };
   const onChangeTeam = (inView) => {

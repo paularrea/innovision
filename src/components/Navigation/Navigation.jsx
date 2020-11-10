@@ -22,8 +22,6 @@ function Navigation(props) {
     window.addEventListener("scroll", changeNavColor);
   }, [])
 
-
-
   return (
     <div>
       <Media query={{ minWidth: 1000 }}>
