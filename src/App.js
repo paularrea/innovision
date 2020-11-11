@@ -10,7 +10,8 @@ import AboutComponent from "./pages/2. About/AboutComponent";
 import Sensor from "react-visibility-sensor";
 import FooterComponent from "./components/Footer/FooterComponent";
 import Observer from "react-intersection-observer";
-import {useTranslation} from 'react-i18next'
+import { useTranslation } from "react-i18next";
+import { Helmet } from "react-helmet";
 
 const scrollToRef = (ref) =>
   window.scrollTo({ top: ref.current.offsetTop, behavior: "smooth" });
@@ -37,7 +38,7 @@ function App() {
   const executeScrollToContact = () => scrollToRef(ContactRef);
 
   const onChangeAbout = (inView) => {
-    inView ? setAboutInViewport(true) : (setAboutInViewport(false));
+    inView ? setAboutInViewport(true) : setAboutInViewport(false);
     console.log("about Inview:", inView);
   };
   const onChangeTeam = (inView) => {
@@ -57,15 +58,21 @@ function App() {
     console.log("Contact Inview:", inView);
   };
 
+  const { t, i18n } = useTranslation();
 
-  const {t, i18n} = useTranslation();
-  
-  function handleClick(lang){
-    i18n.changeLanguage(lang)
+  function handleClick(lang) {
+    i18n.changeLanguage(lang);
   }
 
   return (
     <>
+      <Helmet>
+        <title>Innovision Medical Ocean</title>
+        <meta
+          name="description"
+          content="This is the Innovision Medical page"
+        />
+      </Helmet>
       <Navigation
         handleClick={handleClick}
         t={t}

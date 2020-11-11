@@ -7,9 +7,8 @@ function HomeComponent(props) {
   return (
     <div ref={props.HomeRef} className="page">
       <Helmet>
-        <meta charSet="utf-8" />
         <title>Innovision Medical</title>
-        <meta name="description" content="Helmet app" />
+        <meta name="description" content="This is the Innovision Medical home page" />
       </Helmet>
       <div className="landing-start">
         <div className="landing-start-content">
