@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 
 import DesktopNav from "./DesktopNav";
 import logo from "../../img/innovision.png";
@@ -8,19 +8,6 @@ import "./nav.css";
 import BurgerMenu from "./BurgerMenu";
 
 function Navigation(props) {
-  const [navbar, setNavbar] = useState(false);
-
-  useEffect(() => {
-    const changeNavColor = () => {
-      if (window.scrollY < (72 * window.innerHeight) / 100) {
-        setNavbar(false);
-      } else {
-        setNavbar(true);
-      }
-    };
-
-    window.addEventListener("scroll", changeNavColor);
-  }, []);
 
   return (
     <div>
@@ -45,7 +32,7 @@ function Navigation(props) {
         <HideOnScroll>
           <div
             id="nav-id"
-            className={navbar ? "navigation-mobile" : "transparent-burgerNav"}
+            className="navigation-mobile"
           >
             <div>
               <a href onClick={props.executeScrollToHome}>

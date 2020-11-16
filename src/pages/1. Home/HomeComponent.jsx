@@ -5,20 +5,20 @@ import FadeInOnScroll from "../../components/FadeInOnScroll";
 
 function HomeComponent(props) {
   return (
-    <div ref={props.HomeRef} className="page">
+    <div ref={props.HomeRef} className="page page-home">
       <Helmet>
         <title>Innovision Medical</title>
-        <meta name="description" content="This is the Innovision Medical home page" />
+        <meta
+          name="description"
+          content="This is the Innovision Medical home page"
+        />
       </Helmet>
-      <div className="landing-start">
-        <div className="landing-start-content">
-          <h2>{props.t("home.title")}</h2>
-          <p>{props.t("home.description")}</p>
-        </div>
-      </div>
+      <div className="landing-start"></div>
       <FadeInOnScroll>
-        <div className="big-text text-center">
-          <h2>{props.t("home.text")}</h2>
+        <div className="presentation">
+          <div className="big-text text-center intro-text">
+            <h2>{props.t("home.text")}</h2>
+          </div>
         </div>
       </FadeInOnScroll>
     </div>

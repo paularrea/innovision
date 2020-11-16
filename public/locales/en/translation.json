@@ -1,77 +1,80 @@
 {
-   "nav":{
-        "about" : "About",
-        "team" : "Team",
-        "products" : "Products",
-        "projects" : "Projects",
-        "contact" : "Contact"
-   },
-
-   "home":{
-    "title" : "Hello People",
-    "description": "Description in english.....",
-    "text" : "ENGLISH IPSUM DOLOR SIT AMET CONSCTETUR ADIPISICING ELIT NULLA CONSECTETUR, ALIAS CULPA VITAE MOLLITIA MINUS"
+    "nav": {
+        "about": "About",
+        "team": "Team",
+        "products": "Products",
+        "projects": "Projects",
+        "contact": "Contact"
     },
 
-    "about":{
-        "1" : "History. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum non facilis dolore porro laudantium debitis",
-        "description1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum non facilis dolore porro laudantium debitis reprehenderit",
-        "2" : "History. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum non facilis dolore porro laudantium debitis",
-        "description2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum non facilis dolore porro laudantium debitis reprehenderit",
-        "3" : "Factory. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum non facilis dolore porro laudantium debitis",
-        "description3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum non facilis dolore porro laudantium debitis reprehenderit",
-        "4" : "Factory. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum non facilis dolore porro laudantium debitis",
-        "description4": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum non facilis dolore porro laudantium debitis reprehenderit",
-        "text":"English IPSUM DOLOR SIT AMET CONSCTETUR ADIPISICING ELIT NULLA CONSECTETUR, ALIAS CULPA VITAE MOLLITIA MINUS"
+    "home": {
+        "text": "INNOVISION MEDICAL IS A PROFESSIONAL AND INNOVATIVE COMPANY SPECIALIZED IN PRODUCING MEDICAL DEVICES AND PERSONAL PROTECTIVE EQUIPMENT"
     },
 
-    "team":{
-        "title1":"WHO WE ARE",
-        "title2": "LOREM IPSUM DOLOR SIT AMET CONSCTETUR ADIPISICING ELIT",
-        "text":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla consectetur, alias culpa vitae mollitia minus possimus fugit libero reprehenderit pariatur, explicabo veniam a eligendi quo odit expedita distinctio corporis ab?"
-
-    },
-    
-    "teamList":{
-        "name1": "DAVID BOWIE",
-        "position1": "Chief Executive Officer",
-        "description1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla consectetur, alias culpa vitae mollitia minus possimus fugit liber reprehenderit pariatur, explicabo veniam a eligendi quo odit expedita distinctio corporis ab?",
-        "name2": "BOB MARLEY",
-        "position2": "Chief Creative Officer",
-        "description2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla consectetur, alias culpa vitae mollitia minus possimus fugit liber reprehenderit pariatur, explicabo veniam a eligendi quo odit expedita distinctio corporis ab?",
-        "name3": "FRANK SINATRA",
-        "position3": "Chief Client Services Officer",
-        "description3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla consectetur, alias culpa vitae mollitia minus possimus fugit liber reprehenderit pariatur, explicabo veniam a eligendi quo odit expedita distinctio corporis ab?",
-        "name4": "ARETHA FRANKLIN",
-        "position4": "Chief Strategy Officer",
-        "description4": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla consectetur, alias culpa vitae mollitia minus possimus fugit liber reprehenderit pariatur, explicabo veniam a eligendi quo odit expedita distinctio corporis ab?"
+    "about": {
+        "1": "Never stop improving for the healthcare of humanity.",
+        "description1": "We believe in making the world healthier and doing this in a sustainable way. This is why we come to work every day. We commit to unleash the power of our assets to enhance medical services and systems without depleting natural resources or causing serious ecological damage.",
+        "2": "Expanding our factory in the direction of modernization, integration and scale with more than 170 skilled and experienced employees.",
+        "description2": "7 automatic production lines for flat masks and 6 automatic production lines for folding disposable respirators. 11 semi-automatic production lines can be adjusted as spare equipment to produce any unexpected customized products. While also having the ability to develop various products related to non-woven products, we are investing in more production lines to enrich our product offering and achieve a complete environmentally friendly production.",
+        "3": "Strategizing in 3 axes: product innovation, competitive prices, and customization.",
+        "description3": "Our strategy is to provide first-class products derived from strong technology and innovation at competitive prices, while also invest very wisely to boost customers experience. Since we love to take care of our clients, no matter where they are in the world, we have established dedicated and detail-oriented marketing and after-sales service teams in Asia and Europe.",
+        "4": "Green journey ahead.",
+        "description4": "InnoVision Medical is using advanced technology to develop the ECO product line (bio-based) to deliver a greener offer, and is looking for ways to have a minimal impact on the environment through a more sustainable, environmentally sound and cost-effective process.",
+        "text": "English IPSUM DOLOR SIT AMET CONSCTETUR ADIPISICING ELIT NULLA CONSECTETUR, ALIAS CULPA VITAE MOLLITIA MINUS"
     },
 
-    "contact":{
-        "keyContacts" : "KEY CONTACTS",
-        "text" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo facilis modi ullam minus pariatur placeat deleniti! Natus enim amet hic labore veniam quos et expedita magni, ipsa vel sint tenetur.",
-        "nb":{
-            "title" : "New Business",
-            "text" : "What changes can we help with?"
-        }  ,
-        "me":{
-            "title" : "Media Enquiries",
-            "text" : "How can we add to your story?"
-        }  ,
-        "t":{
-            "title" : "Talent",
-            "text" : "Want to join our team?"
+    "team": {
+        "title1": "WHO WE ARE",
+        "title2": "Once-in-a-lifetime opportunity believers ready to take action",
+        "text": "The InnoVision Medical team is a very responsible and reliable group of experts. From R&D and product development teams to after-sales ones, going through supply chain coordination, quality control, logistics, and sales, all of them are passionate about working for the medical and PPE industries and ready to take the challenge of resetting the healthcare system."
+
+    },
+
+    "teamList": {
+        "name1": "GEORGE ZHOU",
+        "position1": "CEO & Co-founder",
+        "name2": "BENNY YOU",
+        "position2": "General Manager & Co-founder",
+        "name3": "LUFAN CHEN",
+        "position3": "CTO & Co-founder",
+        "name4": "JINGYU WANG",
+        "position4": "Financial Manager",
+        "name5": "SHAWN LU",
+        "position5": "Supply Chain Coordinator",
+        "name6": "BING YU",
+        "position6": "Quality Control Manager",
+        "name7": "CELINE GE",
+        "position7": "Logistics Planner",
+        "name8": "CICI HUA",
+        "position8": "Customs Coordinator",
+        "name9": "ANNA REQUESENS",
+        "position9": "Sales Manager"
+    },
+
+    "contact": {
+        "keyContacts": "KEY CONTACTS",
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo facilis modi ullam minus pariatur placeat deleniti! Natus enim amet hic labore veniam quos et expedita magni, ipsa vel sint tenetur.",
+        "nb": {
+            "title": "New Business",
+            "text": "What changes can we help with?"
         },
-        "locations":"LOCATIONS",
-        "message":{
+        "me": {
+            "title": "Media Enquiries",
+            "text": "How can we add to your story?"
+        },
+        "t": {
+            "title": "Talent",
+            "text": "Want to join our team?"
+        },
+        "locations": "LOCATIONS",
+        "message": {
             "title": "SEND US A MESSAGE",
             "name": "Name",
-            "email":"Email",
+            "email": "Email",
             "message": "Message",
-            "submit" : "Submit"
+            "submit": "Submit"
 
-        }  
+        }
     }
- 
-}
 
+}

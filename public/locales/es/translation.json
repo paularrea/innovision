@@ -33,19 +33,25 @@
 
     },
 
-    "teamList":{
-        "name1": "DAVID BOWIE",
-        "position1": "Chief Executive Officer",
-        "description1": "esp ipsum dolor sit amet consectetur adipisicing elit. Nulla consectetur, alias culpa vitae mollitia minus possimus fugit liber reprehenderit pariatur, explicabo veniam a eligendi quo odit expedita distinctio corporis ab?",
-        "name2": "BOB MARLEY",
-        "position2": "Chief Creative Officer",
-        "description2": "esp ipsum dolor sit amet consectetur adipisicing elit. Nulla consectetur, alias culpa vitae mollitia minus possimus fugit liber reprehenderit pariatur, explicabo veniam a eligendi quo odit expedita distinctio corporis ab?",
-        "name3": "FRANK SINATRA",
-        "position3": "Chief Client Services Officer",
-        "description3": "esp ipsum dolor sit amet consectetur adipisicing elit. Nulla consectetur, alias culpa vitae mollitia minus possimus fugit liber reprehenderit pariatur, explicabo veniam a eligendi quo odit expedita distinctio corporis ab?",
-        "name4": "ARETHA FRANKLIN",
-        "position4": "Chief Strategy Officer",
-        "description4": "esp ipsum dolor sit amet consectetur adipisicing elit. Nulla consectetur, alias culpa vitae mollitia minus possimus fugit liber reprehenderit pariatur, explicabo veniam a eligendi quo odit expedita distinctio corporis ab?"
+    "teamList": {
+        "name1": "GEORGE ZHOU",
+        "position1": "CEO & Co-founder",
+        "name2": "BENNY YOU",
+        "position2": "General Manager & Co-founder",
+        "name3": "LUFAN CHEN",
+        "position3": "CTO & Co-founder",
+        "name4": "JINGYU WANG",
+        "position4": "Financial Manager",
+        "name5": "SHAWN LU",
+        "position5": "Supply Chain Coordinator",
+        "name6": "BING YU",
+        "position6": "Quality Control Manager",
+        "name7": "CELINE GE",
+        "position7": "Logistics Planner",
+        "name8": "CICI HUA",
+        "position8": "Customs Coordinator",
+        "name9": "ANNA REQUESENS",
+        "position9": "Sales Manager"
     },
 
     "contact":{

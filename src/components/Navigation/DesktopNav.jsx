@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import logo from "../../img/innovision.png";
 import "./nav.css";
@@ -6,7 +6,6 @@ import "./nav.css";
 const DesktopNav = (props) => {
   const [activeEn, setActiveEn] = useState(false);
   const [activeEs, setActiveEs] = useState(true);
-  const [navbar, setNavbar] = useState(false);
 
   const onClickEnglish = () => {
     props.handleClick("en");
@@ -20,22 +19,8 @@ const DesktopNav = (props) => {
     setActiveEs(true);
   };
 
-  useEffect(() => {
-    const changeNavColor = () => {
-      if (window.scrollY < 72 * window.innerHeight/100) {
-        setNavbar(false);
-      } else {
-        setNavbar(true);
-      }
-    };
-  
-    window.addEventListener("scroll", changeNavColor);
-  }, [])
-
-
-
   return (
-    <div className={navbar ? "navigation" : "transparent-nav"}>
+    <div className='navigation'>
       <div>
         <a href onClick={props.executeScrollToHome}>
           <img className="logo" src={logo} alt="innovision logo" />

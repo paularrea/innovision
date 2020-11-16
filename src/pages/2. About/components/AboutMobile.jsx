@@ -6,8 +6,7 @@ function AboutDesktop(props) {
     <>
       <FadeInOnScroll>
         <div className="row about-photos-text-container">
-          <div className="col-12 about-photos w-50">
-            <img src="" alt="" />
+          <div className="col-12 about-photos about1 w-50">
           </div>
           <div className="about-text col-12">
             <div className="about-text-wrapper">
@@ -19,8 +18,7 @@ function AboutDesktop(props) {
       </FadeInOnScroll>
       <FadeInOnScroll>
         <div className="row about-photos-text-container">
-          <div className="col-12 about-photos w-50">
-            <img src="" alt="" />
+          <div className="col-12 about-photos about2 w-50">
           </div>
           <div className=" about-text col-12">
             <div className="about-text-wrapper">
@@ -32,8 +30,7 @@ function AboutDesktop(props) {
       </FadeInOnScroll>
       <FadeInOnScroll>
         <div className="row about-photos-text-container">
-          <div className="col-12 about-photos w-50">
-            <img src="" alt="" />
+          <div className="col-12 about-photos about3 w-50">
           </div>
           <div className="about-text col-12">
             <div className="about-text-wrapper">
@@ -45,8 +42,7 @@ function AboutDesktop(props) {
       </FadeInOnScroll>
       <FadeInOnScroll>
         <div className="row about-photos-text-container">
-          <div className="col-12 about-photos">
-            <img src="" alt="" />
+          <div className="col-12 about-photos about4">
           </div>
           <div className="about-text col-12">
             <div className="about-text-wrapper">
@@ -54,13 +50,6 @@ function AboutDesktop(props) {
               <p>{props.t("about.description4")}</p>
             </div>
           </div>
-        </div>
-      </FadeInOnScroll>
-      <FadeInOnScroll>
-        <div className="big-text text-center">
-          <h2>
-          {props.t("about.text")}
-          </h2>
         </div>
       </FadeInOnScroll>
     </>
