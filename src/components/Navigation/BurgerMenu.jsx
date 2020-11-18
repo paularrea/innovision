@@ -35,7 +35,7 @@ const BurgerMenu = (props) => {
         burger="spring"
         color="black"
         hoverOpacity={0.8}
-        scale={0.8}
+        scale={0.6}
       />
       <Modal
         BackdropProps={{ style: { backgroundColor: "transparent" } }}

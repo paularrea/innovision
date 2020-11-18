@@ -43,7 +43,7 @@ button{
   height: auto;
   display: flex;
   flex-direction: column;
-  margin: 8% auto;
+  margin: 6vw auto;
   font-size: 18px;
 
 }
@@ -120,8 +120,6 @@ animation-name: fadeInLeft;
     height: auto;
     display: flex;
     flex-direction: column;
-    margin: 8% auto;
-    margin-top: 15%;
     font-size: 16px;
   }
   

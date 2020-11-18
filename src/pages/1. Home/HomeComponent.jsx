@@ -13,14 +13,20 @@ function HomeComponent(props) {
           content="This is the Innovision Medical home page"
         />
       </Helmet>
-      <div className="landing-start"></div>
-      <FadeInOnScroll>
+      <div className="landing-start">
+      <div className="intro-text-container">
+          <div className="intro-phrase">
+            <h2>{props.t("home.text")}</h2>
+          </div>
+        </div>
+      </div>
+      {/* <FadeInOnScroll>
         <div className="presentation">
           <div className="big-text text-center intro-text">
             <h2>{props.t("home.text")}</h2>
           </div>
         </div>
-      </FadeInOnScroll>
+      </FadeInOnScroll> */}
     </div>
   );
 }

@@ -1,6 +1,7 @@
 import FadeInOnScroll from "../../../components/FadeInOnScroll";
 import React from "react";
-import "./video.css";
+import video from "./video.mp4";
+import "./video.css"
 
 const TeamVideoComponent = () => {
   return (

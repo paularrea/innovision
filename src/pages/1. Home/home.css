@@ -1,15 +1,35 @@
+.page-home{
+    margin-bottom: 6vw;
+}
+
 .landing-start{
     width: 100vw;
     background-image: url('../../img/home.jpg');  
-    filter: brightness(60%);  
     background-size: cover;
-    background-position: center;
-    height: 90vh;
+    background-position: bottom;
+    height: 95vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-end;
+    align-items: left;
     text-align: center;
+}
+
+.intro-text-container{
+    width: 60vw;
+    margin-left: 3vw;
+    margin-bottom: 3vw;
+    padding: 2vw;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.intro-phrase{
+    color: white;
+}
+
+.intro-phrase h2{
+    font-size: 3.5rem;
 }
 
 .landing-start-content{
@@ -23,7 +43,8 @@
 }
 
 .intro-text{
-    padding: 12% 0;
+    padding: 10vw 0;
+    margin-bottom: 0 !important;
 }
 
 .btn-home{
@@ -58,5 +79,27 @@
         padding: 3vw 5vw;
         margin-top: 3vh;
         font-size: 20px;
+    }
+
+    .landing-start{
+        height: 95vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        text-align: center;
+    }
+
+    .intro-text-container{
+       width: 90vw;
+       margin: 0;
+        margin-top: 22vw;
+        padding: 5vw;
+        text-align: left;
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+    
+    .intro-phrase h2{
+        font-size: 2rem;
     }
  }
