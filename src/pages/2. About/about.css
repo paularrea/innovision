@@ -44,11 +44,13 @@
     text-align: right;
 }
 .about-text-wrapper-right h2{
+    padding-top: 3%;
     font-size: 40px;
     line-height: 44px;
     font-weight: 600;
 }
 .about-text-wrapper-left h2{
+    padding-top: 3%;
     font-size: 40px;
     line-height: 44px;
     font-weight: 600;
