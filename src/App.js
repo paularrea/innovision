@@ -14,7 +14,7 @@ import { useTranslation } from "react-i18next";
 import { Helmet } from "react-helmet";
 
 const scrollToRef = (ref) =>
-  window.scrollTo({ top: ref.current.offsetTop, behavior: "smooth" });
+  window.scrollTo({ top: ref.current.offsetTop, behavior: "smooth" }) 
 
 function App() {
   const [aboutInViewport, setAboutInViewport] = useState(false);
@@ -39,23 +39,18 @@ function App() {
 
   const onChangeAbout = (inView) => {
     inView ? setAboutInViewport(true) : setAboutInViewport(false);
-    console.log("about Inview:", inView);
   };
   const onChangeTeam = (inView) => {
     inView ? setTeamInViewport(true) : setTeamInViewport(false);
-    console.log("Team Inview:", inView);
   };
   const onChangeProducts = (inView) => {
     inView ? setProductsInViewport(true) : setProductsInViewport(false);
-    console.log("Products Inview:", inView);
   };
   const onChangeProjects = (inView) => {
     inView ? setProjectsInViewport(true) : setProjectsInViewport(false);
-    console.log("Projects Inview:", inView);
   };
   const onChangeContact = (inView) => {
     inView ? setContactInViewport(true) : setContactInViewport(false);
-    console.log("Contact Inview:", inView);
   };
 
   const { t, i18n } = useTranslation();

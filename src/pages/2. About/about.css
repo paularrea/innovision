@@ -1,14 +1,15 @@
 .about-component{
-    padding-top: 6vw;
+
 }
 .about-photos-text-container{
     width: 100vw;
     height: auto;
-    min-height: 400px;
     margin: 0 auto !important;
 }
 .about-photos{
     background-color: grey;
+    height: auto;
+    min-height: 50vh;
 }
 .about1{
     background-image: url('../../img/about1.jpg'); 
