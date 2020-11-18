@@ -1,7 +1,7 @@
 import React from "react";
 import "./home.css";
 import { Helmet } from "react-helmet";
-import FadeInOnScroll from "../../components/FadeInOnScroll";
+// import FadeInOnScroll from "../../components/FadeInOnScroll";
 
 function HomeComponent(props) {
   return (
