@@ -24,13 +24,13 @@ function AboutDesktop(props) {
               <p>{props.t("about.description2")}</p>
             </div>
           </div>
-          <div className="col-12 col-md-6 about-photos about2 w-50">
+          <div  className="col-12 col-md-6 about-photos about2 w-50">
           </div>
         </div>
         <div className="row about-photos-text-container">
           <div className="col-12 col-md-6 about-photos about3 w-50">
           </div>
-          <div className="col-12 col-md-6">
+          <div  className="col-12 col-md-6">
             <div className="about-text-wrapper-left">
             <h5>{props.t("about.title3")}</h5>
               <h2>{props.t("about.3")}</h2>
@@ -46,7 +46,7 @@ function AboutDesktop(props) {
               <p>{props.t("about.description4")}</p>
             </div>
           </div>
-          <div className="col-12 col-md-6 about-photos about4 w-50">
+          <div  className="col-12 col-md-6 about-photos about4 w-50">
           </div>
         </div>
       </FadeInOnScroll>

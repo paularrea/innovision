@@ -14,7 +14,12 @@ import { useTranslation } from "react-i18next";
 import { Helmet } from "react-helmet";
 
 const scrollToRef = (ref) =>
-  window.scrollTo({ top: ref.current.offsetTop, behavior: "smooth" }) 
+  window.scrollTo({ top: ref.current.offsetTop, behavior: "smooth" });
+
+const scrollToRefAbout = (ref) => {
+  let position = ref.current.offsetTop + -100;
+  window.scrollTo({ top: position, behavior: "smooth" });
+};
 
 function App() {
   const [aboutInViewport, setAboutInViewport] = useState(false);
@@ -31,7 +36,7 @@ function App() {
   const ContactRef = useRef(null);
 
   const executeScrollToHome = () => scrollToRef(HomeRef);
-  const executeScrollToAbout = () => scrollToRef(AboutRef);
+  const executeScrollToAbout = () => scrollToRefAbout(AboutRef);
   const executeScrollToTeam = () => scrollToRef(TeamRef);
   const executeScrollToProducts = () => scrollToRef(ProductsRef);
   const executeScrollToProjects = () => scrollToRef(ProjectsRef);
@@ -54,7 +59,6 @@ function App() {
   };
 
   const { t, i18n } = useTranslation();
-
   function handleClick(lang) {
     i18n.changeLanguage(lang);
   }
@@ -62,7 +66,7 @@ function App() {
   return (
     <>
       <Helmet>
-        <title>Innovision Medical Ocean</title>
+        <title>Innovision Medical</title>
         <meta
           name="description"
           content="This is the Innovision Medical page"
