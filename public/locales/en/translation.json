@@ -24,7 +24,10 @@
         "title4": "OUR STRATEGY",
         "4": "Green journey ahead.",
         "description4": "InnoVision Medical is using advanced technology to develop the ECO product line (bio-based) to deliver a greener offer, and is looking for ways to have a minimal impact on the environment through a more sustainable, environmentally sound and cost-effective process.",
-        "text": "English IPSUM DOLOR SIT AMET CONSCTETUR ADIPISICING ELIT NULLA CONSECTETUR, ALIAS CULPA VITAE MOLLITIA MINUS"
+        "text": "English IPSUM DOLOR SIT AMET CONSCTETUR ADIPISICING ELIT NULLA CONSECTETUR, ALIAS CULPA VITAE MOLLITIA MINUS",
+        "title5": "OUR BUSINESS PRIORITIES",
+        "5": "Green journey ahead.",
+        "description5": "InnoVision Medical is using advanced technology to develop the ECO product line (bio-based) to deliver a greener offer, and is looking for ways to have a minimal impact on the environment through a more sustainable, environmentally sound and cost-effective process."
     },
 
     "team": {
@@ -41,8 +44,8 @@
         "position2": "General Manager & Co-founder",
         "name3": "LUFAN CHEN",
         "position3": "CTO & Co-founder",
-        "name4": "JINGYU WANG",
-        "position4": "Financial Manager",
+        "name4": "WEIHAO ZHANG",
+        "position4": "Vice General Manager",
         "name5": "SHAWN LU",
         "position5": "Supply Chain Coordinator",
         "name6": "BING YU",
@@ -59,15 +62,11 @@
         "keyContacts": "KEY CONTACTS",
         "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo facilis modi ullam minus pariatur placeat deleniti! Natus enim amet hic labore veniam quos et expedita magni, ipsa vel sint tenetur.",
         "nb": {
-            "title": "New Business",
-            "text": "What changes can we help with?"
-        },
-        "me": {
-            "title": "Media Enquiries",
-            "text": "How can we add to your story?"
+            "title": "New Orders & Inquiries",
+            "text": "What can we help you with?"
         },
         "t": {
-            "title": "Talent",
+            "title": "Product Certifications",
             "text": "Want to join our team?"
         },
         "locations": "LOCATIONS",

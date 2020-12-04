@@ -1,0 +1,203 @@
+.contact-wrapper{
+    margin: 0 auto;
+    width: 70vw;
+    min-height: 100vh;
+}
+
+.contact-title{
+    width: 100%;
+    padding: 10% 0 2% 0;
+    border-bottom: 1px solid black;
+}
+
+.contact-title h1{
+    font-size: 54px;
+    font-weight: 700;
+}
+
+.contact-intro-text{
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    width: 40vw;
+}
+
+
+.contact-intro-text p{
+    padding: 20% 0;
+    width: 40vw;
+}
+
+.contacts{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+    padding: 5% 0 10% 0;
+}
+
+.contacts h4{
+    padding-bottom: 2%;
+    font-size: 30px;
+}
+
+.contacts-titles{
+    padding: 3% 0;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.contact-person{
+    color: grey;
+    padding-top: 3%;
+}
+
+/* location */
+
+.location-img{
+filter: grayscale(100%);
+background-size: cover;
+background-position: center;
+width: 20vw;
+height: 25vh;
+margin: 5% 0;
+transition: all .4s ease-in-out;
+}
+
+.location-img:hover{
+filter: grayscale(0%);
+transform: scale(1.02);
+}
+
+.loc1{
+    background-image: url('../../img/locations/factory.png');
+}
+.loc2{
+    background-image: url('../../img/locations/chinaOffice.png');
+}
+.loc3{
+    background-image: url('../../img/locations/europeOffice.png');
+}
+
+.location-adress{
+    font-size: 16px;
+}
+
+.location-phone{
+    color: gray;
+    font-size: 16px;
+}
+
+/* email */
+
+.email-container{
+ width: 100vw;
+ height: auto;
+ background-color: whitesmoke;
+}
+
+.email-wrapper{
+    width: 70vw !important;
+    margin: 0 auto;
+    padding: 5% 0;
+}
+
+.email-form-title{
+    padding-bottom: 5%;
+    font-size: 52px;
+}
+
+.name-email-inputs{
+    width: 48%;
+    padding: 3% 0 !important;
+}
+
+.message-input{
+    width: 100%;
+    padding: 3% 0 !important;
+}
+
+.name-email-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-form{
+    background-color: transparent;
+    border: 1px solid black !important ;
+    padding: 1vw 4vw;
+    margin-top: 3vh;
+}
+
+.btn-form:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+
+@media (max-width: 1110px) {
+
+    .contact-title h1{
+        font-size: 40px;
+    }
+
+    .contact-intro-text{
+        width: 70vw;
+    }
+
+    .contact-wrapper{
+        width: 90vw;
+    }
+
+    .contacts-titles h5{
+        font-size: 16px;
+    }
+
+    .contact-intro-text p{
+        width: 70vw;
+    }
+
+    .contacts{
+        display: block;
+    }
+
+    .contacts>div{
+       margin-top: 10%;
+    }
+
+
+    .location-img{
+        background-color: khaki;
+        width: 90vw;
+        height: 30vh;
+        margin: 5% 0;
+    }
+
+    /* email */
+
+    .email-wrapper{
+        width: 90vw !important;
+    }
+
+    .name-email-inputs{
+        width: 100%;
+    }
+
+    .name-email-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn-form{
+        background-color: transparent;
+        border: 1px solid black !important ;
+        padding: 3vw 5vw;
+        margin-top: 3vh;
+        font-size: 20px;
+    }
+
+    .email-form-title{
+        font-size: 30px;
+        padding-bottom: 1%;
+    }
+}

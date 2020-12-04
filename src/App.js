@@ -1,10 +1,9 @@
 import React, { useRef, useState, Suspense } from "react";
 import "./App.css";
 import HomeComponent from "./pages/1. Home/HomeComponent";
-import ProjectsComponent from "./pages/5. Projects/ProjectsComponent";
 import ProductsComponent from "./pages/4. Products/ProductsComponent";
 import TeamComponent from "./pages/3. Team/TeamComponent";
-import ContactComponent from "./pages/6. Contact/ContactComponent";
+import ContactComponent from "./pages/5. Contact/ContactComponent";
 import Navigation from "./components/Navigation/Navigation";
 import AboutComponent from "./pages/2. About/AboutComponent";
 import Sensor from "react-visibility-sensor";
@@ -25,21 +24,18 @@ function App() {
   const [aboutInViewport, setAboutInViewport] = useState(false);
   const [teamInViewport, setTeamInViewport] = useState(false);
   const [productsInViewport, setProductsInViewport] = useState(false);
-  const [projectsInViewport, setProjectsInViewport] = useState(false);
   const [contactInViewport, setContactInViewport] = useState(false);
 
   const HomeRef = useRef(null);
   const AboutRef = useRef(null);
   const TeamRef = useRef(null);
   const ProductsRef = useRef(null);
-  const ProjectsRef = useRef(null);
   const ContactRef = useRef(null);
 
   const executeScrollToHome = () => scrollToRef(HomeRef);
   const executeScrollToAbout = () => scrollToRefAbout(AboutRef);
   const executeScrollToTeam = () => scrollToRef(TeamRef);
   const executeScrollToProducts = () => scrollToRef(ProductsRef);
-  const executeScrollToProjects = () => scrollToRef(ProjectsRef);
   const executeScrollToContact = () => scrollToRef(ContactRef);
 
   const onChangeAbout = (inView) => {
@@ -50,9 +46,6 @@ function App() {
   };
   const onChangeProducts = (inView) => {
     inView ? setProductsInViewport(true) : setProductsInViewport(false);
-  };
-  const onChangeProjects = (inView) => {
-    inView ? setProjectsInViewport(true) : setProjectsInViewport(false);
   };
   const onChangeContact = (inView) => {
     inView ? setContactInViewport(true) : setContactInViewport(false);
@@ -78,13 +71,11 @@ function App() {
         aboutInViewport={aboutInViewport}
         teamInViewport={teamInViewport}
         productsInViewport={productsInViewport}
-        projectsInViewport={projectsInViewport}
         contactInViewport={contactInViewport}
         executeScrollToHome={executeScrollToHome}
         executeScrollToAbout={executeScrollToAbout}
         executeScrollToTeam={executeScrollToTeam}
         executeScrollToProducts={executeScrollToProducts}
-        executeScrollToProjects={executeScrollToProjects}
         executeScrollToContact={executeScrollToContact}
       />
       <Suspense fallback="loading">
@@ -106,11 +97,6 @@ function App() {
       <Observer onChange={onChangeProducts}>
         <Sensor>
           <ProductsComponent t={t} ProductsRef={ProductsRef} />
-        </Sensor>
-      </Observer>
-      <Observer onChange={onChangeProjects}>
-        <Sensor>
-          <ProjectsComponent t={t} ProjectsRef={ProjectsRef} />
         </Sensor>
       </Observer>
       <Observer onChange={onChangeContact}>

@@ -28,6 +28,10 @@
     background-image: url('../../img/about4.jpg'); 
     background-size: cover;
 }
+.about5{
+    background-image: url('../../img/about5.jpg'); 
+    background-size: cover;
+}
 .about-text-wrapper-left{
     padding: 8% 5%;
     padding-right: 20%;

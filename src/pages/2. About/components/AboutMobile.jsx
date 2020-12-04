@@ -52,6 +52,18 @@ function AboutDesktop(props) {
           </div>
         </div>
       </FadeInOnScroll>
+      <FadeInOnScroll>
+        <div className="row about-photos-text-container">
+          <div className="col-12 about-photos about5"></div>
+          <div className="about-text col-12">
+            <div className="about-text-wrapper">
+            <h5>{props.t("about.title5")}</h5>
+              <h2>{props.t("about.5")}</h2>
+              <p>{props.t("about.description5")}</p>
+            </div>
+          </div>
+        </div>
+      </FadeInOnScroll>
     </>
   );
 }

@@ -56,7 +56,6 @@ const BurgerMenu = (props) => {
           executeScrollToAbout={props.executeScrollToAbout}
           executeScrollToHome={props.executeScrollToHome}
           executeScrollToProducts={props.executeScrollToProducts}
-          executeScrollToProjects={props.executeScrollToProjects}
           executeScrollToTeam={props.executeScrollToTeam}
           executeScrollToContact={props.executeScrollToContact}
         />

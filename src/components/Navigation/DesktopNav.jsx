@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import logo from "../../img/innovision.png";
+import logo from "../../img/logo.png";
 import "./nav.css";
 
 const DesktopNav = (props) => {
@@ -47,13 +47,6 @@ const DesktopNav = (props) => {
           to="/"
         >
           {props.t("nav.products")}
-        </NavLink>
-        <NavLink
-          className={props.projectsInViewport ? "active-link" : ""}
-          onClick={props.executeScrollToProjects}
-          to="/"
-        >
-          {props.t("nav.projects")}
         </NavLink>
         <NavLink
           className={props.contactInViewport ? "active-link" : ""}

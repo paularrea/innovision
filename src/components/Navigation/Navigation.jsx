@@ -1,7 +1,7 @@
 import React from "react";
 
 import DesktopNav from "./DesktopNav";
-import logo from "../../img/innovision.png";
+import logo from "../../img/logo.png";
 import HideOnScroll from "../HideOnScroll";
 import Media from "react-media";
 import "./nav.css";
@@ -17,13 +17,11 @@ function Navigation(props) {
           handleClick={props.handleClick}
           aboutInViewport={props.aboutInViewport}
           productsInViewport={props.productsInViewport}
-          projectsInViewport={props.projectsInViewport}
           contactInViewport={props.contactInViewport}
           teamInViewport={props.teamInViewport}
           executeScrollToAbout={props.executeScrollToAbout}
           executeScrollToHome={props.executeScrollToHome}
           executeScrollToProducts={props.executeScrollToProducts}
-          executeScrollToProjects={props.executeScrollToProjects}
           executeScrollToTeam={props.executeScrollToTeam}
           executeScrollToContact={props.executeScrollToContact}
         />
@@ -46,7 +44,6 @@ function Navigation(props) {
               executeScrollToAbout={props.executeScrollToAbout}
               executeScrollToHome={props.executeScrollToHome}
               executeScrollToProducts={props.executeScrollToProducts}
-              executeScrollToProjects={props.executeScrollToProjects}
               executeScrollToTeam={props.executeScrollToTeam}
               executeScrollToContact={props.executeScrollToContact}
             />

@@ -17,11 +17,6 @@ function menu(props) {
     props.executeScrollToProducts();
   };
 
-  const onClickProjects = () => {
-    props.closeModal();
-    props.executeScrollToProjects();
-  };
-
   const onClickContact = () => {
     props.closeModal();
     props.executeScrollToContact();
@@ -38,9 +33,6 @@ function menu(props) {
         </Link>
         <Link onClick={onClickProducts} to="/">
         {props.t("nav.products")}
-        </Link>
-        <Link onClick={onClickProjects} to="/">
-        {props.t("nav.projects")}
         </Link>
         <Link onClick={onClickContact} to="/">
         {props.t("nav.contact")}

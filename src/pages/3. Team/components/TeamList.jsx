@@ -1,5 +1,9 @@
 import React from "react";
 import FadeInOnScroll from "../../../components/FadeInOnScroll";
+import georgeZhou from "../../../img/team-members/georgeZhou.jpg";
+import bennyYou from "../../../img/team-members/bennyYou.png";
+import lufanChen from "../../../img/team-members/lufanChen.png";
+import weihaoZhang from "../../../img/team-members/weihaoZhang.png";
 
 const TeamList = (props) => {
   
@@ -8,7 +12,7 @@ const TeamList = (props) => {
       <div className="member-card col-12 col-md-4">
         <FadeInOnScroll>
           <div className="member-img">
-            <img src={props.t("teamList.img1")} alt="" />
+            <img src={georgeZhou} alt="George Zhou profile" />
           </div>
           <div className="member-info">
             <p>{props.t("teamList.position1")}</p>
@@ -19,7 +23,7 @@ const TeamList = (props) => {
         <div className="member-card col-12 col-md-4">
         <FadeInOnScroll>
           <div className="member-img">
-            <img src={props.t("teamList.img2")} alt="" />
+          <img src={bennyYou} alt="Benny You profile" />
           </div>
           <div className="member-info">
             <p>{props.t("teamList.position2")}</p>
@@ -30,7 +34,7 @@ const TeamList = (props) => {
         <div className="member-card col-12 col-md-4">
         <FadeInOnScroll>
           <div className="member-img">
-            <img src={props.t("teamList.img3")} alt="" />
+          <img src={lufanChen} alt="Lufan Chen profile" />
           </div>
           <div className="member-info">
             <p>{props.t("teamList.position3")}</p>
@@ -41,7 +45,7 @@ const TeamList = (props) => {
         <div className="member-card col-12 col-md-4">
         <FadeInOnScroll>
           <div className="member-img">
-            <img src={props.t("teamList.img4")} alt="" />
+          <img src={weihaoZhang} alt="Weihao Zhang profile" />
           </div>
           <div className="member-info">
             <p>{props.t("teamList.position4")}</p>
