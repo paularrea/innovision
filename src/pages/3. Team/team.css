@@ -29,7 +29,7 @@
 /* Video Component */
 
 .video-component{
-    position: relative; /* could be absolute if needed */
+    position: relative;
     top: -7vw;
     margin-top: 0;
     width: 100%;
