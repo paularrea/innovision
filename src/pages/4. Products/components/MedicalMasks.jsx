@@ -10,10 +10,6 @@ import foto4 from "../../../img/products/MedicalMasks/4/Disposable surgical mask
 import foto44 from "../../../img/products/MedicalMasks/4/Disposable surgical mask IIR shield earloops（Photo of the mannequin with the mask on it  front image）.jpg";
 import foto5 from "../../../img/products/MedicalMasks/5/Disposable surgical mask IIR shield ties（Profile picture to see earloops ）.jpg";
 import foto55 from "../../../img/products/MedicalMasks/5/Disposable surgical mask IIR shield ties（Photo of the mannequin with the mask on it front image）.jpg";
-import foto6 from "../../../img/products/MedicalMasks/6/Coveralls (Front image).jpg";
-import foto66 from "../../../img/products/MedicalMasks/6/Coveralls (Photo of the body mannequin with the product on it).jpg";
-import foto7 from "../../../img/products/MedicalMasks/7/Coveralls without sealing stripes (Front image).jpg";
-import foto77 from "../../../img/products/MedicalMasks/7/Coveralls without sealing stripes (Photo of the body mannequin with the product on it).jpg";
 
 const MedicalMasks = (props) => {
   const products = [
@@ -29,46 +25,46 @@ const MedicalMasks = (props) => {
       img1: foto2,
       img2: foto22,
     },
+    // {
+    //   id: 3,
+    //   name: "Kids disposable surgical mask IIR earloops",
+    //   img1: foto3,
+    //   img2: foto33,
+    // },
+    // {
+    //   id: 4,
+    //   name: "Disposable surgical mask IIR earloops",
+    //   img1: foto4,
+    //   img2: foto44,
+    // },
     {
-      id: 3,
-      name: "Kids disposable surgical mask IIR earloops",
+      id: 5,
+      name: "Disposable surgical mask IIR ties",
       img1: foto3,
       img2: foto33,
     },
     {
-      id: 4,
-      name: "Disposable surgical mask IIR earloops",
+      id: 6,
+      name: "Disposable surgical mask IIR shield earloops",
       img1: foto4,
       img2: foto44,
     },
     {
-      id: 5,
-      name: "Disposable surgical mask IIR ties",
-      img1: foto5,
-      img2: foto55,
-    },
-    {
-      id: 6,
-      name: "Disposable surgical mask IIR shield earloops",
-      img1: foto6,
-      img2: foto66,
-    },
-    {
       id: 7,
       name: "Disposable surgical mask IIR shield ties",
-      img1: foto7,
-      img2: foto77,
+      img1: foto5,
+      img2: foto55,
     },
   ];
 
   const productList = products.map((product) => (
-    <div className="product-card col-12 col-md-3">
+    <div className="product-card col-12 col-sm-4">
       <div className="mx-auto product-img">
         <img
           onMouseOver={(e) => (e.currentTarget.src = product.img2)}
           onMouseOut={(e) => (e.currentTarget.src = product.img1)}
           src={product.img1}
-          alt=""
+          alt="medical mask product"
         />
       </div>
       <div className="mx-auto product-text">
@@ -77,7 +73,11 @@ const MedicalMasks = (props) => {
     </div>
   ));
 
-  return <div className="row product-list">{productList}</div>;
+  return (
+    <div className="product-list">
+      <div className="row">{productList}</div>
+    </div>
+  );
 };
 
 export default MedicalMasks;

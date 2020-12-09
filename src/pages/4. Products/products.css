@@ -1,35 +1,38 @@
 .products-wrapper{
     margin: 0 auto;
+    padding-top: 60px;
     width: 70vw;
     height: auto;
 }
 
 .product-list{
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    padding: 0 20px;
+    width: 70vw;
+    margin: 0 auto;
+    height: fit-content;
 }
 
 .product-img{
     background-color: #84C0C6;
-
-    width: 23vw;
-    height: 23vw;
+    width: 22vw;
+    height: auto;
 }
 
 .product-img img{
     width: 100%;
     height: 100%;
+    object-fit: cover;
+    object-position: center center;
 }
 
 .product-card{
-    width: 20vw;
     margin-top: 4%;
+    padding: 0 1rem;
+  
 }
 
 .category-container{
-    margin-top: 15vw;
+    margin-top: 5vw;
 }
 
 .title-filter-wrapper{
@@ -76,41 +79,25 @@
     }
 
 
-
-@media (max-width: 1110px) {
-    
-    .projects-title{
-        width: 50%;
-        padding: 10% 0 2% 0;
-    }
-    
-    .projects-btn{
-        width: 20%;
-    }
-
-    .projects-title h1{
-        font-size: 40px;
-        font-weight: 700;
-    }
-
-    .products-wrapper{
-        margin: 0 auto;
-        width: 95vw;
-        height: auto;
-    }
-
+@media (max-width: 765px) {
     .product-img{
-        height: 250px;
+        width: 90vw;
+        margin-top: 2rem;
     }
-
-    .react-reveal{
-        padding: 0 !important;
+    .product-list{
+        padding: 0;
+        width: 70vw;
     }
+}
 
-    .product-card{
-        width: 48%;
-        margin-top: 4%;
-        height: 400px;
+/* ipad */
+@media (max-width: 950px) {
+
+    .product-list{
+        padding: 0;
+        width: 90vw;
     }
-
-      }
+    .product-img{
+        width: 28vw;
+    }
+}

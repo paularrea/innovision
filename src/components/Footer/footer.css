@@ -78,7 +78,7 @@
   }
   .contact-social-media-wrapper div{
     padding-bottom: 5%;
-    width: 100%;
+    width: 60vw;
   }
 
   .contact-footer-wrapper{
@@ -92,3 +92,21 @@
     width: 60% !important;
   }
 }
+
+@media (max-width: 600px) { 
+
+  .contact-footer-wrapper{
+    width: 100% !important;
+    }
+
+    .contact-social-media-wrapper div{
+      padding-bottom: 5%;
+      width: 100%;
+    }
+    .privacy-cookies-footer-wrapper{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100% !important;
+    }
+  }

@@ -1,58 +1,55 @@
 import React from "react";
-import FadeInOnScroll from "../../../components/FadeInOnScroll";
 
 const PersonalProtectiveEquipment = (props) => {
   const products = [
     {
       id: 1,
-      name: "Mask FFP2 earloops small size",
+      name: "Polybag FFP2 earloops small size",
     },
     {
       id: 2,
-      name: "Mask FFP2 earloops",
+      name: "Polybag mask FFP2 earloops",
     },
     {
       id: 3,
-      name: "Mask FFP2 headloops",
+      name: "Polybag mask FFP3 earloops",
     },
     {
       id: 4,
-      name: "Mask FFP3 earloops",
+      name: "Polybag kids disposable surgical mask IIR earloops",
     },
     {
       id: 5,
-      name: "Mask FFP3 headloops",
+      name: "Polybag disposable surgical mask IIR earloops",
     },
     {
       id: 6,
-      name: "Safety glasses",
+      name: "Polybag kids disposable mask earloops",
     },
     {
       id: 7,
-      name: "Goggles",
-    },
-    {
-      id: 8,
-      name: "Face shield",
+      name: "Polybag disposable mask earloops",
     },
   ];
 
   const productList = products.map((product) => (
-    <div className="product-card col-12 col-md-3">
-      <FadeInOnScroll>
+    <div className="product-card col-12 col-md-4">
         <div className="product-img">
-          <img src={product.img} alt="" />
+          <img src={product.img} alt="Retail product" />
         </div>
         <div className="product-text">
           <div className="product-name">
             <h3>{product.name}</h3>
           </div>
         </div>
-      </FadeInOnScroll>
     </div>
   ));
 
-  return <div className="row product-list">{productList}</div>;
+  return (
+    <div className="product-list">
+      <div className="row">{productList}</div>
+    </div>
+  );
 };
 
 export default PersonalProtectiveEquipment;

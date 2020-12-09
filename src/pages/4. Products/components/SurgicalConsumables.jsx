@@ -119,9 +119,9 @@ const SurgicalConsumables = (props) => {
   ];
   // style={{backgroundImage:`url(${product.img1})`}}
   const productList = products.map((product) => (
-    <div className="product-card col-12 col-md-3">
-        <div className="mx-auto product-img">
-          <img onMouseOver={e => (e.currentTarget.src = product.img2)} onMouseOut={e => (e.currentTarget.src = product.img1)} src={product.img1} alt="" />
+    <div className="product-card col-12 col-md-4">
+        <div className="mx-auto d-flex justify-content-start product-img">
+          <img onMouseOver={e => (e.currentTarget.src = product.img2)} onMouseOut={e => (e.currentTarget.src = product.img1)} src={product.img1} alt="surgical consumable product" />
         </div>
         <div className="mx-auto product-text">
             <h3>{product.name}</h3>
@@ -129,7 +129,11 @@ const SurgicalConsumables = (props) => {
     </div>
   ));
 
-  return <div className="row product-list">{productList}</div>;
+  return (
+    <div className="product-list">
+      <div className="row">{productList}</div>
+    </div>
+  );
 };
 
 export default SurgicalConsumables;

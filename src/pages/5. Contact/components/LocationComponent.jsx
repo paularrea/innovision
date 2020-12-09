@@ -17,7 +17,7 @@ function LocationComponent(props) {
             <h4>Factory</h4>
             <p className="location-adress">
               No.12 Xinshi Road <br /> Qianzhou supporting area <br /> Wuxi
-              Huishan Economic Development Zone <br /> Jiangsu, China
+              Huishan <br /> Economic Development Zone <br /> Jiangsu, China
             </p>
             <p className="location-phone">T. +34930204345</p>
           </div>

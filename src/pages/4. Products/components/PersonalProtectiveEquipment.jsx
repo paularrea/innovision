@@ -1,5 +1,4 @@
 import React from "react";
-import FadeInOnScroll from "../../../components/FadeInOnScroll";
 
 import foto1 from "../../../img/products/PersonalProtectiveEquipment/1/Kids mask FFP2 earloops（Profile picture to see earloops and headloops） 2.jpg";
 import foto11 from "../../../img/products/PersonalProtectiveEquipment/1/Kids mask FFP2 earloops（Photo of the mannequin with the mask on it profile image）.jpg";
@@ -71,9 +70,9 @@ const PersonalProtectiveEquipment = (props) => {
   ];
   // style={{backgroundImage:`url(${product.img1})`}}
   const productList = products.map((product) => (
-    <div className="product-card col-12 col-md-3">
+    <div className="product-card col-12 col-md-4">
         <div className="mx-auto product-img">
-          <img onMouseOver={e => (e.currentTarget.src = product.img2)} onMouseOut={e => (e.currentTarget.src = product.img1)} src={product.img1} alt="" />
+          <img onMouseOver={e => (e.currentTarget.src = product.img2)} onMouseOut={e => (e.currentTarget.src = product.img1)} src={product.img1} alt="personal protective equipment" />
         </div>
         <div className="mx-auto product-text">
             <h3>{product.name}</h3>
@@ -81,7 +80,11 @@ const PersonalProtectiveEquipment = (props) => {
     </div>
   ));
 
-  return <div className="row product-list">{productList}</div>;
+  return (
+    <div className="product-list">
+      <div className="row">{productList}</div>
+    </div>
+  );
 };
 
 export default PersonalProtectiveEquipment;
