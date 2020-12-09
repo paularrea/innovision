@@ -4,8 +4,8 @@ import logo from "../../img/logo.png";
 import "./nav.css";
 
 const DesktopNav = (props) => {
-  const [activeEn, setActiveEn] = useState(false);
-  const [activeEs, setActiveEs] = useState(true);
+  const [activeEn, setActiveEn] = useState(true);
+  const [activeEs, setActiveEs] = useState(false);
 
   const onClickEnglish = () => {
     props.handleClick("en");
