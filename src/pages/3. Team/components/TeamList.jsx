@@ -53,7 +53,7 @@ const TeamList = (props) => {
           </div>
         </FadeInOnScroll>
       </div>
-      <div className="member-card col-12 col-md-4">
+      {/* <div className="member-card col-12 col-md-4">
         <FadeInOnScroll>
           <div className="member-img">
             <img src={props.t("teamList.img5")} alt="" />
@@ -96,7 +96,7 @@ const TeamList = (props) => {
             <h3>{props.t("teamList.name8")}</h3>
           </div>
         </FadeInOnScroll>
-      </div>
+      </div> */}
       <div className="member-card col-12 col-md-4">
         <FadeInOnScroll>
           <div className="member-img">

@@ -43,9 +43,6 @@
     margin: 0 auto !important;
     width: 70vw;
     height: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .member-card{
@@ -55,7 +52,6 @@
 }
 
 .member-img{
-    background-color: #D56F3E;
     width: 22vw;
     height: 22vw;
     filter: grayscale(90%);
@@ -104,11 +100,10 @@
 /* Team List */
 
 .teamList-wrapper{
-    width: 95vw;
+    width: 100%;
 }
 
 .member-card{
-    width: 48%;
     margin-top: 4%;
     height: 400px;
 }
@@ -117,15 +112,14 @@
     width: 30vw;
     height: 30vw;
 }
-
-  }
-
+}
 
 
-  @media (max-width: 772px) { 
+
+  @media (max-width: 750px) { 
 
     .member-card{
-        width: 48%;
+        /* width: 48%; */
         margin-top: 10%;
         height: auto;
     }
