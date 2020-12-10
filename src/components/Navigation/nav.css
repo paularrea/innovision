@@ -2,6 +2,7 @@
     /* position: absolute;
     right: 5vw; */
     margin-left: 2vw;
+    font-family: 'Roboto';
   }
   
   .active-link-lang{
@@ -18,6 +19,7 @@
   
   .logo{
     width: 300px;
+    cursor: pointer;
   }
   
   .navigation{
@@ -42,8 +44,8 @@
   }
   
   .menu-links a{
-  margin-left: 1vw;
-  padding: 0 .5vw;
+  margin-left: 1vw !important;
+  padding: 0 .8vw;
   width: max-content;
   
   }

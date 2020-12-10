@@ -14,19 +14,19 @@
     justify-content: space-between;
     align-items: flex-start;
   }
+
+  .footer-wrapper a{
+    color: white !important;
+  }
+  .footer-wrapper a:hover{
+    color: rgb(216, 216, 216) !important;
+  }
   
   .footer-location{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     width: 45vw;
-  }
-
-  .footer-location a{
-    color: white !important;
-  }
-  .footer-location a:hover{
-    color: rgb(216, 216, 216) !important;
   }
   
   .contact-social-media-wrapper div{

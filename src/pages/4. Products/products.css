@@ -46,6 +46,16 @@
 
 .category-container{
     margin-top: 5vw;
+    padding-top: 5vw;
+    width: 70vw;
+    margin: 0 auto;
+}
+
+.category-container h2{
+    background-image: linear-gradient(120deg, #0da29878 0%, #0da29850 100%) !important;
+    background-repeat: no-repeat !important;
+    background-size: 150% 0.55em !important;
+    background-position: 0 100% !important;
 }
 
 .title-filter-wrapper{
@@ -100,6 +110,9 @@
     }
     .product-img{
         width: 28vw;
+    }
+    .category-container{
+        width: 90vw;
     }
 }
 

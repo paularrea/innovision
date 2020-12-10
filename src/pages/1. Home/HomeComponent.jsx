@@ -1,6 +1,7 @@
 import React from "react";
 import "./home.css";
 import { Helmet } from "react-helmet";
+import FadeIn from "react-fade-in";
 
 function HomeComponent(props) {
   return (
@@ -13,11 +14,13 @@ function HomeComponent(props) {
         />
       </Helmet>
       <div className="landing-start">
-      <div className="intro-text-container">
-          <div className="intro-phrase">
-            <h2>{props.t("home.text")}</h2>
+        <FadeIn delay={400} transitionDuration={1000}>
+          <div className="intro-text-container">
+            <div className="intro-phrase">
+              <h1>{props.t("home.text")}</h1>
+            </div>
           </div>
-        </div>
+        </FadeIn>
       </div>
     </div>
   );

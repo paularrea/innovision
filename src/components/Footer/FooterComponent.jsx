@@ -61,7 +61,7 @@ function FooterComponent() {
           <div>
             <h5>SOCIAL MEDIA</h5>
             <div className="media-footer-wrapper">
-              <p>LinkedIn</p>
+            <a href="https://www.linkedin.com/company/innovision-medical/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
               <p>Instagram</p>
               <p>Facebook</p>
               <p>Twitter</p>
