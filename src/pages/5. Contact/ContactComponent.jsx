@@ -7,7 +7,7 @@ import { Helmet } from "react-helmet";
 
 function ContactComponent(props) {
   return (
-    <div ref={props.ContactRef} className="page">
+    <div ref={props.ContactRef} className="page contact-page">
       <Helmet>
         <title>Innovision Medical</title>
         <meta
@@ -20,7 +20,7 @@ function ContactComponent(props) {
         <FadeInOnScroll>
           <KeyContactsComponent t={props.t} />
         </FadeInOnScroll>
-
+        <div className="separator"></div>
         <FadeInOnScroll>
           <LocationComponent t={props.t} />
         </FadeInOnScroll>

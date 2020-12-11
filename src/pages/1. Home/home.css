@@ -33,6 +33,7 @@
 
 .intro-phrase h1{
     font-size: 7rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .intro-text{
@@ -55,7 +56,9 @@
     color: #96ce27b7;
 }
 @media (max-width: 1110px) { 
-
+    .intro-phrase h1{
+       text-align: center;
+    }
     .landing-start-content{
         width: 65vw;
         font-size: 16px;
@@ -71,7 +74,6 @@
         margin-top: 3vh;
         font-size: 20px;
     }
-
     .landing-start{
         display: flex;
         flex-direction: column;
@@ -84,7 +86,6 @@
         justify-content: center;
         align-items: center;
     }
-
     .intro-text-container{
         width: 80vw;
         margin-left: 3vw;
@@ -94,22 +95,18 @@
         z-index: 999;
         color: white;
     }
-
-    .intro-phrase h1{
+  .intro-phrase h1{
         font-size: 4.5rem;
     }
  }
 
- @media (max-width: 700px) { 
-         
+ @media (max-width: 700px) {      
     .intro-phrase h1{
         font-size: 3rem;
     }
-
     .intro-text-container{
          margin-top: 21vw;
          padding: 2vw;
 
     }
- 
  }

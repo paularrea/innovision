@@ -58,7 +58,7 @@ const MedicalMasks = (props) => {
   ];
 
   const productList = products.map((product) => (
-    <div className="product-card col-12 col-sm-2">
+    <div className="product-card col-12 col-md-2">
       <div className="mx-auto product-img">
         <img
           onMouseOver={(e) => (e.currentTarget.src = product.img2)}

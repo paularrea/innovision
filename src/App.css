@@ -131,7 +131,7 @@ animation-name: fadeInLeft;
   .big-text h2{
     font-size: 22px;
     font-weight: 700;
-    padding-bottom: 3%;
+    padding: 3%;
   }
   
   .big-text p{
