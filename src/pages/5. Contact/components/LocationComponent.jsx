@@ -2,7 +2,7 @@ import React from "react";
 
 function LocationComponent(props) {
   return (
-    <>
+    <div className='locations'>
       <div className="contacts-titles">
         <h5>{props.t("contact.locations")}</h5>
       </div>
@@ -19,7 +19,6 @@ function LocationComponent(props) {
               No.12 Xinshi Road <br /> Qianzhou supporting area <br /> Wuxi
               Huishan <br /> Economic Development Zone <br /> Jiangsu, China
             </p>
-            <p className="location-phone">T. +34930204345</p>
           </div>
         </a>
         <a
@@ -34,7 +33,6 @@ function LocationComponent(props) {
               Room 3909 <br /> International Financial Squre <br /> Liangxi
               District <br /> Wuxi
             </p>
-            <p className="location-phone">T. +34930204345</p>
           </div>
         </a>
         <a
@@ -49,11 +47,10 @@ function LocationComponent(props) {
               Avinguda Sant Pere, 63 <br /> Secà de Sant Pere <br /> 25005
               Lleida <br /> Spain
             </p>
-            <p className="location-phone">T. +861065035108</p>
           </div>
         </a>
       </div>
-    </>
+    </div>
   );
 }
 

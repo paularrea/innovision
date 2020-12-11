@@ -12,10 +12,10 @@ function AboutComponent(props) {
         <title>Innovision Medical</title>
         <meta name="description" content="This is the Innovision Medical about page" />
       </Helmet>
-      <Media query={{ maxWidth: 1100 }}>
+      <Media query={{ maxWidth: 1200 }}>
       <AboutMobile t={props.t}/>
       </Media>
-      <Media query={{ minWidth: 1100 }}>
+      <Media query={{ minWidth: 1200 }}>
       <AboutDesktop t={props.t}/>
       </Media>
     </section>

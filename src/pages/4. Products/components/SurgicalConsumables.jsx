@@ -3,7 +3,7 @@ import React from "react";
 import foto1 from "../../../img/products/SurgicalConsumables/1/Coveralls Front image.jpg";
 import foto11 from "../../../img/products/SurgicalConsumables/1/Coveralls Photo of the body mannequin with the product on it.jpg";
 import foto2 from "../../../img/products/SurgicalConsumables/2/Coveralls without sealing stripes Front image.jpg";
-import foto22 from "../../../img/products/SurgicalConsumables/2/Coveralls without sealing stripes Neck of the product.jpg";
+import foto22 from "../../../img/products/SurgicalConsumables/2/Coveralls without sealing stripes Photo of the body mannequin with the product on it.jpg";
 import foto3 from "../../../img/products/SurgicalConsumables/3/No sleeve surgical gown Front image.jpg";
 import foto33 from "../../../img/products/SurgicalConsumables/3/No sleeve surgical gown Photo of the body mannequin with the product on it.jpg";
 import foto4 from "../../../img/products/SurgicalConsumables/4/Short sleeve surgical gown Front image.jpg";
@@ -119,19 +119,19 @@ const SurgicalConsumables = (props) => {
   ];
   // style={{backgroundImage:`url(${product.img1})`}}
   const productList = products.map((product) => (
-    <div className="product-card col-12 col-md-4">
+    <div className="product-card col-12 col-md-2">
         <div className="mx-auto d-flex justify-content-start product-img">
           <img onMouseOver={e => (e.currentTarget.src = product.img2)} onMouseOut={e => (e.currentTarget.src = product.img1)} src={product.img1} alt="surgical consumable product" />
         </div>
         <div className="mx-auto product-text">
-            <h3>{product.name}</h3>
+            <p>{product.name}</p>
         </div>
     </div>
   ));
 
   return (
     <div className="product-list">
-      <div className="row">{productList}</div>
+      <div className="row justify-content-center">{productList}</div>
     </div>
   );
 };

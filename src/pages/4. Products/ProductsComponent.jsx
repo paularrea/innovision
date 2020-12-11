@@ -16,22 +16,28 @@ function ProductsComponent(props) {
           content="This is the Innovision Medical products page"
         />
       </Helmet>
+      <div className="separator"></div>
       <FadeInOnScroll>
-        <div className='category-container'>
-          <h2 className="text-center">Personal Protective Equipment</h2>
+        <div className='products-title'>
+          <h2 className="text-center">OUR PRODUCTS</h2>
+        </div>
+      </FadeInOnScroll>
+      <FadeInOnScroll>
+        <div className="category-container">
+          <h3 className="text-center">PERSONAL PROTECTIVE EQUIMPMENT</h3>
           <PersonalProtectiveEquipment />
         </div>
       </FadeInOnScroll>
       <FadeInOnScroll>
-      <div className='category-container'>
-          <h2 className="text-center">Medical Masks</h2>
+        <div className="category-container">
+          <h3 className="text-center">MEDICAL MASKS</h3>
           <MedicalMasks />
         </div>
       </FadeInOnScroll>
       <FadeInOnScroll>
-      <div className='category-container'>
-          <h2 className="text-center">Surgical Consumables</h2>
-          <SurgicalConsumables/>
+        <div className="category-container">
+          <h3 className="text-center">SURGICAL CONSUMABLES</h3>
+          <SurgicalConsumables />
         </div>
       </FadeInOnScroll>
     </div>

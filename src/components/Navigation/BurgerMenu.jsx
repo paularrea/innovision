@@ -5,8 +5,8 @@ import Menu from "./menu";
 
 const BurgerMenu = (props) => {
   const [open, setOpen] = useState(false);
-  const [activeEn, setActiveEn] = useState(false);
-  const [activeEs, setActiveEs] = useState(true);
+  const [activeEn, setActiveEn] = useState(true);
+  const [activeEs, setActiveEs] = useState(false);
 
   const onClickEnglish = () => {
     props.handleClick("en");

@@ -39,7 +39,7 @@ const PersonalProtectiveEquipment = (props) => {
         </div>
         <div className="product-text">
           <div className="product-name">
-            <h3>{product.name}</h3>
+            <p>{product.name}</p>
           </div>
         </div>
     </div>
@@ -47,7 +47,7 @@ const PersonalProtectiveEquipment = (props) => {
 
   return (
     <div className="product-list">
-      <div className="row">{productList}</div>
+      <div className="row justify-content-center">{productList}</div>
     </div>
   );
 };

@@ -58,7 +58,7 @@ const MedicalMasks = (props) => {
   ];
 
   const productList = products.map((product) => (
-    <div className="product-card col-12 col-sm-4">
+    <div className="product-card col-12 col-sm-2">
       <div className="mx-auto product-img">
         <img
           onMouseOver={(e) => (e.currentTarget.src = product.img2)}
@@ -68,14 +68,14 @@ const MedicalMasks = (props) => {
         />
       </div>
       <div className="mx-auto product-text">
-        <h3>{product.name}</h3>
+        <p>{product.name}</p>
       </div>
     </div>
   ));
 
   return (
     <div className="product-list">
-      <div className="row">{productList}</div>
+      <div className="row justify-content-center">{productList}</div>
     </div>
   );
 };

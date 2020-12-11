@@ -17,7 +17,6 @@ function FooterComponent() {
                 No.12 Xinshi Road <br /> Qianzhou supporting area <br /> Wuxi
                 Huishan <br /> Economic Development Zone <br /> Jiangsu, China
               </p>
-              <p className="location-phone">T. +34930204345</p>
             </div>
           </a>
           <a
@@ -31,7 +30,6 @@ function FooterComponent() {
                 Room 3909 <br /> International Financial Squre <br /> Liangxi
                 District <br /> Wuxi
               </p>
-              <p className="location-phone">T. +861065035108</p>
             </div>
           </a>
           <a
@@ -45,7 +43,6 @@ function FooterComponent() {
                 Avinguda Sant Pere, 63 <br /> Secà de Sant Pere <br /> 25005
                 Lleida <br /> Spain
               </p>
-              <p className="location-phone">T. +861065035108</p>
             </div>
           </a>
         </div>
@@ -62,9 +59,6 @@ function FooterComponent() {
             <h5>SOCIAL MEDIA</h5>
             <div className="media-footer-wrapper">
             <a href="https://www.linkedin.com/company/innovision-medical/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-              <p>Instagram</p>
-              <p>Facebook</p>
-              <p>Twitter</p>
             </div>
           </div>
 

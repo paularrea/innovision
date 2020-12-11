@@ -70,19 +70,19 @@ const PersonalProtectiveEquipment = (props) => {
   ];
   // style={{backgroundImage:`url(${product.img1})`}}
   const productList = products.map((product) => (
-    <div className="product-card col-12 col-md-4">
+    <div className="product-card col-12 col-md-2">
         <div className="mx-auto product-img">
           <img onMouseOver={e => (e.currentTarget.src = product.img2)} onMouseOut={e => (e.currentTarget.src = product.img1)} src={product.img1} alt="personal protective equipment" />
         </div>
         <div className="mx-auto product-text">
-            <h3>{product.name}</h3>
+            <p>{product.name}</p>
         </div>
     </div>
   ));
 
   return (
     <div className="product-list">
-      <div className="row">{productList}</div>
+      <div className="row justify-content-center">{productList}</div>
     </div>
   );
 };

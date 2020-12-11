@@ -8,6 +8,10 @@
     },
 
     "home": {
+        "text": "Never stop improving for the healthcare of humanity."
+    },
+
+    "intro-section": {
         "text": "InnoVision Medical is a professional and innovative company specialized in producing medical devices and personal protective equipment."
     },
 
@@ -15,15 +19,15 @@
         "title1": "OUR PURPOSE",
         "1": "Never stop improving for the healthcare of humanity.",
         "description1": "We believe in making the world healthier and doing this in a sustainable way. This is why we come to work every day. We commit to unleash the power of our assets to enhance medical services and systems without depleting natural resources or causing serious ecological damage.",
-        "title2": "OUR STORY",
-        "2": "Expanding our factory in the direction of modernization, integration and scale with more than 170 skilled and experienced employees.",
-        "description2": "7 automatic production lines for flat masks and 6 automatic production lines for folding disposable respirators. 11 semi-automatic production lines can be adjusted as spare equipment to produce any unexpected customized products. While also having the ability to develop various products related to non-woven products, we are investing in more production lines to enrich our product offering and achieve a complete environmentally friendly production.",
+        "title2": "OUR HISTORY",
+        "2": "Serving the global Top-500 companies in the medical industry for 20 years.",
+        "description2": "InnoVision Medical is founded under the business of Tianzhang Medical Material Manufactory which has more than 20 years of history. We are backed up with many years of expertise in the production and development of medical material.",
         "title3": "OUR FACTORY",
-        "3": "Strategizing in 3 axes: product innovation, competitive prices, and customization.",
-        "description3": "Our strategy is to provide first-class products derived from strong technology and innovation at competitive prices, while also invest very wisely to boost customers experience. Since we love to take care of our clients, no matter where they are in the world, we have established dedicated and detail-oriented marketing and after-sales service teams in Asia and Europe.",
+        "3": "Expanding our factory in the direction of modernization, integration and scale with more than 170 skilled and experienced employees.",
+        "description3": "7 automatic production lines for flat masks and 6 automatic production lines for folding disposable respirators. 11 semi-automatic production lines can be adjusted as spare equipment to produce any unexpected customized products. While also having the ability to develop various products related to non-woven products, we are investing in more production lines to enrich our product offering and achieve a complete environmentally friendly production.",
         "title4": "OUR STRATEGY",
-        "4": "Green journey ahead.",
-        "description4": "InnoVision Medical is using advanced technology to develop the ECO product line (bio-based) to deliver a greener offer, and is looking for ways to have a minimal impact on the environment through a more sustainable, environmentally sound and cost-effective process.",
+        "4": "Strategizing in 3 axes: product innovation, competitive prices, and customization.",
+        "description4": "Our strategy is to provide first-class products derived from strong technology and innovation at competitive prices, while also invest very wisely to boost customers experience. Since we love to take care of our clients, no matter where they are in the world, we have established dedicated and detail-oriented marketing and after-sales service teams in Asia and Europe.",
         "text": "English IPSUM DOLOR SIT AMET CONSCTETUR ADIPISICING ELIT NULLA CONSECTETUR, ALIAS CULPA VITAE MOLLITIA MINUS",
         "title5": "OUR BUSINESS PRIORITIES",
         "5": "Green journey ahead.",

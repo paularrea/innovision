@@ -9,9 +9,11 @@
    },
 
     "home":{
-        "title" : "Hola Gente",
-        "description": "Descripción en español.....",
         "text" : "SPANISH IPSUM DOLOR SIT AMET CONSCTETUR ADIPISICING ELIT NULLA CONSECTETUR, ALIAS CULPA VITAE MOLLITIA MINUS"
+    },
+
+    "intro-section": {
+        "text": "InnoVision Medical is a professional and innovative company specialized in producing medical devices and personal protective equipment."
     },
 
     "about": {

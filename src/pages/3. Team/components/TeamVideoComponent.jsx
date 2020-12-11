@@ -10,7 +10,9 @@ const TeamVideoComponent = () => {
   const [isMuted, setIsMuted] = useState(true);
 
   const onChangeVideo = (inView) => {
-    inView ? setVideoInViewport(!videoInViewport) : setVideoInViewport(videoInViewport);
+    inView
+      ? setVideoInViewport(!videoInViewport)
+      : setVideoInViewport(videoInViewport);
     inView ? setIsMuted(false) : setIsMuted(true);
   };
 
