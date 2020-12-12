@@ -46,7 +46,10 @@ button{
   flex-direction: column;
   margin: 6vw auto;
   font-size: 18px;
-
+}
+.separator{
+  height: 6vw;
+  background-color: whitesmoke;
 }
 
 .big-text h5{
@@ -77,7 +80,18 @@ button{
   transform: none;
   visibility: visible;
 }
-
+.fade-in-down {
+  opacity: 0;
+  transform: translateY(-5vh);
+  visibility: hidden;
+  transition: opacity 0.5s ease-out, transform 1.2s ease-out;
+  will-change: opacity, visibility;
+}
+.fade-in-down.is-visible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}
 
 /* fade in left */
 .animated {

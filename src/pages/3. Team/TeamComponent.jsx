@@ -15,7 +15,6 @@ function TeamComponent(props) {
           content="This is the Innovision Medical Team page"
         />
       </Helmet>
-<div className='separator'></div>
       <div className='video-container'>
         <TeamVideoComponent />
       </div>

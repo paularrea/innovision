@@ -89,16 +89,19 @@ function App() {
           <AboutComponent t={t} AboutRef={AboutRef} />
         </Sensor>
       </Observer>
+          <div className="separator"></div>
       <Observer onChange={onChangeTeam}>
         <Sensor>
           <TeamComponent t={t} TeamRef={TeamRef} />
         </Sensor>
       </Observer>
+      <div className="separator"></div>
       <Observer onChange={onChangeProducts}>
         <Sensor>
           <ProductsComponent t={t} ProductsRef={ProductsRef} />
         </Sensor>
       </Observer>
+      <div className="separator"></div>
       <Observer onChange={onChangeContact}>
         <Sensor>
           <ContactComponent t={t} ContactRef={ContactRef} />

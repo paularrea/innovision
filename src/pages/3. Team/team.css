@@ -2,10 +2,6 @@
     width: 100vw;
     height: auto;
 }
-.separator{
-    height: 6vw;
-background-color: whitesmoke;
-}
 .team-photo-container{
     width: 100vw;
     background-image: url('../../img/team-members/team.jpeg');
