@@ -3,7 +3,6 @@ import "./home.css";
 import { Helmet } from "react-helmet";
 import FadeInOnScroll from "../../components/FadeInOnScroll";
 import LandingImg from "./components/LandingImg";
-import Fade from "react-reveal/Fade"
 
 function HomeComponent(props) {
   return (
