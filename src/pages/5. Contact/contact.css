@@ -129,3 +129,22 @@ box-shadow:
     margin: 5% 0;
 }
 }
+
+@media (max-width: 765px) and (max-height:450px){
+    .contacts{
+        width: 90vw;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        padding: 5% 0;
+    }
+    .location-img{
+        background-size: cover;
+        background-position: center;
+        width: 25vw;
+        height: 20vw;
+        margin: 5% 0;
+        transition: all .8s ease-in-out;
+    }
+}

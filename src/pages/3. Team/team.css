@@ -103,3 +103,9 @@
     height: 100%;
 }
 }
+
+@media (max-width: 765px) and (max-height:450px)  {
+.team-photo-container{
+    width: 100vw;
+    height: 100vh;
+}} 

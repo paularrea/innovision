@@ -110,7 +110,7 @@
 }
 @media (max-width: 700px) { 
     .about-photos{
-        height: 30vh;
+        height: 60vw;
     }
     .about-photos-text-container{
         width: 100vw;

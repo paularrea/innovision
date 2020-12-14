@@ -63,6 +63,7 @@ const MedicalMasks = (props) => {
     <div className="product-card col-12 col-md-2">
       <div className="mx-auto product-img">
         <LazyLoadImage
+          className='image-prod'
           effect="blur"
           onMouseOver={(e) => (e.currentTarget.src = product.img2)}
           onMouseOut={(e) => (e.currentTarget.src = product.img1)}
