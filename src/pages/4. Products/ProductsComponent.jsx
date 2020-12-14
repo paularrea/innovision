@@ -15,7 +15,7 @@ function ProductsComponent(props) {
     showPersonalProtectiveEquipment,
     setShowPersonalProtectiveEquipment,
   ] = useState(false);
-  const [showMedicalMasks, setShowMedicalMasks] = useState(false);
+  const [showMedicalMasks, setShowMedicalMasks] = useState(true);
   const [showSurgicalConsumables, setShowSurgicalConsumables] = useState(false);
 
   const onClickProtectiveEquipment = () => {
