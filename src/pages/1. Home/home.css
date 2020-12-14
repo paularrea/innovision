@@ -6,12 +6,11 @@
 }
 .landing-start div img{
     width: 100%;
-    height: 100%;
+    height: 100vh;
     position: fixed;
     z-index: -1;
     object-fit: cover;
 }
-
 .intro-phrase{
     width: 70vw;
     margin: 0 auto;
