@@ -6,6 +6,7 @@ import MedicalMasks from "./components/MedicalMasks";
 import FadeInOnScroll from "../../components/FadeInOnScroll";
 import FadeInDown from "../../components/FadeInDown";
 import SurgicalConsumables from "./components/SurgicalConsumables";
+import Retail from "./components/Retail"
 import UpArrow from "@material-ui/icons/ArrowDropUpOutlined";
 import DownArrow from "@material-ui/icons/ArrowDropDown";
 import cataloge from "../../img/cataloge.jpg";
@@ -17,6 +18,7 @@ function ProductsComponent(props) {
   ] = useState(false);
   const [showMedicalMasks, setShowMedicalMasks] = useState(true);
   const [showSurgicalConsumables, setShowSurgicalConsumables] = useState(false);
+  const [showRetail, setShowRetail] = useState(false);
 
   const onClickProtectiveEquipment = () => {
     setShowPersonalProtectiveEquipment(!showPersonalProtectiveEquipment);
@@ -26,6 +28,9 @@ function ProductsComponent(props) {
   };
   const onClickSurgicalConsumables = () => {
     setShowSurgicalConsumables(!showSurgicalConsumables);
+  };
+  const onClickRetail = () => {
+    setShowRetail(!showRetail);
   };
 
   return (
@@ -84,6 +89,21 @@ function ProductsComponent(props) {
               <FadeInDown>
                 <div className="product-drop">
                   <SurgicalConsumables />
+                </div>
+              </FadeInDown>
+            ) : null}
+          </div>
+        </FadeInOnScroll>
+        <FadeInOnScroll>
+          <div className="category-container">
+            <button onClick={onClickRetail} className="name-arrow">
+              <h4>RETAIL</h4>
+              {showRetail ? <UpArrow /> : <DownArrow />}
+            </button>
+            {showRetail ? (
+              <FadeInDown>
+                <div className="product-drop">
+                  <Retail />
                 </div>
               </FadeInDown>
             ) : null}
