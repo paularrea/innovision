@@ -5,51 +5,47 @@
   box-sizing: border-box;
   font-family:'Karla';
 }
-
 body, html{
   max-width: 100vw;
   overflow-x: hidden;
 }
-
 h1,h2,h3,h4,h5,a{
   font-family:'Rubik';
   margin: 0 !important;
 }
-
 a{
   text-decoration: none !important;
   color: black !important;
 }
-
 p{
   margin: 0 !important;
   font-size: 1.2rem !important;
 }
-
 button{
   border: none;
   background-color: transparent;
   width: fit-content;
   outline: none !important;
 }
-
 .page{
   position: relative;
   width: 100vw !important;
   height: auto;
+  background-color: white;
 }
-
 .big-text {
-  width: 50vw;
+  background-color: rgba(255, 255, 255, .4);
+  width: 100vw;
   height: auto;
   display: flex;
   flex-direction: column;
-  margin: 6vw auto;
+  margin: 0 auto;
+  padding: 10rem 15rem;
   font-size: 18px;
 }
 .separator{
   height: 7rem;
-  background-color: whitesmoke;
+  background-color: whitesmoke !important;
 }
 
 .big-text h5{
@@ -61,12 +57,10 @@ button{
   font-weight: 700;
   padding-bottom: 3%;
 }
-
 .big-text p{
   width: 50vw;
   align-self: center;
 }
-
 /* fade in on scroll */
 .fade-in-section {
   opacity: 0;
@@ -92,64 +86,63 @@ button{
   transform: none;
   visibility: visible;
 }
-
 /* fade in left */
 .animated {
-  -webkit-animation-duration: .4s;
-  animation-duration: .4s;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
-
-@-webkit-keyframes fadeInLeft {
+@-webkit-keyframes fadeInDown {
   0% {
-     opacity: 0.8;
-     -webkit-transform: translateX(100vw);
+     opacity: 0;
+     -webkit-transform: translateY(35vh);
   }
   100% {
      opacity: 1;
-     -webkit-transform: translateX(0px);
+     -webkit-transform: translateY(65vh);
   }
 }
-
-@keyframes fadeInLeft {
+@keyframes fadeInDown {
   0% {
-     opacity: 0.8;
-     transform: translateX(100vw);
+     opacity: 0;
+     transform: translateY(35vh);
   }
   100% {
      opacity: 1;
-     transform: translateX(0px);
+     transform: translateY(65vh);
   }
 }
-
-.fadeInLeft {
--webkit-animation-name: fadeInLeft;
-animation-name: fadeInLeft;
+.fadeInDown {
+-webkit-animation-name: fadeInDown;
+animation-name: fadeInDown;
 } 
 
 @media (max-width: 1250px) { 
-
   .big-text {
-    width: 80vw;
+    width: 100vw;
     height: auto;
     display: flex;
     flex-direction: column;
     font-size: 16px;
+    padding: 5rem;
   }
-  
   .big-text h5{
     padding-bottom: 2%;
   }
-  
   .big-text h2{
     font-size: 22px;
     font-weight: 700;
     padding: 3%;
   }
-  
   .big-text p{
     width: 80vw;
     align-self: center;
+  }
+}
+
+@media (max-width: 750px) { 
+  .big-text {
+    padding: 2rem 1rem;
   }
 }

@@ -13,7 +13,7 @@ import { useTranslation } from "react-i18next";
 import { Helmet } from "react-helmet";
 
 const scrollToRef = (ref) => {
-  let position = ref.current.offsetTop + -100;
+  let position = ref.current.offsetTop + -90;
   window.scrollTo({ top: position, behavior: "smooth" });
 };
 

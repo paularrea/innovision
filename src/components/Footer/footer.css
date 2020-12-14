@@ -5,6 +5,7 @@
     flex-direction: column;
     align-items: center;
     padding: 5% 0;
+    z-index: 99;
   }
   .footer-wrapper{
     width: 80vw;

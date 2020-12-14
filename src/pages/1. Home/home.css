@@ -1,47 +1,38 @@
 .page-home{
-    margin-bottom: 6vw;
-}
-
-.landing-start{
+    margin-bottom: 20vh;
+}.landing-start{
     width: 100vw;
-    background-image: url('../../img/home.jpg');  
-    background-size: cover;
-    background-position: left;
     height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: left;
-    text-align: center;
-    background-attachment:fixed;
-    position: relative;
 }
-
-.intro-text-container{
-    width: 80vw;
-    margin-left: 3vw;
-    margin-bottom: 3vw;
-    padding: 2vw;
-    text-align: left;
-    z-index: 999;
-    color: white;
+.landing-start div img{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+    object-fit: cover;
 }
 
 .intro-phrase{
+    width: 70vw;
+    margin: 0 auto;
+    text-align: center;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: white;
 }
-
 .intro-phrase h1{
     font-size: 7rem;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
-
 .intro-text{
     padding: 10vw 0;
-    margin-bottom: 0 !important;
 }
-
 @media (max-width: 1110px) { 
+    .intro-phrase{
+        width: 90vw;
+    }
     .intro-phrase h1{
        text-align: center;
     }
@@ -53,35 +44,6 @@
         font-size: 30px;
         font-weight: 700;
     }
-    .btn-home{
-        background-color: transparent;
-        border: 1px solid black !important ;
-        padding: 3vw 5vw;
-        margin-top: 3vh;
-        font-size: 20px;
-    }
-    .landing-start{
-        background-image: url('../../img/home.jpg');  
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        background-position: center;
-        align-items: center;
-        text-align: center;
-        background-size: cover;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .intro-text-container{
-        width: 80vw;
-        margin-left: 3vw;
-        margin-bottom: 3vw;
-        padding: 2vw;
-        text-align: left;
-        z-index: 999;
-        color: white;
-    }
   .intro-phrase h1{
         font-size: 4.5rem;
     }
@@ -91,10 +53,4 @@
     .intro-phrase h1{
         font-size: 3rem;
     }
-    .intro-text-container{
-         margin-top: 21vw;
-         padding: 2vw;
-
-    }
-
 }
