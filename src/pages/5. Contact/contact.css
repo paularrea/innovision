@@ -47,10 +47,7 @@
     color: grey;
     padding-top: 3%;
 }
-.separator{
-    height: 7vw;
-    background-color: whitesmoke;
-}
+
 /* location */
 .location-img{
     background-size: cover;

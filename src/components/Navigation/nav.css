@@ -28,8 +28,7 @@
     font-size: 18px;
     background-color: white;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
-    height: 7vw;
-    min-height: 90px;
+    height: 6rem;
   }
   .navigation h4{
     font-weight: 700;
