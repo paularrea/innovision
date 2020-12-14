@@ -12,10 +12,7 @@ import Observer from "react-intersection-observer";
 import { useTranslation } from "react-i18next";
 import { Helmet } from "react-helmet";
 
-const scrollToRef = (ref) =>
-  window.scrollTo({ top: ref.current.offsetTop, behavior: "smooth" });
-
-const scrollToRefAbout = (ref) => {
+const scrollToRef = (ref) => {
   let position = ref.current.offsetTop + -100;
   window.scrollTo({ top: position, behavior: "smooth" });
 };
@@ -33,7 +30,7 @@ function App() {
   const ContactRef = useRef(null);
 
   const executeScrollToHome = () => scrollToRef(HomeRef);
-  const executeScrollToAbout = () => scrollToRefAbout(AboutRef);
+  const executeScrollToAbout = () => scrollToRef(AboutRef);
   const executeScrollToTeam = () => scrollToRef(TeamRef);
   const executeScrollToProducts = () => scrollToRef(ProductsRef);
   const executeScrollToContact = () => scrollToRef(ContactRef);

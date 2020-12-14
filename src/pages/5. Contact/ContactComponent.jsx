@@ -15,12 +15,10 @@ function ContactComponent(props) {
           content="This is the Innovision Medical contact page"
         />
       </Helmet>
-      <div className="separator"></div>
       <div className="contact-wrapper">
         <FadeInOnScroll>
           <KeyContactsComponent t={props.t} />
         </FadeInOnScroll>
-        <div className="separator"></div>
         <FadeInOnScroll>
           <LocationComponent t={props.t} />
         </FadeInOnScroll>

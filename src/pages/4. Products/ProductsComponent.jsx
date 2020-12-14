@@ -6,6 +6,9 @@ import MedicalMasks from "./components/MedicalMasks";
 import FadeInOnScroll from "../../components/FadeInOnScroll";
 import FadeInDown from "../../components/FadeInDown";
 import SurgicalConsumables from "./components/SurgicalConsumables";
+import UpArrow from "@material-ui/icons/ArrowDropUpOutlined";
+import DownArrow from "@material-ui/icons/ArrowDropDown";
+import cataloge from "../../img/cataloge.jpg";
 
 function ProductsComponent(props) {
   const [
@@ -39,43 +42,59 @@ function ProductsComponent(props) {
           <h2 className="text-center">OUR PRODUCTS</h2>
         </div>
       </FadeInOnScroll>
-      <div className='products-btn-container'>
-              <FadeInOnScroll>
-        <div className="category-container">
-          <button onClick={onClickProtectiveEquipment}>
-            PERSONAL PROTECTIVE EQUIMPMENT
-          </button>
-          {showPersonalProtectiveEquipment ? (
-            <FadeInDown>
-              <PersonalProtectiveEquipment />
-            </FadeInDown>
-          ) : null}
-        </div>
-      </FadeInOnScroll>
-      <FadeInOnScroll>
-        <div className="category-container">
-          <button onClick={onClickMasks}>MEDICAL MASKS</button>
-          {showMedicalMasks ? (
-            <FadeInDown>
-              <MedicalMasks />
-            </FadeInDown>
-          ) : null}
-        </div>
-      </FadeInOnScroll>
-      <FadeInOnScroll>
-        <div className="category-container">
-          <button onClick={onClickSurgicalConsumables}>
-            SURGICAL CONSUMABLES
-          </button>
-          {showSurgicalConsumables ? (
-            <FadeInDown>
-              <SurgicalConsumables />
-            </FadeInDown>
-          ) : null}
-        </div>
-      </FadeInOnScroll>
+      <div className="products-btn-container">
+        <FadeInOnScroll>
+          <div className="category-container">
+            <button onClick={onClickProtectiveEquipment} className="name-arrow">
+              <h4>PERSONAL PROTECTIVE EQUIMPMENT</h4>
+              {showPersonalProtectiveEquipment ? <UpArrow /> : <DownArrow />}
+            </button>
+            {showPersonalProtectiveEquipment ? (
+              <FadeInDown>
+                <PersonalProtectiveEquipment />
+              </FadeInDown>
+            ) : null}
+          </div>
+        </FadeInOnScroll>
+        <FadeInOnScroll>
+          <div className="category-container">
+            <button onClick={onClickMasks} className="name-arrow">
+              <h4>MEDICAL MASKS</h4>
+              {showMedicalMasks ? <UpArrow /> : <DownArrow />}
+            </button>
+            {showMedicalMasks ? (
+              <FadeInDown>
+                <MedicalMasks />
+              </FadeInDown>
+            ) : null}
+          </div>
+        </FadeInOnScroll>
+        <FadeInOnScroll>
+          <div className="category-container">
+            <button onClick={onClickSurgicalConsumables} className="name-arrow">
+              <h4>SURGICAL CONSUMABLES</h4>
+              {showSurgicalConsumables ? <UpArrow /> : <DownArrow />}
+            </button>
+            {showSurgicalConsumables ? (
+              <FadeInDown>
+                <SurgicalConsumables />
+              </FadeInDown>
+            ) : null}
+          </div>
+        </FadeInOnScroll>
       </div>
-
+      <FadeInOnScroll>
+        <div className="category-container">
+          <a
+            className="download-pdf"
+            href={cataloge}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Click for downloading our cataloge
+          </a>
+        </div>
+      </FadeInOnScroll>
     </div>
   );
 }

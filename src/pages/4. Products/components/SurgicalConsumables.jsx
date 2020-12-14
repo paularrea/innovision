@@ -1,4 +1,6 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 import foto1 from "../../../img/products/SurgicalConsumables/1/Coveralls Front image.jpg";
 import foto11 from "../../../img/products/SurgicalConsumables/1/Coveralls Photo of the body mannequin with the product on it.jpg";
@@ -115,17 +117,22 @@ const SurgicalConsumables = (props) => {
       img1: foto14,
       img2: foto1414,
     },
-    
   ];
   // style={{backgroundImage:`url(${product.img1})`}}
   const productList = products.map((product) => (
     <div className="product-card col-12 col-md-2">
-        <div className="mx-auto d-flex justify-content-start product-img">
-          <img onMouseOver={e => (e.currentTarget.src = product.img2)} onMouseOut={e => (e.currentTarget.src = product.img1)} src={product.img1} alt="surgical consumable product" />
-        </div>
-        <div className="mx-auto product-text">
-            <p>{product.name}</p>
-        </div>
+      <div className="mx-auto d-flex justify-content-start product-img">
+        <LazyLoadImage
+          effect="blur"
+          onMouseOver={(e) => (e.currentTarget.src = product.img2)}
+          onMouseOut={(e) => (e.currentTarget.src = product.img1)}
+          src={product.img1}
+          alt="surgical consumable product"
+        />
+      </div>
+      <div className="mx-auto product-text">
+        <p>{product.name}</p>
+      </div>
     </div>
   ));
 
