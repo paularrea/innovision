@@ -45,6 +45,7 @@ button{
 }
 .separator{
   height: 7rem;
+  z-index: 2;
   background-color: whitesmoke !important;
 }
 
