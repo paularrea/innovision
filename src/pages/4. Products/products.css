@@ -49,32 +49,36 @@
     margin: 0 auto;
 }
 .name-arrow{
-    padding: 0 1vw;
     width: max-content;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #0da29878;
+    background-color: whitesmoke;
 }
 .download-pdf{
+    text-align: right;
     font-size: 1.2rem;
+    color: rgb(63, 63, 63);
+    border-bottom: 1px solid rgb(63, 63, 63);
 }
 .download-pdf:hover{
-    color: grey !important;
+    color:rgb(13, 162, 152) !important;
     font-size: 1.2rem;
+    font-weight: bold;
+    border-bottom: 2px solid rgb(13, 162, 152);
 }
 
 .category-container button{
     text-align: left;
     margin-bottom: 1vw;
-    padding: .2vw 1vw;
+    padding: .2vw 2vw;
     transition: all .4s ease-in-out;
 }
 .name-arrow:hover{
     background-color: #0da298a6;
 }
 
-.name-arrow:focus{
+.active-btn{
     background-color: #0da298a6;
 }
 .title-filter-wrapper{

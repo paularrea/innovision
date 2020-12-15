@@ -50,7 +50,7 @@ function ProductsComponent(props) {
       <div className="products-btn-container">
         <FadeInOnScroll>
           <div className="category-container">
-            <button onClick={onClickProtectiveEquipment} className="name-arrow">
+            <button onClick={onClickProtectiveEquipment} className={showPersonalProtectiveEquipment ? "active-btn name-arrow" : "name-arrow"}>
               <h4>PERSONAL PROTECTIVE EQUIMPMENT</h4>
               {showPersonalProtectiveEquipment ? <UpArrow /> : <DownArrow />}
             </button>
@@ -66,7 +66,7 @@ function ProductsComponent(props) {
         </FadeInOnScroll>
         <FadeInOnScroll>
           <div className="category-container">
-            <button onClick={onClickMasks} className="name-arrow">
+            <button onClick={onClickMasks} className={showMedicalMasks ? "active-btn name-arrow" : "name-arrow"}>
               <h4>MEDICAL MASKS</h4>
               {showMedicalMasks ? <UpArrow /> : <DownArrow />}
             </button>
@@ -81,7 +81,7 @@ function ProductsComponent(props) {
         </FadeInOnScroll>
         <FadeInOnScroll>
           <div className="category-container">
-            <button onClick={onClickSurgicalConsumables} className="name-arrow">
+            <button onClick={onClickSurgicalConsumables} className={showSurgicalConsumables ? "active-btn name-arrow" : "name-arrow"}>
               <h4>SURGICAL CONSUMABLES</h4>
               {showSurgicalConsumables ? <UpArrow /> : <DownArrow />}
             </button>
@@ -96,7 +96,7 @@ function ProductsComponent(props) {
         </FadeInOnScroll>
         <FadeInOnScroll>
           <div className="category-container">
-            <button onClick={onClickRetail} className="name-arrow">
+            <button onClick={onClickRetail} className={showRetail ? "active-btn name-arrow" : "name-arrow"}>
               <h4>RETAIL</h4>
               {showRetail ? <UpArrow /> : <DownArrow />}
             </button>
@@ -111,14 +111,14 @@ function ProductsComponent(props) {
         </FadeInOnScroll>
       </div>
       <FadeInOnScroll>
-        <div className="category-container">
+        <div className=" text-center category-container">
           <a
             className="download-pdf"
             href={cataloge}
             target="_blank"
             rel="noopener noreferrer"
           >
-            Click for downloading our cataloge
+            CLICK FOR DOWNLOADING THE CATALOGUE
           </a>
         </div>
       </FadeInOnScroll>
