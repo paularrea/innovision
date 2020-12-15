@@ -1,8 +1,10 @@
 import React from "react";
 import "./home.css";
 import { Helmet } from "react-helmet";
+import Media from 'react-media';
 import FadeInOnScroll from "../../components/FadeInOnScroll";
 import LandingImg from "./components/LandingImg";
+import LandingImgMobile from "./components/LandingImgMobile";
 
 function HomeComponent(props) {
   return (
@@ -15,7 +17,12 @@ function HomeComponent(props) {
         />n
       </Helmet>
       <div className="landing-start">
+      <Media query={{ minWidth: 700 }}>
         <LandingImg />
+      </Media>
+      <Media query={{ maxWidth: 699 }}>
+        <LandingImgMobile />
+      </Media>
           <div className="intro-text-container animated fadeInDown">
             <div className="intro-phrase">
               <h1>{props.t("home.text")}</h1>
