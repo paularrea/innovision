@@ -19,7 +19,7 @@ ReactDOM.render(
       <Suspense
         fallback={
           <div className="intro-logo-container">
-            <div className="intro-logo animate apear">
+            <div className="intro-logo animated apear">
               <img src={logo} alt="innovision logo" />
             </div>
           </div>

@@ -44,21 +44,31 @@ code {
 @-webkit-keyframes apear {
   0% {
      opacity: 0;
+     filter: grayscale(100%);
   }
   100% {
      opacity: 1;
+     filter: grayscale(0%);
 
   }
 }
 @keyframes apear {
   0% {
      opacity: 0;
+     filter: grayscale(100%);
   }
   100% {
      opacity: 1;
+     filter: grayscale(0%);
   }
 }
 .apear {
 -webkit-animation-name: apear;
 animation-name: apear;
 } 
+
+@media (max-width: 750px) { 
+  .intro-logo img{
+    width: 50vw;
+  }
+}
