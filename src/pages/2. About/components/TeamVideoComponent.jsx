@@ -18,7 +18,6 @@ const TeamVideoComponent = () => {
   };
 
   return (
-    <FadeInOnScroll>
       <Observer onChange={onChangeVideo}>
         <Sensor>
           <ReactPlayer
@@ -28,11 +27,11 @@ const TeamVideoComponent = () => {
             loop
             playsinline
             playing
-            muted={isMuted}
+            // muted={isMuted}
+            muted
           />
         </Sensor>
       </Observer>
-    </FadeInOnScroll>
   );
 };
 

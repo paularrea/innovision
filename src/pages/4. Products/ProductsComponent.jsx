@@ -118,7 +118,7 @@ function ProductsComponent(props) {
             target="_blank"
             rel="noopener noreferrer"
           >
-            CLICK FOR DOWNLOADING THE CATALOGUE
+            CLICK TO DOWNLOAD OUR BROCHURE
           </a>
         </div>
       </FadeInOnScroll>

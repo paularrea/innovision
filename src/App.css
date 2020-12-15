@@ -34,7 +34,7 @@ button{
   background-color: white;
 }
 .big-text {
-  background-color: rgba(255, 255, 255, .4);
+  background-color: rgba(255, 255, 255, 1);
   width: 100vw;
   height: auto;
   display: flex;
@@ -55,7 +55,7 @@ button{
 
 .big-text h2{
   font-size: 40px;
-  font-weight: 700;
+  font-weight: 500;
   padding-bottom: 3%;
 }
 .big-text p{

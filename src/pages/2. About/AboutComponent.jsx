@@ -4,6 +4,8 @@ import AboutDesktop from "./components/AboutDesktop";
 import AboutMobile from "./components/AboutMobile";
 import Media from 'react-media';
 import { Helmet } from "react-helmet";
+import TeamVideoComponent from "./components/TeamVideoComponent";
+
 
 function AboutComponent(props) {
   return (
@@ -18,6 +20,10 @@ function AboutComponent(props) {
       <Media query={{ minWidth: 1200 }}>
       <AboutDesktop t={props.t}/>
       </Media>
+      <div className="separator"></div>
+      <div className='video-container'>
+        <TeamVideoComponent/>
+      </div>
     </section>
   );
 }

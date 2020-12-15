@@ -47,7 +47,12 @@
     color: grey;
     padding-top: 3%;
 }
-
+.mail-link{
+    color: rgb(13, 162, 152) !important;
+}
+.mail-link:hover{
+    font-weight: bold;
+}
 /* location */
 .location-img{
     background-size: cover;

@@ -1,6 +1,6 @@
 import React from "react";
 import "./team.css";
-import TeamVideoComponent from "./components/TeamVideoComponent";
+import TeamVideoComponent from "../2. About/components/TeamVideoComponent";
 import TeamList from "./components/TeamList";
 import FadeInOnScroll from "../../components/FadeInOnScroll";
 import { Helmet } from "react-helmet";
@@ -15,9 +15,9 @@ function TeamComponent(props) {
           content="This is the Innovision Medical Team page"
         />
       </Helmet>
-      <div className='video-container'>
+      {/* <div className='video-container'>
         <TeamVideoComponent />
-      </div>
+      </div> */}
       <FadeInOnScroll>
         <div className="big-text text-center">
           <h5>{props.t("team.title1")}</h5>

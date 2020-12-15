@@ -29,11 +29,12 @@ function HomeComponent(props) {
             </div>
           </div>
       </div>
-      <FadeInOnScroll>
+      <div className="separator"></div>
         <div className="big-text text-center landing-phrase">
+        <h5>{props.t("intro-section.title")}</h5>
           <h2>{props.t("intro-section.text")}</h2>
         </div>
-      </FadeInOnScroll>
+      <div className="separator"></div>
     </div>
   );
 }

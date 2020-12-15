@@ -12,11 +12,10 @@ import foto4 from "../../../img/products/Retail/4/Kids disposable mask earloops�
 import foto44 from "../../../img/products/Retail/4/Kids disposable mask earloops（Inside image）.jpg";
 import foto5 from "../../../img/products/Retail/5/Disposable surgical mask IIR earloops（Front image）.jpg";
 import foto55 from "../../../img/products/Retail/5/Disposable surgical mask IIR earloops（Inside image）.jpg";
-// import foto6 from "../../../img/products/Retail/1/Kids mask FFP2 earloops（Photo of the mask inside its individual packaging）.jpg";";
-// import foto66 from "../../../img/products/Retail/1/Kids mask FFP2 earloops（Photo of the mask inside its individual packaging）.jpg";";
-// import foto7 from "../../../img/products/Retail/1/Kids mask FFP2 earloops（Photo of the mask inside its individual packaging）.jpg";";
-// import foto77 from "../../../img/products/Retail/1/Kids mask FFP2 earloops（Photo of the mask inside its individual packaging）.jpg";";
-
+import foto6 from "../../../img/products/Retail/4/Kids disposable mask earloops（Front image）.jpg";
+import foto66 from "../../../img/products/Retail/4/Kids disposable mask earloops（Inside image）.jpg";
+import foto7 from "../../../img/products/Retail/5/Disposable surgical mask IIR earloops（Front image）.jpg";
+import foto77 from "../../../img/products/Retail/5/Disposable surgical mask IIR earloops（Inside image）.jpg";
 
 const Retail = (props) => {
   const products = [
@@ -50,18 +49,18 @@ const Retail = (props) => {
       img1: foto5,
       img2: foto55,
     },
-    // {
-    //   id: 6,
-    //   name: "Polybag kids disposable mask earloops",
-    //   img1: foto6,
-    //   img2: foto66,
-    // },
-    // {
-    //   id: 7,
-    //   name: "Polybag disposable mask earloops",
-    //   img1: foto7,
-    //   img2: foto77,
-    // },
+    {
+      id: 6,
+      name: "Polybag kids disposable mask earloops",
+      img1: foto6,
+      img2: foto66,
+    },
+    {
+      id: 7,
+      name: "Polybag disposable mask earloops",
+      img1: foto7,
+      img2: foto77,
+    },
   ];
 
   const productList = products.map((product) => (
