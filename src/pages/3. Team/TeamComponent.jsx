@@ -1,6 +1,5 @@
 import React from "react";
 import "./team.css";
-import TeamVideoComponent from "../2. About/components/TeamVideoComponent";
 import TeamList from "./components/TeamList";
 import FadeInOnScroll from "../../components/FadeInOnScroll";
 import { Helmet } from "react-helmet";

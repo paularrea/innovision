@@ -2,7 +2,6 @@ import React from "react";
 import "./home.css";
 import { Helmet } from "react-helmet";
 import Media from 'react-media';
-import FadeInOnScroll from "../../components/FadeInOnScroll";
 import LandingImg from "./components/LandingImg";
 import LandingImgMobile from "./components/LandingImgMobile";
 

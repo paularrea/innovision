@@ -1,4 +1,3 @@
-import FadeInOnScroll from "../../../components/FadeInOnScroll";
 import React, { useState } from "react";
 import ReactPlayer from "react-player/lazy";
 import url from "../../../video/video.mp4";
