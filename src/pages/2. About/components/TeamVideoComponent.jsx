@@ -27,8 +27,7 @@ const TeamVideoComponent = () => {
             loop
             playsinline
             playing
-            // muted={isMuted}
-            muted
+            muted={isMuted}
           />
         </Sensor>
       </Observer>
