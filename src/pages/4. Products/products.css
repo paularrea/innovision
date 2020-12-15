@@ -75,7 +75,7 @@
     transition: all .4s ease-in-out;
 }
 .name-arrow:hover{
-    background-color: #0da298a6;
+    background-color: rgba(13, 162, 152, 0.3);
 }
 
 .active-btn{

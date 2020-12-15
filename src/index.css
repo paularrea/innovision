@@ -18,9 +18,47 @@ code {
   display: flex;
   justify-content: center;
   align-items: center;
+  /* background-color: rgba(13, 162, 152, 0.4); */
   
 }
 
 .intro-logo{
+  margin: 0 auto;
+  background-color: white;
+  justify-self: center;
+  height: auto;
   margin: 0;
 }
+
+.intro-logo img{
+  width: 23vw;
+}
+
+/* animation intro */
+.animated {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+@-webkit-keyframes apear {
+  0% {
+     opacity: 0;
+  }
+  100% {
+     opacity: 1;
+
+  }
+}
+@keyframes apear {
+  0% {
+     opacity: 0;
+  }
+  100% {
+     opacity: 1;
+  }
+}
+.apear {
+-webkit-animation-name: apear;
+animation-name: apear;
+} 
