@@ -1,7 +1,7 @@
 import FadeInOnScroll from "../../../components/FadeInOnScroll";
 import React, { useState } from "react";
 import ReactPlayer from "react-player/lazy";
-import url from "./video.mp4";
+import url from "../../../video/video.mp4";
 import "./video.css";
 import Sensor from "react-visibility-sensor";
 import Observer from "react-intersection-observer";
