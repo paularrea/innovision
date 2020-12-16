@@ -86,7 +86,7 @@ function App() {
           <AboutComponent t={t} AboutRef={AboutRef} />
         </Sensor>
       </Observer>
-          <div className="separator"></div>
+      <div className="separator"></div>
       <Observer onChange={onChangeTeam}>
         <Sensor>
           <TeamComponent t={t} TeamRef={TeamRef} />
@@ -104,7 +104,7 @@ function App() {
           <ContactComponent t={t} ContactRef={ContactRef} />
         </Sensor>
       </Observer>
-      <FooterComponent />
+      <FooterComponent t={t} />
     </>
   );
 }

@@ -56,6 +56,7 @@
 
         "product": {
             "title": "NUESTROS PRODUCTOS",
+            "download": "CLIQUE PARA DESCARGAR NUESTRO CATÁLOGO",
             "category1": {
                 "name": "EQUIPO DE PROTECCIÓN INDIVIDUAL",
                 "products": [{
@@ -139,6 +140,11 @@
             "envio": "Envíenos un email aquí:"
         },
         "locations": "LOCALIZACIONES"
+    },
+
+    "footer": {
+        "title": "CONTÁCTANOS",
+        "name": "Nuevos pedidos y consultas"
     }
 
 }

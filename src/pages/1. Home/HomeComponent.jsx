@@ -1,9 +1,10 @@
 import React from "react";
 import "./home.css";
 import { Helmet } from "react-helmet";
-import Media from 'react-media';
+import Media from "react-media";
 import LandingImg from "./components/LandingImg";
 import LandingImgMobile from "./components/LandingImgMobile";
+import FadeInOnScroll from "../../components/FadeInOnScroll";
 
 function HomeComponent(props) {
   return (
@@ -13,26 +14,29 @@ function HomeComponent(props) {
         <meta
           name="description"
           content="This is the Innovision Medical home page"
-        />n
+        />
+        n
       </Helmet>
       <div className="landing-start">
-      <Media query={{ minWidth: 700 }}>
-        <LandingImg />
-      </Media>
-      <Media query={{ maxWidth: 699 }}>
-        <LandingImgMobile />
-      </Media>
-          <div className="intro-text-container animated fadeInDown">
-            <div className="intro-phrase">
-              <h1>{props.t("home.text")}</h1>
-            </div>
+        <Media query={{ minWidth: 700 }}>
+          <LandingImg />
+        </Media>
+        <Media query={{ maxWidth: 699 }}>
+          <LandingImgMobile />
+        </Media>
+        <div className="intro-text-container animated fadeInDown">
+          <div className="intro-phrase">
+            <h1>{props.t("home.text")}</h1>
           </div>
+        </div>
       </div>
       <div className="separator"></div>
-        <div className="big-text text-center landing-phrase">
-        <h5>{props.t("intro-section.title")}</h5>
+      <div className="big-text text-center landing-phrase">
+        <FadeInOnScroll>
+          <h5>{props.t("intro-section.title")}</h5>
           <h2>{props.t("intro-section.text")}</h2>
-        </div>
+        </FadeInOnScroll>
+      </div>
       <div className="separator"></div>
     </div>
   );

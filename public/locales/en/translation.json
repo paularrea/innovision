@@ -64,6 +64,7 @@
 
     "product": {
         "title": "OUR PRODUCTS",
+        "download": "CLICK TO DOWNLOAD OUR BROCHURE",
         "category1": {
             "name": "PERSONAL PROTECTIVE EQUIMPMENT",
             "products": [{
@@ -147,6 +148,11 @@
             "envio": "Send us an email here:"
         },
         "locations": "LOCATIONS"
+    },
+
+    "footer": {
+        "title": "CONTACT US",
+        "name": "New orders and Inquiries"
     }
 
 }
