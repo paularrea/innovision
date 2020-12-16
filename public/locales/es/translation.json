@@ -1,88 +1,144 @@
 {
+    "nav": {
+        "about": "Sobre nosotros",
+        "team": "Equipo",
+        "products": "Productos",
+        "contact": "Contacto"
+    },
 
-    "nav":{
-        "about" : "Quién somos",
-        "team" : "Equipo",
-        "products" : "Productos",
-        "projects" : "Proyectos",
-        "contact" : "Contacto"
-   },
-
-    "home":{
-        "text" : "SPANISH IPSUM DOLOR SIT AMET CONSCTETUR ADIPISICING ELIT NULLA CONSECTETUR, ALIAS CULPA VITAE MOLLITIA MINUS"
+    "home": {
+        "text": "Nunca dejar de mejorar para la salud de la humanidad."
     },
 
     "intro-section": {
-        "text": "InnoVision Medical is a professional and innovative company specialized in producing medical devices and personal protective equipment."
+        "title": "¿QUIÉN SOMOS?",
+        "text": "InnoVision Medical es una empresa profesional e innovadora especializada en la producción de dispositivos médicos y equipos de protección personal."
     },
 
     "about": {
-        "title1": "OUR PURPOSE",
-        "1": "Never stop improving for the healthcare of humanity.",
-        "description1": "We believe in making the world healthier and doing this in a sustainable way. This is why we come to work every day. We commit to unleash the power of our assets to enhance medical services and systems without depleting natural resources or causing serious ecological damage.",
-        "title2": "OUR STORY",
-        "2": "Serving the global Top-500 companies in the medical industry for 20 years.",
-        "description2": "InnoVision Medical is founded under the business of Tianzhang Medical Material Manufactory which has more than 20 years of history. We are backed up with many years of expertise in the production and development of medical material.",
-        "title3": "OUR FACTORY",
-        "3": "Expanding our factory in the direction of modernization, integration and scale with more than 170 skilled and experienced employees.",
-        "description3": "7 automatic production lines for flat masks and 6 automatic production lines for folding disposable respirators. 11 semi-automatic production lines can be adjusted as spare equipment to produce any unexpected customized products. While also having the ability to develop various products related to non-woven products, we are investing in more production lines to enrich our product offering and achieve a complete environmentally friendly production.",
-        "title4": "OUR STRATEGY",
-        "4": "Strategizing in 3 axes: product innovation, competitive prices, and customization.",
-        "description4": "Our strategy is to provide first-class products derived from strong technology and innovation at competitive prices, while also invest very wisely to boost customers experience. Since we love to take care of our clients, no matter where they are in the world, we have established dedicated and detail-oriented marketing and after-sales service teams in Asia and Europe.",
-        "title5": "OUR BUSINESS PRIORITIES",
-        "5": "Green journey ahead.",
-        "description5": "InnoVision Medical is using advanced technology to develop the ECO product line (bio-based) to deliver a greener offer, and is looking for ways to have a minimal impact on the environment through a more sustainable, environmentally sound and cost-effective process."
+        "title1": "NUESTRO PROPÓSITO",
+        "1": "Fortalecer los sistemas de salud globales a través de la sostenibilidad.",
+        "description1": "Creemos en hacer del mundo un lugar más saludable, y en hacerlo de manera sostenible. Por eso venimos a trabajar todos los días. Nos comprometemos a liberar el poder de nuestros activos para mejorar los servicios y sistemas médicos sin agotar los recursos naturales ni causar daños ecológicos graves.",
+        "title2": "NUESTRA HISTORIA",
+        "2": "Llevamos sirviendo a las 500 empresas mundiales más importantes de la industria médica durante 20 años.",
+        "description2": "InnoVision Medical se fundó bajo el negocio de Tianzhang Medical Material Manufactory, que tiene más de 20 años de historia. Contamos con el respaldo de muchos años de experiencia en la producción y desarrollo de material médico.",
+        "title3": "NUESTRA FÁBRICA",
+        "3": "Ampliamos nuestra fábrica en la dirección de la modernización, la integración y la economía de escala, con más de 170 empleados calificados y experimentados.",
+        "description3": "7 líneas de producción automáticas para mascarillas planas y 6 líneas de producción automáticas para respiradores desechables plegables. Se pueden ajustar 11 líneas de producción semiautomáticas como equipo de repuesto para producir cualquier producto personalizado inesperado. Si bien también tenemos la capacidad de desarrollar varios productos relacionados con productos no tejidos, estamos invirtiendo en más líneas de producción para enriquecer nuestra oferta de productos y lograr una producción completa y respetuosa con el medio ambiente.",
+        "title4": "NUESTRA ESTRATEGIA ",
+        "4": "Basamos nuestra estrategia en 3 ejes: innovación de producto, precios competitivos y personalización.",
+        "description4": "Nuestra destreza es proporcionar productos de primera clase derivados de una tecnología sólida e innovadora a precios competitivos, al mismo tiempo que invertimos de manera muy inteligente en mejorar y personalizar la experiencia de nuestros clientes. Como nos encanta cuidar mucho de ellos, sin importar en qué parte del mundo se encuentren, hemos establecido equipos de marketing y servicio posventa dedicados y orientados a los detalles en toda Asia y Europa.",
+        "title5": "NUESTRAS PRIORIDADES DE NEGOCIO",
+        "5": "Un gran camino verde por delante.",
+        "description5": "InnoVision Medical utiliza tecnología avanzada para desarrollar la línea de productos ECO (de base biológica) con el fin de ofrecer una oferta más ecológica. También busca constantemente formas de tener un impacto mínimo en el medio ambiente a través de un proceso más sostenible, limpio y rentable."
     },
 
-    "team":{
-        "title1":"CONOCE AL EQUIPO",
-        "title2": "ESP IPSUM DOLOR SIT AMET CONSCTETUR ADIPISICING ELIT",
-        "text":"ESP ipsum dolor sit amet consectetur adipisicing elit. Nulla consectetur, alias culpa vitae mollitia minus possimus fugit libero reprehenderit pariatur, explicabo veniam a eligendi quo odit expedita distinctio corporis ab?"
+    "team": {
+        "title1": "CONOCE NUESTRO EQUIPO",
+        "title2": "Profesionales listos para actuar en esta situación sanitaria excepcional",
+        "text": "El equipo de InnoVision Medical es un grupo de expertos responsable y de confianza. Desde los equipos de I+D y desarrollo de producto hasta los de posventa, pasando por los de coordinación de la cadena de suministro, control de calidad, logística y ventas, todos ellos sienten pasión por trabajar para las industrias médica y EPI, y están listos para asumir el desafío de restablecer el sistema de salud."
 
     },
 
     "teamList": {
         "name1": "GEORGE ZHOU",
-        "position1": "CEO & Co-founder",
+        "position1": "CEO & Co-fundador",
         "name2": "BENNY YOU",
-        "position2": "General Manager & Co-founder",
+        "position2": "Director General & Co-fundador ",
         "name3": "LUFAN CHEN",
-        "position3": "CTO & Co-founder",
-        "name4": "JINGYU WANG",
-        "position4": "Financial Manager",
-        "name5": "SHAWN LU",
-        "position5": "Supply Chain Coordinator",
-        "name6": "BING YU",
-        "position6": "Quality Control Manager",
-        "name7": "CELINE GE",
-        "position7": "Logistics Planner",
-        "name8": "CICI HUA",
-        "position8": "Customs Coordinator",
+        "position3": "CTO & Co-fundador ",
+        "name4": "WEIHAO ZHANG",
+        "position4": "Vicedirector general",
         "name9": "ANNA REQUESENS",
-        "position9": "Sales Manager"
+        "position9": "Directora de marketing y ventas"
     },
 
-    "contact":{
-        "keyContacts" : "CONTACTOS DE INTERÉS",
-        "text" : "esp ipsum dolor sit amet consectetur adipisicing elit. Nemo facilis modi ullam minus pariatur placeat deleniti! Natus enim amet hic labore veniam quos et expedita magni, ipsa vel sint tenetur.",
-        "nb":{
-            "title" : "Nuevo Business",
-            "text" : "What changes can we help with?"
-        }  ,
-        "t":{
-            "title" : "Talento",
-            "text" : "Want to join our team?"
-        },
-        "locations":"DÓNDE ESTAMOS",
-        "message":{
-            "title": "CONTACTA CON NOSOTROS",
-            "name": "Nombre",
-            "email":"Email",
-            "message": "Mensaje",
-            "submit" : "Enviar"
-            
 
+        "product": {
+            "title": "NUESTROS PRODUCTOS",
+            "category1": {
+                "name": "EQUIPO DE PROTECCIÓN INDIVIDUAL",
+                "products": [{
+                        "id": 1,
+                        "productName": "Mascarillas FFP2 con gomas talla pequeña"
+                    },
+                    {
+                        "id": 2,
+                        "productName": "Mascarillas FFP2 con gomas en las orejas"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Mascarillas FFP2 con gomas en la cabeza"
+                    },
+                    {
+                        "id": 4,
+                        "name": "Mascarillas FFP3 con gomas en las orejas"
+                    },
+                    {
+                        "id": 5,
+                        "name": "Mascarillas FFP3 con gomas en la cabeza"
+                    },
+                    {
+                        "id": 6,
+                        "name": "Gafas de seguridad con protectores laterales"
+                    },
+                    {
+                        "id": 7,
+                        "name": "Gafas de protección con gomas"
+                    },
+                    {
+                        "id": 8,
+                        "name": "Pantallas de protección"
+                    }
+                ]
+            },
+        "category2": {
+            "name": "MARCARILLAS MÉDICAS",
+            "product1":"Kids disposable mask earloops",
+            "product2":"Disposable mask earloops",
+            "product3":"Kids disposable surgical mask IIR earloops",
+            "product4":"Disposable surgical mask IIR earloops",
+            "product5":"Disposable surgical mask IIR ties",
+            "product6":"Disposable surgical mask IIR shield earloops",
+            "product7":"Disposable surgical mask IIR shield ties"
+        },
+        "category3": {
+            "name": "CONSUMIBLES QUIRÚRGICOS",
+            "product1":"Coveralls with sealing stripes",
+            "product2":"Coveralls without sealing stripes",
+            "product3":"No sleeve surgical gown",
+            "product4":"Short sleeve surgical gown",
+            "product5":"Long sleeve surgical gown with white cuffs",
+            "product6":"Long sleeve surgical gown with rubber cuffs",
+            "product7":"Surgical scrub suit",
+            "product8":"Surgical jacket",
+            "product9":"Disposable shoes cover (by handmade)",
+            "product10":"Disposable shoes cover (by machine)",
+            "product11":"Disposable nursing cap (handmade)",
+            "product12":"Disposable nursing cap (by machine)",
+            "product13":"Surgical cap ties (handmade)",
+            "product14":"Surgical cap ties (by machine)"
+        },
+        "category4": {
+            "name": "RETAIL",
+            "product1":"Polybag FFP2 earloops small size",
+            "product2":"Polybag mask FFP2 earloops",
+            "product3":"Polybag mask FFP3 earloops",
+            "product4":"Polybag kids disposable surgical mask IIR earloops",
+            "product5":"Polybag disposable surgical mask IIR earloops",
+            "product6":"Polybag kids disposable mask earloops",
+            "product7":"Polybag disposable mask earloops"
         }
-        
+    },
+
+    "contact": {
+        "keyContacts": "CONTACTO",
+        "nb": {
+            "title": "Nuevos pedidos y consultas",
+            "text": "¿En qué podemos ayudarle?",
+            "envio": "Envíenos un email aquí:"
+        },
+        "locations": "LOCALIZACIONES"
     }
+
 }

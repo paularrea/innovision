@@ -27,18 +27,18 @@ const MedicalMasks = (props) => {
       img1: foto2,
       img2: foto22,
     },
-    // {
-    //   id: 3,
-    //   name: "Kids disposable surgical mask IIR earloops",
-    //   img1: foto3,
-    //   img2: foto33,
-    // },
-    // {
-    //   id: 4,
-    //   name: "Disposable surgical mask IIR earloops",
-    //   img1: foto4,
-    //   img2: foto44,
-    // },
+    {
+      id: 3,
+      name: "Kids disposable surgical mask IIR earloops",
+      img1: foto1,
+      img2: foto11,
+    },
+    {
+      id: 4,
+      name: "Disposable surgical mask IIR earloops",
+      img1: foto2,
+      img2: foto22,
+    },
     {
       id: 5,
       name: "Disposable surgical mask IIR ties",

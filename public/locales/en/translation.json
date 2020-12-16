@@ -3,7 +3,6 @@
         "about": "About",
         "team": "Team",
         "products": "Products",
-        "projects": "Projects",
         "contact": "Contact"
     },
 
@@ -12,13 +11,13 @@
     },
 
     "intro-section": {
-        "title":"WHO WHE ARE",
+        "title": "WHO WHE ARE",
         "text": "InnoVision Medical is a professional and innovative company specialized in producing medical devices and personal protective equipment."
     },
 
     "about": {
         "title1": "OUR PURPOSE",
-        "1": "Never stop improving for the healthcare of humanity.",
+        "1": "To strengthen global health systems through sustainability.",
         "description1": "We believe in making the world healthier and doing this in a sustainable way. This is why we come to work every day. We commit to unleash the power of our assets to enhance medical services and systems without depleting natural resources or causing serious ecological damage.",
         "title2": "OUR HISTORY",
         "2": "Serving the global Top-500 companies in the medical industry for 20 years.",
@@ -63,26 +62,91 @@
         "position9": "Sales Manager"
     },
 
+    "product": {
+        "title": "OUR PRODUCTS",
+        "category1": {
+            "name": "PERSONAL PROTECTIVE EQUIMPMENT",
+            "products": [{
+                    "id": 1,
+                    "productName": "Mask FFP2 earloops small size"
+                },
+                {
+                    "id": 2,
+                    "productName": "Mask FFP2 earloops"
+                },
+                {
+                    "id": 3,
+                    "name": "Mask FFP2 headloops"
+                },
+                {
+                    "id": 4,
+                    "name": "Mask FFP3 earloops"
+                },
+                {
+                    "id": 5,
+                    "name": "Mask FFP3 headloops"
+                },
+                {
+                    "id": 6,
+                    "name": "Safety glasses"
+                },
+                {
+                    "id": 7,
+                    "name": "Goggles"
+                },
+                {
+                    "id": 8,
+                    "name": "Face shield"
+                }
+            ]
+        },
+        "category2": {
+            "name": "MEDICAL MASKS",
+            "product1": "Kids disposable mask earloops",
+            "product2": "Disposable mask earloops",
+            "product3": "Kids disposable surgical mask IIR earloops",
+            "product4": "Disposable surgical mask IIR earloops",
+            "product5": "Disposable surgical mask IIR ties",
+            "product6": "Disposable surgical mask IIR shield earloops",
+            "product7": "Disposable surgical mask IIR shield ties"
+        },
+        "category3": {
+            "name": "SURGICAL CONSUMABLES",
+            "product1": "Coveralls with sealing stripes",
+            "product2": "Coveralls without sealing stripes",
+            "product3": "No sleeve surgical gown",
+            "product4": "Short sleeve surgical gown",
+            "product5": "Long sleeve surgical gown with white cuffs",
+            "product6": "Long sleeve surgical gown with rubber cuffs",
+            "product7": "Surgical scrub suit",
+            "product8": "Surgical jacket",
+            "product9": "Disposable shoes cover (by handmade)",
+            "product10": "Disposable shoes cover (by machine)",
+            "product11": "Disposable nursing cap (handmade)",
+            "product12": "Disposable nursing cap (by machine)",
+            "product13": "Surgical cap ties (handmade)",
+            "product14": "Surgical cap ties (by machine)"
+        },
+        "category4": {
+            "name": "RETAIL",
+            "product1": "Polybag FFP2 earloops small size",
+            "product2": "Polybag mask FFP2 earloops",
+            "product3": "Polybag mask FFP3 earloops",
+            "product4": "Polybag kids disposable surgical mask IIR earloops",
+            "product5": "Polybag disposable surgical mask IIR earloops",
+            "product6": "Polybag kids disposable mask earloops",
+            "product7": "Polybag disposable mask earloops"
+        }
+    },
+
     "contact": {
         "keyContacts": "KEY CONTACTS",
-        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo facilis modi ullam minus pariatur placeat deleniti! Natus enim amet hic labore veniam quos et expedita magni, ipsa vel sint tenetur.",
         "nb": {
-            "title": "New Orders & Inquiries",
-            "text": "What can we help you with?"
+            "title": "New orders and Inquiries",
+            "text": "What can we help you with?",
+            "envio": "Send us an email here:"
         },
-        "t": {
-            "title": "Product Certifications",
-            "text": "Want to join our team?"
-        },
-        "locations": "LOCATIONS",
-        "message": {
-            "title": "SEND US A MESSAGE",
-            "name": "Name",
-            "email": "Email",
-            "message": "Message",
-            "submit": "Submit"
-
-        }
+        "locations": "LOCATIONS"
     }
 
 }

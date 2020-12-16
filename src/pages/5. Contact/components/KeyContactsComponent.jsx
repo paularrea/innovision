@@ -11,7 +11,7 @@ function KeyContactsComponent(props) {
           <h4>{props.t("contact.nb.title")}</h4>
           <p>{props.t("contact.nb.text")}</p>
           <div className="contact-person">
-            <p>Send us an email here:</p>
+          <p>{props.t("contact.nb.envio")}</p>
             <a
             className='mail-link'
             style={{color:'rgb(13, 162, 152)'}}

@@ -44,14 +44,14 @@ function ProductsComponent(props) {
       </Helmet>
       <FadeInOnScroll>
         <div className="products-title">
-          <h2 className="text-center">OUR PRODUCTS</h2>
+          <h2 className="text-center">{props.t("product.title")}</h2>
         </div>
       </FadeInOnScroll>
       <div className="products-btn-container">
         <FadeInOnScroll>
           <div className="category-container">
             <button onClick={onClickProtectiveEquipment} className={showPersonalProtectiveEquipment ? "active-btn name-arrow" : "name-arrow"}>
-              <h4>PERSONAL PROTECTIVE EQUIMPMENT</h4>
+              <h4>{props.t("product.category1.name")}</h4>
               {showPersonalProtectiveEquipment ? <UpArrow /> : <DownArrow />}
             </button>
             {showPersonalProtectiveEquipment ? (
@@ -67,7 +67,7 @@ function ProductsComponent(props) {
         <FadeInOnScroll>
           <div className="category-container">
             <button onClick={onClickMasks} className={showMedicalMasks ? "active-btn name-arrow" : "name-arrow"}>
-              <h4>MEDICAL MASKS</h4>
+              <h4>{props.t("product.category2.name")}</h4>
               {showMedicalMasks ? <UpArrow /> : <DownArrow />}
             </button>
             {showMedicalMasks ? (
@@ -82,7 +82,7 @@ function ProductsComponent(props) {
         <FadeInOnScroll>
           <div className="category-container">
             <button onClick={onClickSurgicalConsumables} className={showSurgicalConsumables ? "active-btn name-arrow" : "name-arrow"}>
-              <h4>SURGICAL CONSUMABLES</h4>
+              <h4>{props.t("product.category3.name")}</h4>
               {showSurgicalConsumables ? <UpArrow /> : <DownArrow />}
             </button>
             {showSurgicalConsumables ? (
@@ -97,7 +97,7 @@ function ProductsComponent(props) {
         <FadeInOnScroll>
           <div className="category-container">
             <button onClick={onClickRetail} className={showRetail ? "active-btn name-arrow" : "name-arrow"}>
-              <h4>RETAIL</h4>
+              <h4>{props.t("product.category4.name")}</h4>
               {showRetail ? <UpArrow /> : <DownArrow />}
             </button>
             {showRetail ? (
