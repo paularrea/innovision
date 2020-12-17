@@ -5,6 +5,10 @@
   box-sizing: border-box;
   font-family:'Karla';
 }
+html * {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
 body, html{
   max-width: 100vw;
   overflow-x: hidden;

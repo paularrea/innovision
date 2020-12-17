@@ -7,7 +7,7 @@ const LandingImg = () => {
   return (
     <div>
       {/* <LazyLoadImage effect="blur" className='landing-img' src={img} alt="landing" /> */}
-      <img src={img} className='landing-img' alt="landing"/>
+      <div className='scroll-fixed'><img src={img} className='landing-img zoom' alt="landing"/></div>
     </div>
   );
 };

@@ -5,12 +5,30 @@
     width: 100vw;
     height: 100vh;
 }
+.scroll-fixed{
+    position: fixed;
+    background-color: transparent;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
 .landing-img{
     width: 100%;
     height: 100vh;
-    position: fixed;
-    z-index: -1;
+    /* position: fixed; */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: block;
     object-fit: cover;
+    -webkit-transform:scale(1);
+    -moz-transform:scale(1);
+    -ms-transform:scale(1);
+    -o-transform:scale(1);
+    transform:scale(1);
 }
 .intro-phrase{
     width: 70vw;
@@ -29,6 +47,38 @@
 .intro-text{
     padding: 10vw 0;
 }
+/* animation home */
+.full {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: block;
+    
+    -webkit-transform:scale(1.5);
+    -moz-transform:scale(0.1);
+    -ms-transform:scale(0.1);
+    -o-transform:scale(0.1);
+    transform:scale(0.1);
+  }
+  
+  .zoom {
+    animation: scale 35s linear infinite;
+  }
+    
+  @keyframes scale {
+    50% {
+      -webkit-transform:scale(1.2);
+      -moz-transform:scale(1.2);
+      -ms-transform:scale(1.2);
+      -o-transform:scale(1.2);
+      transform:scale(1.2);
+    }
+  }
 @media (max-width: 1110px) { 
     .intro-phrase{
         width: 90vw;
