@@ -7,7 +7,7 @@
     },
 
     "home": {
-        "text": "Nunca dejar de mejorar para la salud de la humanidad."
+        "text": "Nunca dejamos de mejorar para la salud de la humanidad."
     },
 
     "intro-section": {
@@ -217,8 +217,9 @@
                     "productName": "Bolsa mascarillas higiénicas con gomas"
                 }
             ]
-        },
+        }
 
+    },
     "contact": {
         "keyContacts": "CONTACTO",
         "nb": {
@@ -233,6 +234,4 @@
         "title": "CONTÁCTANOS",
         "name": "Nuevos pedidos y consultas"
     }
-
-}
 }

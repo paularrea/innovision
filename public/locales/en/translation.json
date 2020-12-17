@@ -102,7 +102,7 @@
             ]
         },
         "category2": {
-            "name": "MASCARILLAS MÉDICAS",
+            "name": "MEDICAL MASKS",
             "products": [{
                     "id": 1,
                     "productName": "Kids disposable mask earloops"
@@ -225,7 +225,8 @@
                     "productName": "Polybag disposable mask earloops"
                 }
             ]
-        },
+        }
+    },
 
     "contact": {
         "keyContacts": "KEY CONTACTS",
@@ -242,5 +243,4 @@
         "name": "New orders and Inquiries"
     }
 
-}
 }

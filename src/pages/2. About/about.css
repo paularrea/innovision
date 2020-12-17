@@ -84,7 +84,7 @@
 }
 @media (max-width: 1200px) { 
 .about-text{
-    margin: 5% 0;
+    margin: 2rem 0 5rem 0;
 }
 .about-text-wrapper{
     padding-top: -20px;

@@ -6,7 +6,7 @@ import MedicalMasks from "./components/MedicalMasks";
 import FadeInOnScroll from "../../components/FadeInOnScroll";
 import FadeInDown from "../../components/FadeInDown";
 import SurgicalConsumables from "./components/SurgicalConsumables";
-import Retail from "./components/Retail"
+import Retail from "./components/Retail";
 import UpArrow from "@material-ui/icons/ArrowDropUpOutlined";
 import DownArrow from "@material-ui/icons/ArrowDropDown";
 import cataloge from "../../img/cataloge.jpg";
@@ -46,11 +46,17 @@ function ProductsComponent(props) {
         <div className="products-title">
           <h2 className="text-center">{props.t("product.title")}</h2>
         </div>
-      </FadeInOnScroll>
-      <div className="products-btn-container">
-        <FadeInOnScroll>
+
+        <div className="products-btn-container">
           <div className="category-container">
-            <button onClick={onClickProtectiveEquipment} className={showPersonalProtectiveEquipment ? "active-btn name-arrow" : "name-arrow"}>
+            <button
+              onClick={onClickProtectiveEquipment}
+              className={
+                showPersonalProtectiveEquipment
+                  ? "active-btn name-arrow"
+                  : "name-arrow"
+              }
+            >
               <h4>{props.t("product.category1.name")}</h4>
               {showPersonalProtectiveEquipment ? <UpArrow /> : <DownArrow />}
             </button>
@@ -63,10 +69,13 @@ function ProductsComponent(props) {
               </FadeInDown>
             ) : null}
           </div>
-        </FadeInOnScroll>
-        <FadeInOnScroll>
           <div className="category-container">
-            <button onClick={onClickMasks} className={showMedicalMasks ? "active-btn name-arrow" : "name-arrow"}>
+            <button
+              onClick={onClickMasks}
+              className={
+                showMedicalMasks ? "active-btn name-arrow" : "name-arrow"
+              }
+            >
               <h4>{props.t("product.category2.name")}</h4>
               {showMedicalMasks ? <UpArrow /> : <DownArrow />}
             </button>
@@ -78,10 +87,13 @@ function ProductsComponent(props) {
               </FadeInDown>
             ) : null}
           </div>
-        </FadeInOnScroll>
-        <FadeInOnScroll>
           <div className="category-container">
-            <button onClick={onClickSurgicalConsumables} className={showSurgicalConsumables ? "active-btn name-arrow" : "name-arrow"}>
+            <button
+              onClick={onClickSurgicalConsumables}
+              className={
+                showSurgicalConsumables ? "active-btn name-arrow" : "name-arrow"
+              }
+            >
               <h4>{props.t("product.category3.name")}</h4>
               {showSurgicalConsumables ? <UpArrow /> : <DownArrow />}
             </button>
@@ -93,10 +105,11 @@ function ProductsComponent(props) {
               </FadeInDown>
             ) : null}
           </div>
-        </FadeInOnScroll>
-        <FadeInOnScroll>
           <div className="category-container">
-            <button onClick={onClickRetail} className={showRetail ? "active-btn name-arrow" : "name-arrow"}>
+            <button
+              onClick={onClickRetail}
+              className={showRetail ? "active-btn name-arrow" : "name-arrow"}
+            >
               <h4>{props.t("product.category4.name")}</h4>
               {showRetail ? <UpArrow /> : <DownArrow />}
             </button>
@@ -108,8 +121,8 @@ function ProductsComponent(props) {
               </FadeInDown>
             ) : null}
           </div>
-        </FadeInOnScroll>
-      </div>
+        </div>
+      </FadeInOnScroll>
       <FadeInOnScroll>
         <div className=" text-center category-container">
           <a

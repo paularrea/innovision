@@ -85,6 +85,7 @@
     height: 5.2rem;
     background-color: white;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
   }
   .transparent-burgerNav{
     display: flex;
