@@ -69,68 +69,155 @@
                     },
                     {
                         "id": 3,
-                        "name": "Mascarillas FFP2 con gomas en la cabeza"
+                        "productName": "Mascarillas FFP2 con gomas en la cabeza"
                     },
                     {
                         "id": 4,
-                        "name": "Mascarillas FFP3 con gomas en las orejas"
+                        "productName": "Mascarillas FFP3 con gomas en las orejas"
                     },
                     {
                         "id": 5,
-                        "name": "Mascarillas FFP3 con gomas en la cabeza"
+                        "productName": "Mascarillas FFP3 con gomas en la cabeza"
                     },
                     {
                         "id": 6,
-                        "name": "Gafas de seguridad con protectores laterales"
+                        "productName": "Gafas de seguridad con protectores laterales"
                     },
                     {
                         "id": 7,
-                        "name": "Gafas de protección con gomas"
+                        "productName": "Gafas de protección con gomas"
                     },
                     {
                         "id": 8,
-                        "name": "Pantallas de protección"
+                        "productName": "Pantallas de protección"
                     }
                 ]
             },
         "category2": {
-            "name": "MARCARILLAS MÉDICAS",
-            "product1":"Kids disposable mask earloops",
-            "product2":"Disposable mask earloops",
-            "product3":"Kids disposable surgical mask IIR earloops",
-            "product4":"Disposable surgical mask IIR earloops",
-            "product5":"Disposable surgical mask IIR ties",
-            "product6":"Disposable surgical mask IIR shield earloops",
-            "product7":"Disposable surgical mask IIR shield ties"
+            "name": "MASCARILLAS MÉDICAS",
+            "products": [{
+                    "id": 1,
+                    "productName": "Mascarillas infantiles higiénicas con gomas "
+                },
+                {
+                    "id": 2,
+                    "productName": "Mascarillas higiénicas con gomas"
+                },
+                {
+                    "id": 3,
+                    "productName": "Mascarillas infantiles quirúrgicas IIR con gomas"
+                },
+                {
+                    "id": 4,
+                    "productName": "Mascarillas quirúrgicas IIR con gomas"
+                },
+                {
+                    "id": 5,
+                    "productName": "Mascarillas quirúrgicas IIR con cintas"
+                },
+                {
+                    "id": 6,
+                    "productName": "Mascarillas quirúrgicas IIR con gomas y visor"
+                },
+                {
+                    "id": 7,
+                    "productName": "Mascarillas quirúrgicas IIR con cintas y visor"
+                }
+            ]
         },
         "category3": {
             "name": "CONSUMIBLES QUIRÚRGICOS",
-            "product1":"Coveralls with sealing stripes",
-            "product2":"Coveralls without sealing stripes",
-            "product3":"No sleeve surgical gown",
-            "product4":"Short sleeve surgical gown",
-            "product5":"Long sleeve surgical gown with white cuffs",
-            "product6":"Long sleeve surgical gown with rubber cuffs",
-            "product7":"Surgical scrub suit",
-            "product8":"Surgical jacket",
-            "product9":"Disposable shoes cover (by handmade)",
-            "product10":"Disposable shoes cover (by machine)",
-            "product11":"Disposable nursing cap (handmade)",
-            "product12":"Disposable nursing cap (by machine)",
-            "product13":"Surgical cap ties (handmade)",
-            "product14":"Surgical cap ties (by machine)"
+            "products": [{
+                    "id": 1,
+                    "productName": "Buzos de protección"
+                },
+                {
+                    "id": 2,
+                    "productName": "Buzos de protección blancos"
+                },
+                {
+                    "id": 3,
+                    "productName": "Batas de aislamiento sin mangas"
+                },
+                {
+                    "id": 4,
+                    "productName": "Batas de aislamiento manga corta"
+                },
+                {
+                    "id": 5,
+                    "productName": "Batas de aislamiento manga larga con puño blanco"
+                },
+                {
+                    "id": 6,
+                    "productName": "Batas de aislamiento manga larga con puño de goma"
+                },
+                {
+                    "id": 7,
+                    "productName": "Pijamas quirúrgicos"
+                },
+                {
+                    "id": 8,
+                    "productName": "Chaquetas quirúrgicas"
+                },
+                {
+                    "id": 9,
+                    "productName": "Cubrezapatos (hechos a mano)"
+                },
+                {
+                    "id": 10,
+                    "productName": "Cubrezapatos (hechos a máquina)"
+                },
+                {
+                    "id": 11,
+                    "productName": "Gorros enfermería (hechos a mano)"
+                },
+                {
+                    "id": 12,
+                    "productName":"Gorros enfermería (hechos a máquina)"
+                },
+                {
+                    "id": 13,
+                    "productName":"Gorros quirúrgicos con cintas (hechos a mano)"
+                },
+                {
+                    "id": 14,
+                    "productName":"Gorros quirúrgicos con cintas (hechos a máquina)"
+                }
+            ]
         },
+
         "category4": {
             "name": "RETAIL",
-            "product1":"Polybag FFP2 earloops small size",
-            "product2":"Polybag mask FFP2 earloops",
-            "product3":"Polybag mask FFP3 earloops",
-            "product4":"Polybag kids disposable surgical mask IIR earloops",
-            "product5":"Polybag disposable surgical mask IIR earloops",
-            "product6":"Polybag kids disposable mask earloops",
-            "product7":"Polybag disposable mask earloops"
-        }
-    },
+            "products": [{
+                    "id": 1,
+                    "productName": "Bolsa mascarillas FFP2 con gomas talla pequeña"
+                },
+                {
+                    "id": 2,
+                    "productName": "Bolsa mascarillas FFP2 con gomas"
+                },
+                {
+                    "id": 3,
+                    "productName": "Bolsa mascarillas FFP3 con gomas"
+                },
+                {
+                    "id": 4,
+                    "productName": "Bolsa mascarillas infantiles quirúrgicas IIR con gomas"
+                },
+                {
+                    "id": 5,
+                    "productName": "Bolsa mascarillas quirúrgicas IIR con gomas"
+                },
+                {
+                    "id": 6,
+                    "productName": "Bolsa mascarillas infantiles higiénicas con gomas "
+                },
+                {
+                    "id": 7,
+                    "productName": "Bolsa mascarillas higiénicas con gomas"
+                }
+            ]
+        },
 
     "contact": {
         "keyContacts": "CONTACTO",
@@ -147,4 +234,5 @@
         "name": "Nuevos pedidos y consultas"
     }
 
+}
 }

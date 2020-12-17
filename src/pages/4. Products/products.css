@@ -40,8 +40,7 @@
     object-position: center center;
 }
 .product-card{
-    margin-top: 4%;
-    padding: 0 1rem; 
+    margin-top: 1rem;
 }
 .category-container{
     margin-top: 5vw;
@@ -93,9 +92,6 @@
 .product-text p{
     font-size: 16px !important;
     text-align: center; 
-}
-.product-drop{
-    padding: 2rem 0;
 }
 /* ipad */
 @media (max-width: 950px) {

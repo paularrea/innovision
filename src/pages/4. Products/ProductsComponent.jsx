@@ -58,7 +58,7 @@ function ProductsComponent(props) {
               <FadeInDown>
                 <div className="product-drop">
                   {" "}
-                  <PersonalProtectiveEquipment />
+                  <PersonalProtectiveEquipment t={props.t} />
                 </div>
               </FadeInDown>
             ) : null}
@@ -73,7 +73,7 @@ function ProductsComponent(props) {
             {showMedicalMasks ? (
               <FadeInDown>
                 <div className="product-drop">
-                  <MedicalMasks />
+                  <MedicalMasks t={props.t} />
                 </div>
               </FadeInDown>
             ) : null}
@@ -88,7 +88,7 @@ function ProductsComponent(props) {
             {showSurgicalConsumables ? (
               <FadeInDown>
                 <div className="product-drop">
-                  <SurgicalConsumables />
+                  <SurgicalConsumables t={props.t} />
                 </div>
               </FadeInDown>
             ) : null}
@@ -103,7 +103,7 @@ function ProductsComponent(props) {
             {showRetail ? (
               <FadeInDown>
                 <div className="product-drop">
-                  <Retail />
+                  <Retail t={props.t} />
                 </div>
               </FadeInDown>
             ) : null}

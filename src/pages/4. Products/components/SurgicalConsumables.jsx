@@ -35,90 +35,89 @@ const SurgicalConsumables = (props) => {
   const products = [
     {
       id: 1,
-      name: "Coveralls with sealing stripes",
+      name: props.t("product.category3.products.0.productName"),
       img1: foto1,
       img2: foto11,
     },
     {
       id: 2,
-      name: "Coveralls without sealing stripes",
+      name: props.t("product.category3.products.1.productName"),
       img1: foto2,
       img2: foto22,
     },
     {
       id: 3,
-      name: "No sleeve surgical gown",
+      name: props.t("product.category3.products.2.productName"),
       img1: foto3,
       img2: foto33,
     },
     {
       id: 4,
-      name: "Short sleeve surgical gown",
+      name: props.t("product.category3.products.3.productName"),
       img1: foto4,
       img2: foto44,
     },
     {
       id: 5,
-      name: "Long sleeve surgical gown with white cuffs",
+      name: props.t("product.category3.products.4.productName"),
       img1: foto5,
       img2: foto55,
     },
     {
       id: 6,
-      name: "Long sleeve surgical gown with rubber cuffs",
+      name: props.t("product.category3.products.5.productName"),
       img1: foto6,
       img2: foto66,
     },
     {
       id: 7,
-      name: "Surgical scrub suit",
+      name: props.t("product.category3.products.6.productName"),
       img1: foto7,
       img2: foto77,
     },
     {
       id: 8,
-      name: "Surgical jacket",
+      name: props.t("product.category3.products.7.productName"),
       img1: foto8,
       img2: foto88,
     },
     {
       id: 9,
-      name: "Disposable shoes cover (by handmade)",
+      name: props.t("product.category3.products.8.productName"),
       img1: foto9,
       img2: foto99,
     },
     {
       id: 10,
-      name: "Disposable shoes cover (by machine)",
+      name: props.t("product.category3.products.9.productName"),
       img1: foto10,
       img2: foto1010,
     },
     {
       id: 11,
-      name: "Disposable nursing cap (handmade)",
+      name: props.t("product.category3.products.10.productName"),
       img1: fotoOnce,
       img2: foto1111,
     },
     {
       id: 12,
-      name: "Disposable nursing cap (by machine)",
+      name: props.t("product.category3.products.11.productName"),
       img1: foto12,
       img2: foto1212,
     },
     {
       id: 13,
-      name: "Surgical cap ties (handmade)",
+      name: props.t("product.category3.products.12.productName"),
       img1: foto13,
       img2: foto1313,
     },
     {
       id: 14,
-      name: "Surgical cap ties (by machine)",
+      name: props.t("product.category3.products.13.productName"),
       img1: foto14,
       img2: foto1414,
     },
   ];
-  // style={{backgroundImage:`url(${product.img1})`}}
   const productList = products.map((product) => (
     <div className="product-card col-12 col-md-2">
       <div className="mx-auto d-flex justify-content-start product-img">

@@ -23,54 +23,53 @@ const PersonalProtectiveEquipment = (props) => {
   const products = [
     {
       id: 1,
-      name: "Mask FFP2 earloops small size",
+      name: props.t("product.category1.products.0.productName"),
       img1: foto1,
       img2: foto11,
     },
     {
       id: 2,
-      name: "Mask FFP2 earloops",
+      name: props.t("product.category1.products.1.productName"),
       img1: foto2,
       img2: foto22,
     },
     {
       id: 3,
-      name: "Mask FFP2 headloops",
+      name: props.t("product.category1.products.2.productName"),
       img1: foto3,
       img2: foto33,
     },
     {
       id: 4,
-      name: "Mask FFP3 earloops",
+      name: props.t("product.category1.products.3.productName"),
       img1: foto4,
       img2: foto44,
     },
     {
       id: 5,
-      name: "Mask FFP3 headloops",
+      name: props.t("product.category1.products.4.productName"),
       img1: foto5,
       img2: foto55,
     },
     {
       id: 6,
-      name: "Safety glasses",
+      name: props.t("product.category1.products.5.productName"),
       img1: foto6,
       img2: foto66,
     },
     {
       id: 7,
-      name: "Goggles",
+      name: props.t("product.category1.products.6.productName"),
       img1: foto7,
       img2: foto77,
     },
     {
       id: 8,
-      name: "Face shield",
+      name: props.t("product.category1.products.7.productName"),
       img1: foto8,
       img2: foto88,
     },
   ];
-  // style={{backgroundImage:`url(${product.img1})`}}
 
   const productList = products.map((product) => (
     <div className="product-card col-12 col-md-2">
