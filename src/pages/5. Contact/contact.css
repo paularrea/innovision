@@ -111,6 +111,7 @@ box-shadow:
     }
 .contact-wrapper{
     width: 90vw;
+    padding: 4rem 0;
     }
 .contacts-titles h5{
     font-size: 16px;
@@ -123,7 +124,7 @@ box-shadow:
         width: 90vw;
     }
 .contacts>div{
-    margin-top: 10%;
+    margin: 2rem 0;
     }
 .location-img{
     background-color: khaki;
