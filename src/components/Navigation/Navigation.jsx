@@ -6,6 +6,7 @@ import "./nav.css";
 import BurgerMenu from "./BurgerMenu";
 
 function Navigation(props) {
+
   let prevScrollpos = window.pageYOffset;
   window.onscroll = function () {
     if (window.innerWidth > 1000) {

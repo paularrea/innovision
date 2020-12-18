@@ -6,6 +6,7 @@ import "./nav.css";
 const DesktopNav = (props) => {
   const [activeEn, setActiveEn] = useState(true);
   const [activeEs, setActiveEs] = useState(false);
+  // const [navbar, setNavbar] = useState(false);
 
   const onClickEnglish = () => {
     props.handleClick("en");
@@ -19,14 +20,31 @@ const DesktopNav = (props) => {
     setActiveEs(true);
   };
 
+  // useEffect(() => {
+  //   const changeNavColor = () => {
+  //     if (window.scrollY < (100 * window.innerHeight) / 100) {
+  //       setNavbar(false);
+  //     } else {
+  //       setNavbar(true);
+  //     }
+  //   };
+
+  //   window.addEventListener("scroll", changeNavColor);
+  // }, []);
+
   return (
-    <div className='navigation'>
+    <div 
+    // className={navbar ? "navigation" : "transparent-nav"}
+    className='navigation'>
       <div>
         <a href onClick={props.executeScrollToHome}>
           <img className="logo" src={logo} alt="innovision logo" />
         </a>
       </div>
-      <div className="menu-links d-flex align-items-center">
+      <div 
+      // className={navbar ? "menu-links d-flex align-items-center" : "menu-links-transparent d-flex align-items-center"}
+      className="menu-links d-flex align-items-center"
+      >
         <NavLink
           className={props.aboutInViewport ? "active-link" : ""}
           onClick={props.executeScrollToAbout}
@@ -55,7 +73,9 @@ const DesktopNav = (props) => {
         >
           {props.t("nav.contact")}
         </NavLink>
-        <div className="lang">
+        <div 
+        // className={navbar ? "lang" : "transparent-lang"}
+        className='lang'>
           <button
             onClick={onClickEnglish}
             className={activeEn ? "active-link-lang" : "disactive-link-lang"}
