@@ -1,11 +1,13 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import DesktopNav from "./DesktopNav";
 import logo from "../../img/logo.png";
+import whiteLogo from "../../img/whitelogo.png";
 import Media from "react-media";
 import "./nav.css";
 import BurgerMenu from "./BurgerMenu";
 
 function Navigation(props) {
+  const [navbar, setNavbar] = useState(false);
 
   let prevScrollpos = window.pageYOffset;
   window.onscroll = function () {
@@ -21,6 +23,18 @@ function Navigation(props) {
       prevScrollpos = currentScrollPos;
     }
   };
+
+  useEffect(() => {
+    const changeNavColor = () => {
+      if (window.scrollY < (100 * window.innerHeight) / 100) {
+        setNavbar(false);
+      } else {
+        setNavbar(true);
+      }
+    };
+
+    window.addEventListener("scroll", changeNavColor);
+  }, []);
 
   return (
     <div>
@@ -40,14 +54,24 @@ function Navigation(props) {
         />
       </Media>
       <Media query={{ maxWidth: 1000 }}>
-        <div id="nav-id" className="navigation-mobile">
+        <div
+          id="nav-id"
+          className={
+            navbar ? "navigation-mobile" : "navigation-mobile-transparent"
+          }
+        >
           <div>
             <a href onClick={props.executeScrollToHome}>
-              <img className="logo" src={logo} alt="innovision logo" />
+              <img
+                className="logo"
+                src={navbar ? logo : whiteLogo}
+                alt="innovision logo"
+              />
             </a>
           </div>
 
           <BurgerMenu
+            navbar={navbar}
             t={props.t}
             handleClick={props.handleClick}
             executeScrollToAbout={props.executeScrollToAbout}

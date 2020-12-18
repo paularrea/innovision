@@ -130,6 +130,19 @@
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
     transition: top 0.3s; /* Transition effect when sliding down (and up) */
   }
+  .navigation-mobile-transparent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+    position: fixed;
+    width: 100vw;
+    padding: 3% 5%;
+    height: 5.2rem;
+    background-color: rgba(255, 255, 255, .1);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+  }
   .transparent-burgerNav{
     display: flex;
     justify-content: space-between;
@@ -145,7 +158,6 @@
     margin: 0 !important;
   }
   .menu-mobile{
-    top: 9vh;
     position: absolute;
     z-index: 100;
     width: 100vw;
@@ -159,7 +171,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding-top: 10vh;
+    padding-top: 25vh;
     align-items: center;
     font-size: 1.8rem;
   }

@@ -117,5 +117,8 @@
     .about-photos{
         height: 60vw;
     }
+    .about-text-wrapper h2{
+        padding: 2rem 0;
+    }
 
 }

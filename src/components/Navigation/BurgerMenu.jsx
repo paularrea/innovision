@@ -33,7 +33,7 @@ const BurgerMenu = (props) => {
         onClick={openModal}
         active={open}
         burger="spring"
-        color="black"
+        color={props.navbar ? "black" : "white"}
         hoverOpacity={0.8}
         scale={0.6}
       />
