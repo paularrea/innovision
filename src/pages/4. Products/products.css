@@ -3,7 +3,7 @@
     width: 70vw;
     height: auto;
     min-height: 100vh;
-    padding: 8vh 0;
+    padding: 7rem 0;
 }
 .products-btn-container{
     padding: 10vh 0;
@@ -21,6 +21,7 @@
     transition: all .8s ease-in-out;
 }
 .products-title h2{
+    padding-top: 1rem;
     font-weight: bold;
 }
 .product-img:hover{

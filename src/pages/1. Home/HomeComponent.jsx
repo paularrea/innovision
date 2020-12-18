@@ -30,14 +30,16 @@ function HomeComponent(props) {
           </div>
         </div>
       </div>
-      <div className="separator"></div>
-      <div className="big-text text-center landing-phrase">
-        <FadeInOnScroll>
-          <h5>{props.t("intro-section.title")}</h5>
-          <h2>{props.t("intro-section.text")}</h2>
-        </FadeInOnScroll>
+      {/* <div className="separator"></div> */}
+      <div className='big-text-wrapper'>
+        <div className="big-text text-center landing-phrase">
+          <FadeInOnScroll>
+            <h5>{props.t("intro-section.title")}</h5>
+            <h2>{props.t("intro-section.text")}</h2>
+          </FadeInOnScroll>
+        </div>
       </div>
-      <div className="separator"></div>
+      {/* <div className="separator"></div> */}
     </div>
   );
 }

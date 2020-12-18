@@ -3,7 +3,6 @@ import PersonalProtectiveEquipment from "./components/PersonalProtectiveEquipmen
 import "./products.css";
 import { Helmet } from "react-helmet";
 import MedicalMasks from "./components/MedicalMasks";
-import FadeInOnScroll from "../../components/FadeInOnScroll";
 import FadeInDown from "../../components/FadeInDown";
 import SurgicalConsumables from "./components/SurgicalConsumables";
 import Retail from "./components/Retail";
@@ -15,10 +14,10 @@ function ProductsComponent(props) {
   const [
     showPersonalProtectiveEquipment,
     setShowPersonalProtectiveEquipment,
-  ] = useState(false);
+  ] = useState(true);
   const [showMedicalMasks, setShowMedicalMasks] = useState(true);
-  const [showSurgicalConsumables, setShowSurgicalConsumables] = useState(false);
-  const [showRetail, setShowRetail] = useState(false);
+  const [showSurgicalConsumables, setShowSurgicalConsumables] = useState(true);
+  const [showRetail, setShowRetail] = useState(true);
 
   const onClickProtectiveEquipment = () => {
     setShowPersonalProtectiveEquipment(!showPersonalProtectiveEquipment);
@@ -42,7 +41,6 @@ function ProductsComponent(props) {
           content="This is the Innovision Medical products page"
         />
       </Helmet>
-      <FadeInOnScroll>
         <div className="products-title">
           <h2 className="text-center">{props.t("product.title")}</h2>
         </div>
@@ -122,8 +120,6 @@ function ProductsComponent(props) {
             ) : null}
           </div>
         </div>
-      </FadeInOnScroll>
-      <FadeInOnScroll>
         <div className=" text-center category-container">
           <a
             className="download-pdf"
@@ -134,7 +130,6 @@ function ProductsComponent(props) {
             {props.t("product.download")}
           </a>
         </div>
-      </FadeInOnScroll>
     </div>
   );
 }

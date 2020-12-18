@@ -98,37 +98,38 @@
                 {
                     "id": 8,
                     "productName": "Face shield"
+                },
+                {
+                    "id": 9,
+                    "productName": "Kids disposable mask earloops"
+                },
+                {
+                    "id": 10,
+                    "productName": "Disposable mask earloops"
                 }
             ]
         },
         "category2": {
             "name": "MEDICAL MASKS",
-            "products": [{
+            "products": [
+                {
                     "id": 1,
-                    "productName": "Kids disposable mask earloops"
-                },
-                {
-                    "id": 2,
-                    "productName": "Disposable mask earloops"
-                },
-                {
-                    "id": 3,
                     "productName": "Kids disposable surgical mask IIR earloops"
                 },
                 {
-                    "id": 4,
+                    "id": 2,
                     "productName": "Disposable surgical mask IIR earloops"
                 },
                 {
-                    "id": 5,
+                    "id": 3,
                     "productName": "Disposable surgical mask IIR ties"
                 },
                 {
-                    "id": 6,
+                    "id": 4,
                     "productName": "Disposable surgical mask IIR shield earloops"
                 },
                 {
-                    "id": 7,
+                    "id": 5,
                     "productName": "Disposable surgical mask IIR shield ties"
                 }
             ]
@@ -193,9 +194,8 @@
                 }
             ]
         },
-
         "category4": {
-            "name": "RETAIL",
+            "name": "PRODUCT RETAIL OPTIONS",
             "products": [{
                     "id": 1,
                     "productName": "Polybag FFP2 earloops small size"
@@ -227,7 +227,6 @@
             ]
         }
     },
-
     "contact": {
         "keyContacts": "KEY CONTACTS",
         "nb": {
@@ -237,7 +236,6 @@
         },
         "locations": "LOCATIONS"
     },
-
     "footer": {
         "title": "CONTACT US",
         "name": "New orders and Inquiries"

@@ -2,8 +2,8 @@ import React from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 
-import foto1 from "../../../img/products/MedicalMasks/1/Kids disposable mask earloops（Profile picture to see earloops）.jpg";
-import foto11 from "../../../img/products/MedicalMasks/1/Kids disposable mask earloops（Photo of the mannequin with the mask on it front image）.jpg";
+import foto1 from "../../../img/products/MedicalMasks/1/Kids disposable mask earloops（Profile picture to see earloops）.jpg"
+import foto11 from "../../../img/products/MedicalMasks/1/Kids disposable mask earloops（Photo of the mannequin with the mask on it front image）.jpg"
 import foto2 from "../../../img/products/MedicalMasks/2/Disposable surgical mask IIR earloops（Profile picture to see earloops）.jpg";
 import foto22 from "../../../img/products/MedicalMasks/2/Disposable surgical mask IIR earloops（Photo of the mannequin with the mask on it front image）.jpg";
 import foto3 from "../../../img/products/MedicalMasks/3/Disposable surgical mask IIR ties（Profile picture to see earloops）.jpg";
@@ -30,30 +30,18 @@ const MedicalMasks = (props) => {
     {
       id: 3,
       name: props.t("product.category2.products.2.productName"),
-      img1: foto1,
-      img2: foto11,
-    },
-    {
-      id: 4,
-      name: props.t("product.category2.products.3.productName"),
-      img1: foto2,
-      img2: foto22,
-    },
-    {
-      id: 5,
-      name: props.t("product.category2.products.4.productName"),
       img1: foto3,
       img2: foto33,
     },
     {
-      id: 6,
-      name: props.t("product.category2.products.5.productName"),
+      id: 4,
+      name: props.t("product.category2.products.3.productName"),
       img1: foto4,
       img2: foto44,
     },
     {
-      id: 7,
-      name: props.t("product.category2.products.6.productName"),
+      id: 5,
+      name: props.t("product.category2.products.4.productName"),
       img1: foto5,
       img2: foto55,
     },

@@ -13,7 +13,12 @@ import { useTranslation } from "react-i18next";
 import { Helmet } from "react-helmet";
 
 const scrollToRef = (ref) => {
-  let position = ref.current.offsetTop + -90;
+  let position = ref.current.offsetTop + 10;
+  window.scrollTo({ top: position, behavior: "smooth" });
+};
+
+const scrollToAboutRef = (ref) => {
+  let position = ref.current.offsetTop - 100;
   window.scrollTo({ top: position, behavior: "smooth" });
 };
 
@@ -30,7 +35,7 @@ function App() {
   const ContactRef = useRef(null);
 
   const executeScrollToHome = () => scrollToRef(HomeRef);
-  const executeScrollToAbout = () => scrollToRef(AboutRef);
+  const executeScrollToAbout = () => scrollToAboutRef(AboutRef);
   const executeScrollToTeam = () => scrollToRef(TeamRef);
   const executeScrollToProducts = () => scrollToRef(ProductsRef);
   const executeScrollToContact = () => scrollToRef(ContactRef);
@@ -86,19 +91,19 @@ function App() {
           <AboutComponent t={t} AboutRef={AboutRef} />
         </Sensor>
       </Observer>
-      <div className="separator"></div>
+      {/* <div className="separator"></div> */}
       <Observer onChange={onChangeTeam}>
         <Sensor>
           <TeamComponent t={t} TeamRef={TeamRef} />
         </Sensor>
       </Observer>
-      <div className="separator"></div>
+      {/* <div className="separator"></div> */}
       <Observer onChange={onChangeProducts}>
         <Sensor>
           <ProductsComponent t={t} ProductsRef={ProductsRef} />
         </Sensor>
       </Observer>
-      <div className="separator"></div>
+      {/* <div className="separator"></div> */}
       <Observer onChange={onChangeContact}>
         <Sensor>
           <ContactComponent t={t} ContactRef={ContactRef} />

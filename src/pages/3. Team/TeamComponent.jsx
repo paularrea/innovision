@@ -1,8 +1,9 @@
 import React from "react";
 import "./team.css";
 import TeamList from "./components/TeamList";
-import FadeInOnScroll from "../../components/FadeInOnScroll";
 import { Helmet } from "react-helmet";
+import teamPhoto from "../../img/team-members/team.jpeg";
+import FadeInOnScroll from "../../components/FadeInOnScroll";
 
 function TeamComponent(props) {
   return (
@@ -14,22 +15,17 @@ function TeamComponent(props) {
           content="This is the Innovision Medical Team page"
         />
       </Helmet>
-      {/* <div className='video-container'>
-        <TeamVideoComponent />
-      </div> */}
-      <FadeInOnScroll>
-        <div className="big-text text-center">
+      <div className="big-text text-center">
+        <FadeInOnScroll>
           <h5>{props.t("team.title1")}</h5>
           <h2>{props.t("team.title2")}</h2>
           <p>{props.t("team.text")}</p>
-        </div>
-      </FadeInOnScroll>
+        </FadeInOnScroll>
+      </div>
       <TeamList t={props.t} className="text-center" />
-      <FadeInOnScroll>
-        <div className="team-photo-container">
-          <div className="team-photo"></div>
-        </div>
-      </FadeInOnScroll>
+      <div className="team-photo-container">
+        <img className="team-photo" src={teamPhoto} alt="team" />
+      </div>
     </div>
   );
 }

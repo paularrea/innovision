@@ -39,13 +39,17 @@ button{
 }
 .big-text {
   background-color: rgba(255, 255, 255, 1);
-  width: 100vw;
+  width: 70vw;
   height: auto;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  padding: 10rem 15rem;
+  padding: 10rem 0;
   font-size: 18px;
+}
+.big-text-wrapper{
+  background-color: white;
+  width: 100vw;
 }
 .separator{
   height: 7rem;
@@ -63,7 +67,6 @@ button{
   padding-bottom: 3%;
 }
 .big-text p{
-  width: 50vw;
   align-self: center;
 }
 /* fade in on scroll */

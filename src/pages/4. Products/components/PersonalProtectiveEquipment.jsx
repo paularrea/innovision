@@ -18,6 +18,10 @@ import foto7 from "../../../img/products/PersonalProtectiveEquipment/7/Goggles�
 import foto77 from "../../../img/products/PersonalProtectiveEquipment/7/Goggles（Photo of the mannequin with the product on it front image）.jpg";
 import foto8 from "../../../img/products/PersonalProtectiveEquipment/8/Face shield（Profile picture）.jpg";
 import foto88 from "../../../img/products/PersonalProtectiveEquipment/8/Face shield（Photo of the mannequin with the product on it front image）.jpg";
+import foto9 from "../../../img/products/MedicalMasks/1/Kids disposable mask earloops（Profile picture to see earloops）.jpg";
+import foto99 from "../../../img/products/MedicalMasks/1/Kids disposable mask earloops（Photo of the mannequin with the mask on it front image）.jpg";
+import foto10 from "../../../img/products/MedicalMasks/2/Disposable surgical mask IIR earloops（Profile picture to see earloops）.jpg";
+import foto1010 from "../../../img/products/MedicalMasks/2/Disposable surgical mask IIR earloops（Photo of the mannequin with the mask on it front image）.jpg";
 
 const PersonalProtectiveEquipment = (props) => {
   const products = [
@@ -68,6 +72,18 @@ const PersonalProtectiveEquipment = (props) => {
       name: props.t("product.category1.products.7.productName"),
       img1: foto8,
       img2: foto88,
+    },
+    {
+      id: 9,
+      name: props.t("product.category1.products.8.productName"),
+      img1: foto9,
+      img2: foto99,
+    },
+    {
+      id: 10,
+      name: props.t("product.category1.products.9.productName"),
+      img1: foto10,
+      img2: foto1010,
     },
   ];
 

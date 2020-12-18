@@ -8,7 +8,7 @@
     z-index: 2;
   }
   .footer-wrapper{
-    width: 80vw;
+    width: 70vw;
     height: auto;
     color: white;
     display: flex;
@@ -35,19 +35,9 @@
     width: 25vw;
   }
   
-  .contact-footer-wrapper{
-  width: 20vw !important;
-  }
-  
   .contact-social-media-wrapper h5{
     padding-bottom: 3%;
     font-weight: 700;
-  }
-  
-  .media-footer-wrapper{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
   }
   
   .privacy-cookies-footer-wrapper{

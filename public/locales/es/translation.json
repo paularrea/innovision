@@ -5,16 +5,13 @@
         "products": "Productos",
         "contact": "Contacto"
     },
-
     "home": {
         "text": "Nunca dejamos de mejorar para la salud de la humanidad."
     },
-
     "intro-section": {
         "title": "¿QUIÉN SOMOS?",
         "text": "InnoVision Medical es una empresa profesional e innovadora especializada en la producción de dispositivos médicos y equipos de protección personal."
     },
-
     "about": {
         "title1": "NUESTRO PROPÓSITO",
         "1": "Fortalecer los sistemas de salud globales a través de la sostenibilidad.",
@@ -32,14 +29,11 @@
         "5": "Un gran camino verde por delante.",
         "description5": "InnoVision Medical utiliza tecnología avanzada para desarrollar la línea de productos ECO (de base biológica) con el fin de ofrecer una oferta más ecológica. También busca constantemente formas de tener un impacto mínimo en el medio ambiente a través de un proceso más sostenible, limpio y rentable."
     },
-
     "team": {
         "title1": "CONOCE NUESTRO EQUIPO",
         "title2": "Profesionales listos para actuar en esta situación sanitaria excepcional",
         "text": "El equipo de InnoVision Medical es un grupo de expertos responsable y de confianza. Desde los equipos de I+D y desarrollo de producto hasta los de posventa, pasando por los de coordinación de la cadena de suministro, control de calidad, logística y ventas, todos ellos sienten pasión por trabajar para las industrias médica y EPI, y están listos para asumir el desafío de restablecer el sistema de salud."
-
     },
-
     "teamList": {
         "name1": "GEORGE ZHOU",
         "position1": "CEO & Co-fundador",
@@ -52,8 +46,6 @@
         "name9": "ANNA REQUESENS",
         "position9": "Directora de marketing y ventas"
     },
-
-
         "product": {
             "title": "NUESTROS PRODUCTOS",
             "download": "CLIQUE PARA DESCARGAR NUESTRO CATÁLOGO",
@@ -90,37 +82,38 @@
                     {
                         "id": 8,
                         "productName": "Pantallas de protección"
+                    },
+                    {
+                        "id": 9,
+                        "productName": "Mascarillas infantiles higiénicas con gomas "
+                    },
+                    {
+                        "id": 10,
+                        "productName": "Mascarillas higiénicas con gomas"
                     }
                 ]
             },
         "category2": {
             "name": "MASCARILLAS MÉDICAS",
-            "products": [{
+            "products": [
+                {
                     "id": 1,
-                    "productName": "Mascarillas infantiles higiénicas con gomas "
-                },
-                {
-                    "id": 2,
-                    "productName": "Mascarillas higiénicas con gomas"
-                },
-                {
-                    "id": 3,
                     "productName": "Mascarillas infantiles quirúrgicas IIR con gomas"
                 },
                 {
-                    "id": 4,
+                    "id": 2,
                     "productName": "Mascarillas quirúrgicas IIR con gomas"
                 },
                 {
-                    "id": 5,
+                    "id": 3,
                     "productName": "Mascarillas quirúrgicas IIR con cintas"
                 },
                 {
-                    "id": 6,
+                    "id": 4,
                     "productName": "Mascarillas quirúrgicas IIR con gomas y visor"
                 },
                 {
-                    "id": 7,
+                    "id": 5,
                     "productName": "Mascarillas quirúrgicas IIR con cintas y visor"
                 }
             ]
@@ -187,7 +180,7 @@
         },
 
         "category4": {
-            "name": "RETAIL",
+            "name": "OPCIONES DE VENTA DE PRODUCTO",
             "products": [{
                     "id": 1,
                     "productName": "Bolsa mascarillas FFP2 con gomas talla pequeña"

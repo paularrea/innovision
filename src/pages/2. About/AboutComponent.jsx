@@ -20,8 +20,8 @@ function AboutComponent(props) {
       <Media query={{ minWidth: 1200 }}>
       <AboutDesktop t={props.t}/>
       </Media>
-      <div className="separator"></div>
-      <div className='video-container'>
+      {/* <div className="separator"></div> */}
+      <div className='video-container mx-auto'>
         <TeamVideoComponent/>
       </div>
     </section>

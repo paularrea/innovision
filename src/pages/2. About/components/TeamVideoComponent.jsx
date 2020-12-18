@@ -20,7 +20,7 @@ const TeamVideoComponent = () => {
       <Observer onChange={onChangeVideo}>
         <Sensor>
           <ReactPlayer
-            className="video-component"
+            className="mx-auto video-component"
             id="background-video"
             url={url}
             loop
