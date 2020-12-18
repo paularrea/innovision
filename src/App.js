@@ -22,6 +22,11 @@ const scrollToAboutRef = (ref) => {
   window.scrollTo({ top: position, behavior: "smooth" });
 };
 
+const scrollToHomeRef = (ref) => {
+  let position = ref.current.offsetTop + 0;
+  window.scrollTo({ top: position, behavior: "smooth" });
+};
+
 function App() {
   const [aboutInViewport, setAboutInViewport] = useState(false);
   const [teamInViewport, setTeamInViewport] = useState(false);
@@ -34,7 +39,7 @@ function App() {
   const ProductsRef = useRef(null);
   const ContactRef = useRef(null);
 
-  const executeScrollToHome = () => scrollToRef(HomeRef);
+  const executeScrollToHome = () => scrollToHomeRef(HomeRef);
   const executeScrollToAbout = () => scrollToAboutRef(AboutRef);
   const executeScrollToTeam = () => scrollToRef(TeamRef);
   const executeScrollToProducts = () => scrollToRef(ProductsRef);

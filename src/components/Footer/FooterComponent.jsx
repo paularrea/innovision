@@ -76,6 +76,9 @@ function FooterComponent(props) {
               </a>
             </div>
           </div>
+          <div className="text-right">
+            <p className='copyright'>© 2020, by Pau Larrea. All Rights Reserved.</p>
+          </div>
         </div>
       </div>
     </div>

@@ -125,5 +125,9 @@
     .about-text-wrapper h2{
         padding: 2rem 0;
     }
-
+    .video-container{
+        width: 100vw;
+        padding-top: 0rem;
+        height: auto;
+    }
 }

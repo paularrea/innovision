@@ -15,7 +15,9 @@
     justify-content: space-between;
     align-items: flex-start;
   }
-
+  .copyright{
+    font-size: 16px !important;
+  }
   .footer-wrapper a{
     color: white !important;
   }

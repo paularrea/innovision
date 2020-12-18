@@ -144,7 +144,6 @@ animation-name: fadeInDown;
     padding: 3%;
   }
   .big-text p{
-    width: 80vw;
     align-self: center;
   }
 }

@@ -3,7 +3,7 @@ import PersonalProtectiveEquipment from "./components/PersonalProtectiveEquipmen
 import "./products.css";
 import { Helmet } from "react-helmet";
 import MedicalMasks from "./components/MedicalMasks";
-import FadeInDown from "../../components/FadeInDown";
+// import FadeInDown from "../../components/FadeInDown";
 import SurgicalConsumables from "./components/SurgicalConsumables";
 import Retail from "./components/Retail";
 import UpArrow from "@material-ui/icons/ArrowDropUpOutlined";
@@ -59,12 +59,10 @@ function ProductsComponent(props) {
               {showPersonalProtectiveEquipment ? <UpArrow /> : <DownArrow />}
             </button>
             {showPersonalProtectiveEquipment ? (
-              <FadeInDown>
                 <div className="product-drop">
                   {" "}
                   <PersonalProtectiveEquipment t={props.t} />
                 </div>
-              </FadeInDown>
             ) : null}
           </div>
           <div className="category-container">
@@ -78,11 +76,9 @@ function ProductsComponent(props) {
               {showMedicalMasks ? <UpArrow /> : <DownArrow />}
             </button>
             {showMedicalMasks ? (
-              <FadeInDown>
                 <div className="product-drop">
                   <MedicalMasks t={props.t} />
                 </div>
-              </FadeInDown>
             ) : null}
           </div>
           <div className="category-container">
@@ -96,11 +92,9 @@ function ProductsComponent(props) {
               {showSurgicalConsumables ? <UpArrow /> : <DownArrow />}
             </button>
             {showSurgicalConsumables ? (
-              <FadeInDown>
                 <div className="product-drop">
                   <SurgicalConsumables t={props.t} />
                 </div>
-              </FadeInDown>
             ) : null}
           </div>
           <div className="category-container">
@@ -112,11 +106,9 @@ function ProductsComponent(props) {
               {showRetail ? <UpArrow /> : <DownArrow />}
             </button>
             {showRetail ? (
-              <FadeInDown>
                 <div className="product-drop">
                   <Retail t={props.t} />
                 </div>
-              </FadeInDown>
             ) : null}
           </div>
         </div>
