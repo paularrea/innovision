@@ -133,7 +133,6 @@ box-shadow:
     margin: 5% 0;
 }
 }
-
 @media (max-width: 765px) and (max-height:450px){
     .contacts{
         width: 90vw;
