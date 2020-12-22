@@ -1,5 +1,19 @@
 
 .video-component{
     width: 100% !important;
-    height: auto !important;
+    height: 70vh !important;
+    }
+
+@media (max-width: 1200px) { 
+    .video-component{
+        width: 100% !important;
+        height: 35vh !important;
+            }
+    }
+
+@media (max-width: 800px) { 
+    .video-component{
+        width: 100% !important;
+        height: 40vh !important;
+        }
     }
