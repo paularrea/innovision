@@ -11,7 +11,7 @@
             }
     }
 
-@media (max-width: 800px) { 
+@media (max-width: 800px) {  
     .video-component{
         width: 100% !important;
         height: 40vh !important;
