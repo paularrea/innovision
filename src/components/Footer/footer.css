@@ -32,8 +32,21 @@
     width: 45vw;
   }
   
+  .contact-social-media-wrapper{
+  text-align: right;
+  }
+
+  .contact-footer-wrapper{
+    text-align: right;
+  }
+
+  .copyrightDiv p{
+    text-align: right;
+  }
+
   .contact-social-media-wrapper div{
     padding-bottom: 5%;
+    text-align: right;
     width: 25vw;
   }
   
@@ -62,17 +75,23 @@
     padding: 10% 0;
     width: 90vw;
   }
-
   .contact-social-media-wrapper{
     padding-top: 10%;
+    text-align: left;
   }
   .contact-social-media-wrapper div{
     padding-bottom: 5%;
+    text-align: left;
     width: 60vw;
   }
 
   .contact-footer-wrapper{
     width: 70% !important;
+    text-align: right;
+    }
+
+    .copyrightDiv p{
+      text-align: left;
     }
 
   .privacy-cookies-footer-wrapper{

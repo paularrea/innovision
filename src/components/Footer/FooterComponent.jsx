@@ -46,10 +46,10 @@ function FooterComponent(props) {
             </div>
           </a>
         </div>
-        <div className="text-right contact-social-media-wrapper">
+        <div className="contact-social-media-wrapper">
           <div>
             <h5>{props.t("footer.title")}</h5>
-            <div className="text-right contact-footer-wrapper">
+            <div className="contact-footer-wrapper">
               <p>{props.t("footer.name")}</p>
               <i>
                 <a
@@ -66,7 +66,7 @@ function FooterComponent(props) {
 
           <div>
             <h5>SOCIAL MEDIA</h5>
-            <div className="text-right media-footer-wrapper">
+            <div className="media-footer-wrapper">
               <a
                 href="https://www.linkedin.com/company/innovision-medical/"
                 target="_blank"
@@ -76,7 +76,7 @@ function FooterComponent(props) {
               </a>
             </div>
           </div>
-          <div className="text-right">
+          <div className="copyrightDiv">
             <p className='copyright'>© 2020, by Pau Larrea. All Rights Reserved.</p>
           </div>
         </div>

@@ -22,6 +22,7 @@
 }
 .products-title h2{
     padding-top: 1rem;
+    width: 100%;
     font-weight: bold;
 }
 .product-img:hover{
@@ -140,6 +141,7 @@
 }
 .products-title{
     padding-bottom: 4vw;
+    width: 100%;
 }
 }
 @media (max-width: 765px) and (max-height:450px){
