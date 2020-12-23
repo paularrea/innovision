@@ -15,11 +15,11 @@ function KeyContactsComponent(props) {
             <a
             className='mail-link'
             style={{color:'rgb(13, 162, 152)'}}
-              href="mailto:sales1@innovision-medical.com"
+              href="mailto:contact@innovision-medical.com"
               target="_blank"
               rel="noopener noreferrer"
             >
-              sales1@innovision-medical.com
+              contact@innovision-medical.com
             </a>
           </div>
         </div>

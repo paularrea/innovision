@@ -1,5 +1,4 @@
 import React from "react";
-import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 
 import foto1 from "../../../img/products/Retail/1/Kids mask FFP2 earloops（Photo of the mask inside its individual packaging）.jpg";
@@ -66,8 +65,7 @@ const Retail = (props) => {
   const productList = products.map((product) => (
     <div className="product-card col-12 col-md-2">
       <div className="mx-auto d-flex justify-content-start product-img">
-        <LazyLoadImage
-          effect="blur"
+        <img
           onMouseOver={(e) => (e.currentTarget.src = product.img2)}
           onMouseOut={(e) => (e.currentTarget.src = product.img1)}
           src={product.img1}

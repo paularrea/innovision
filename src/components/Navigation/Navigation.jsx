@@ -15,7 +15,7 @@ function Navigation(props) {
       return;
     } else {
       let currentScrollPos = window.pageYOffset;
-      if (prevScrollpos > currentScrollPos) {
+      if (prevScrollpos > currentScrollPos || currentScrollPos === 0) {
         document.getElementById("nav-id").style.top = "0";
       } else {
         document.getElementById("nav-id").style.top = "-5.2rem";
