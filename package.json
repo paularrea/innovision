@@ -31,6 +31,7 @@
     "react-show-more-text": "^1.4.4",
     "react-transition-group": "^4.4.1",
     "react-visibility-sensor": "^5.1.1",
+    "react-youtube": "^7.13.0",
     "sweetalert2": "^9.17.0",
     "video-react": "^0.14.1"
   },
