@@ -5,8 +5,8 @@ import whiteLogo from "../../img/whitelogo.png";
 import "./nav.css";
 
 const DesktopNav = (props) => {
-  const [activeEn, setActiveEn] = useState(true);
-  const [activeEs, setActiveEs] = useState(false);
+  const [activeEn, setActiveEn] = useState(false);
+  const [activeEs, setActiveEs] = useState(true);
   const [navbar, setNavbar] = useState(false);
 
   const onClickEnglish = () => {

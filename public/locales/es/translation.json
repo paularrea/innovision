@@ -220,7 +220,11 @@
             "text": "¿En qué podemos ayudarle?",
             "envio": "Envíenos un email aquí:"
         },
-        "locations": "LOCALIZACIONES"
+        "locations": "LOCALIZACIONES",
+        "location1":"Fábrica",
+        "location2":"Oficina China",
+        "location3":"Oficina Europa",
+        "location4":"Oficina Internacional Ventas"
     },
 
     "footer": {

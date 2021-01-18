@@ -24,6 +24,10 @@
   .footer-wrapper a:hover{
     color: rgb(216, 216, 216) !important;
   }
+  .location-adress-footer{
+    font-size: 14px !important;
+    max-width: 10vw;
+  }
   
   .footer-location{
     display: flex;

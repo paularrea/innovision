@@ -14,7 +14,7 @@ function LocationComponent(props) {
         >
           <div>
             <div className="location-img loc1"></div>
-            <h4>Factory</h4>
+            <h4>{props.t("contact.location1")}</h4>
             <p className="location-adress">
               No.12 Xinshi Road <br /> Qianzhou supporting area <br /> Wuxi
               Huishan <br /> Economic Development Zone <br /> Jiangsu, China
@@ -28,7 +28,7 @@ function LocationComponent(props) {
           >
           <div>
             <div className="location-img loc2"></div>
-            <h4>China Office</h4>
+            <h4>{props.t("contact.location2")}</h4>
             <p className="location-adress">
               Room 3909 <br /> International Financial Squre <br /> Liangxi
               District <br /> Wuxi
@@ -42,10 +42,24 @@ function LocationComponent(props) {
         >
           <div>
             <div className="location-img loc3"></div>
-            <h4>Europe Office</h4>
+            <h4>{props.t("contact.location3")}</h4>
             <p className="location-adress">
               Avinguda Sant Pere, 63 <br /> Secà de Sant Pere <br /> 25005
               Lleida <br /> Spain
+            </p>
+          </div>
+        </a>
+        <a
+          rel="noopener noreferrer"
+          target="_blank"
+          href="https://www.google.com/maps/dir//Pla%C3%A7a+Copr%C3%ADnceps,+1,+AD700+Escaldes-Engordany,+Andorra/@42.5087168,1.5395406,20z/data=!4m9!4m8!1m0!1m5!1m1!1s0x12a58add787f969b:0x6c55f4bbaaa77e71!2m2!1d1.5397726!2d42.5087796!3e0"
+          >
+          <div>
+            <div className="location-img loc4"></div>
+            <h4>{props.t("contact.location4")}</h4>
+            <p className="location-adress">
+              Amura 7 Medical <br /> Pl. Coprínceps 1, 4t 2a <br /> AD700 Escaldes Engordany
+              <br /> Andorra la Vella
             </p>
           </div>
         </a>

@@ -234,7 +234,11 @@
             "text": "What can we help you with?",
             "envio": "Send us an email here:"
         },
-        "locations": "LOCATIONS"
+        "locations": "LOCATIONS",
+        "location1":"Factory",
+        "location2":"China Office",
+        "location3":"Europe Office",
+        "location4":"International Sales Office"
     },
     "footer": {
         "title": "CONTACT US",
