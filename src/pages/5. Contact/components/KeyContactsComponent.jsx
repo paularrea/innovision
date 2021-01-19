@@ -6,7 +6,7 @@ function KeyContactsComponent(props) {
       <div className="contacts-titles">
         <h5>{props.t("contact.keyContacts")}</h5>
       </div>
-      <div className="contacts">
+      <div className="contacts key">
         <div>
           <h4>{props.t("contact.nb.title")}</h4>
           <p>{props.t("contact.nb.text")}</p>
