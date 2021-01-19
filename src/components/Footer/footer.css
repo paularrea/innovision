@@ -122,4 +122,7 @@
       align-items: center;
       width: 100% !important;
     }
+    .location-adress-footer{
+      max-width: 90vw;
+    }
   }

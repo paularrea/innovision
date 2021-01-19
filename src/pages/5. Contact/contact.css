@@ -116,6 +116,10 @@ box-shadow:
 .contacts-titles{
     width: 90vw;
 }
+.contacts div{
+    width: 90vw;
+    padding-bottom: 2rem;
+}
 .contact-title h1{
     font-size: 40px;
     }
