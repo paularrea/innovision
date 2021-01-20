@@ -3,6 +3,7 @@ import georgeZhou from "../../../img/team-members/georgeZhou.jpg";
 import bennyYou from "../../../img/team-members/bennyYou.png";
 import lufanChen from "../../../img/team-members/lufanChen.png";
 import weihaoZhang from "../../../img/team-members/weihaoZhang.png";
+import annaRequesens from "../../../img/team-members/annaRequesens.jpg";
 
 const TeamList = (props) => {
   return (
@@ -45,7 +46,7 @@ const TeamList = (props) => {
         </div>
         <div className="member-card col-12 col-md-4">
           <div className="member-img">
-            <img src={props.t("teamList.img9")} alt="" />
+            <img src={annaRequesens} alt="Anna Requesens profile" />
           </div>
           <div className="member-info">
             <p>{props.t("teamList.position9")}</p>
