@@ -8,7 +8,7 @@ import SurgicalConsumables from "./components/SurgicalConsumables";
 import Retail from "./components/Retail";
 import UpArrow from "@material-ui/icons/ArrowDropUpOutlined";
 import DownArrow from "@material-ui/icons/ArrowDropDown";
-import cataloge from "../../img/cataloge.jpg";
+import cataloge from "../../cataloge/Catalogue.pdf";
 
 function ProductsComponent(props) {
   const [
